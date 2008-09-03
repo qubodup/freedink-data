@@ -1,0 +1,2 @@
+®
+_sreri;€)„pƒ†te‡ˆurŠ‚t‰c‹&nŒHA ‘’Wido”v•ar t, —d€€…““hš_t in˜‚)€{€0…›–"™e s ("£¤sa¬y//scƒp for¢e›//fix¡g bad scƒp for V1.03¦ ma¡( – «p‚loadeq(167…spŸ(™¥drawŸ‰(œ€}¦˜alk(–« ­topª`0I'm¢¨ye—©old..“!§œ wait(40¥ ­topªTha i©also˜h¨LAMEST˜h¡g I'v¨ever heš.§1…}¦ die(–«	­ª`0YoŠ magic is¢ely useles©aga¡s me..“!§œ	spŸ(™¥	drawŸ‰(œ}€

@@ -1,2 +1,0 @@
-£
-  €1)in= id, € ƒ; …†„h‹&Œt goman…ƒ‡‰„r‘d=’•– —f išs ("›(ucdŸhe kvo† ma„( vo† )€{€”&mxŠsp_x(1‡-‰€”&myŠsp_y(1‡-‰€€€&old_w‘s_¢™ˆ{ˆ”;ˆŠ˜(4“ˆDebug˜ iœ");‚™‚{‚&visionŠ2;‚sayT¡re'œtha¢!!"“ ‚}‚else‚{‚˜(3,ƒ™‚ sayW¡re could Et¡l'œ¢ be?"“‚}ˆ}€}ˆ

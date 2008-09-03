@@ -1,4 +1,4 @@
-Dink Smallwood v1.08
+Dink Smallwood v1.08 (Free-as-in-freedom version)
 Copyright © 1998-2006 Robinson Technologies
 http://www.rtsoft.com
 Guide a poor pig farmer on an adventure to rid the lands of encroaching darkness, and ducks.
@@ -36,3 +36,7 @@ Other
     <Alt-Q>	Quick quit to Windows
     <Alt-D>	Enable debug mode
     <P>		Play pillbug sound
+
+This version includes all files released under a free (zlib) license
+by RTsoft in 2008, along with replacements for sounds/music that could
+not be freed for copyright reasons.

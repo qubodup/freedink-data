@@ -10,7 +10,7 @@ help:
         choice_start();
         "Load a previously saved game"
         "Restart"
-        "Quit to Windows"
+        "Quit to system"
         "Help"
         "Continue"
         "View/change gamepad buttons"

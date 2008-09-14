@@ -1,6 +1,7 @@
 DESTDIR=
 PREFIX=/usr/local
 DATADIR=$(PREFIX)/share
+releasedir=freedink-data-1.08.`date +%Y%m%d`
 
 all:
 	@echo "No default action"
@@ -24,3 +25,16 @@ install:
 #	Tidy permissions
 	find $(DESTDIR)$(DATADIR) -type d -print0 | xargs -0r chmod 755
 	find $(DESTDIR)$(DATADIR) -type f -print0 | xargs -0r chmod 644
+
+# Do this from a fresh Git checkout to avoid packaging temporary files
+release:
+	mkdir $(releasedir)
+	cp -a *.txt *.spec Makefile dink/ doc/ licenses/ src/ $(releasedir)
+
+	find $(releasedir) -name ".gitignore" -print0 | xargs -0r rm
+	find $(releasedir) -name "*~" -print0 | xargs -0r rm
+	find $(releasedir) -name "save*.dat" -print0 | xargs -0r rm
+	rm -f $(releasedir)/dink/Story/key-67.c
+
+	tar czf $(releasedir).tar.gz $(releasedir)
+	rm -rf $(releasedir)

@@ -1,0 +1,21 @@
+Source: freedink-data
+Section: games
+Priority: extra
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Sylvain Beucler <beuc@beuc.net>
+Build-Depends: debhelper (>= 5), unzip
+Standards-Version: 3.8.0
+Homepage: http://www.freedink.org/
+Vcs-Git: git://git.debian.org/git/pkg-games/freedink-data.git
+Vcs-Browser: http://git.debian.org/?p=pkg-games/freedink-data.git
+
+Package: freedink-data
+Architecture: all
+Description: adventure and role-playing game (game data)
+ Dink Smallwood is an adventure/role-playing game, similar to Zelda,
+ made by RTsoft. Besides twisted humour, it includes the actual game
+ editor, allowing players to create hundreds of new adventures called
+ Dink Modules or D-Mods for short.
+ .
+ This package contains architecture-independent data for the original
+ game, along with free sound and music replacements.

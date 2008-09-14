@@ -168,6 +168,7 @@ Sound effects
   Fire burning in the background (chimney, torch)
 
   Replacement:
+  http://wiki.laptop.org/go/Sound_samples#Selections_from_The_Berklee_College_of_Music_Sampling_Archive_.281999-2007.29
   http://www.archive.org/details/Berklee44v12 - file fire_long.wav
   License: CC-BY 3.0
 

@@ -1,0 +1,173 @@
+This package was debianized by Sylvain Beucler <beuc@beuc.net> on
+Sun, 17 Aug 2008 17:20:46 +0200.
+
+
+Original data pack
+==================
+
+It was downloaded from <http://www.codedojo.com/files/dink/dink_108_game_data.zip>
+
+Upstream Authors:
+
+    Cf. http://www.rtsoft.com/dink/credits.txt
+
+    þ Artwork þ
+    Justin Martin (jmd@navicom.com)
+    (using 3dmax, Adobe Photoshop, Poser)
+    
+    þ Level Design & Story þ
+    Seth A. Robinson
+    Greg Smith (Pap) 
+    Justin Martin
+    
+    þ Additional Level Design þ
+    Chris Bakker
+    
+    þ v1.08 Game Fixes þ
+    Talmadge Bradley III
+
+Copyright:
+
+    Copyright (C) 1997, 1998, 1999, 2002, 2003  Seth A. Robinson
+
+License:
+
+    This software is provided 'as-is', without any express or implied
+    warranty.  In no event will the authors be held liable for any damages
+    arising from the use of this software.
+  
+    Permission is granted to anyone to use this software for any purpose,
+    including commercial applications, and to alter it and redistribute it
+    freely, subject to the following restrictions:
+  
+    1. The origin of this software must not be misrepresented; you must not
+       claim that you wrote the original software. If you use this software
+       in a product, an acknowledgment in the product documentation would be
+       appreciated but is not required.
+    2. Altered source versions must be plainly marked as such, and must not be
+       misrepresented as being the original software.
+    3. This notice may not be removed or altered from any source distribution.
+
+Covered files:
+
+  Dink.dat
+  Dink.ini
+  dmod.diz
+  Hard.dat
+  Map.dat
+  preview.bmp
+  README.txt
+  graphics/*
+  Sound/1003.mid
+  Sound/2.mid
+  Sound/dance.mid
+  Sound/insper.mid
+  Sound/lively.mid
+  Sound/love.mid
+  Sound/secret.wav
+  Story/*
+  Tiles/*
+
+
+Free sound replacements
+=======================
+
+(check README-REPLACEMENTS.txt for more info than just
+ copyright+license)
+
+- 1.mid/JOHN_MICHEL_CELLO-BACH_AVE_MARIA.ogg
+    Artist: John Michel (Cello)
+    License: CC-BY-SA 3.0 Unported
+- 1.mid/prelude.mid
+    Copyright: Aryliin and TboWan <arsouyes.org>
+    License: Art Libre
+- 1.mid/Ave_Maria.mid
+    Copyright: Aryliin and TboWan <arsouyes.org>
+    License: Art Libre
+- 104.mid/serenade-d957.rg
+  104.mid/serenade-d957.mid
+    Copyright (C) 2008  Sylvain Beucler
+    License: GPLv3+ | Art Libre | CC-BY-SA
+- 104.mid/schubert-franz-peter-serenade-5672.pdf
+    License: public domain
+    Copyright (C) 2008  Sylvain Beucler
+    License: GPLv3+ | Art Libre | CC-BY-SA
+- 105.mid/reverie.rg
+  105.mid/reverie.mid
+    Copyright (C) 2008  Sylvain Beucler
+    License: GPLv3+ | Art Libre | CC-BY-SA
+- 105.mid/IMSLP14012-Debussy_-_R__verie__piano_.pdf
+    License: public domain
+- 106.mid/Felix_Mendelssohn_-_Violinkonzert_e-moll_-_1._Allegro_molto_appassionato.ogg
+  106.mid/Felix_Mendelssohn_-_Violinkonzert_e-moll_-_1._Allegro_molto_appassionato_0m_6s_0h__3m_18s_0h.ogg
+    Copyright (C) 2001  Fulda Symphonic Orchestra
+    License: EFF: Open Audio License version 1
+- denube.mid/An_der_schönem_blauen_Donau.ogg
+    License: public domain (1936)
+- denube.mid/STRAUSS_Blue_Danube_Waltz_1934.ogg
+    License: public domain (1934)
+- denude.mid/blue_danube.mid
+    Copyright (C) 2004  Nikos Kouremenos
+    License: CC-BY-SA
+- denube.mid/TheBlueDanubeOp314.pdf
+    License: public domain
+
+
+Sound effects
+=============
+
+- intro.wav/intro.wav
+<not copyrightable (1 frame of silence)>
+- fire.wav/fire_long.wav
+    Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
+    License: CC-BY 3.0
+- fire.wav/fire.wav
+    Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
+    Copyright (C) 2008  Sylvain Beucler
+    License: CC-BY 3.0
+- fire.wav/fire.aup
+  fire.wav/gold_data/*
+    Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
+    Copyright (C) 2008  Sylvain Beucler
+    License: CC-BY 3.0
+- gold.wav/gold.ogg
+(/usr/share/games/wesnoth/data/core/sounds/gold.ogg from the Wesnoth project)
+    Copyright (C) 2003 - 2007 by David White <dave@whitevine.net>
+    Copyright (C) 2004 - 2007 by Guillaume Melquiond <guillaume.melquiond@gmail.com>
+    Copyright (C) 2004 - 2007 by Philippe Plantier <ayin@anathas.org>
+    Copyright (C) 2005 - 2007 by Yann Dirson <ydirson@altern.org>
+    Copyright (C) 2005 - 2007 by Isaac Clerencia <isaac@sindominio.net>
+    Copyright (C) 2005 - 2007 by Joerg Hinrichs <joerg.hinrichs@alice-dsl.de>
+    Copyright (C) 2005 - 2007 by Joeri Melis <joeri_melis@hotmail.com>
+    Copyright (C) 2005 - 2007 by Rusty Russell <rusty@rustcorp.com.au>
+    Copyright (C) 2006 - 2007 by Dominic Bolin <dominic.bolin@exong.net>
+    Copyright (C) 2006 - 2007 by Jeremy Rosen <jeremy.rosen@enst-bretagne.fr>
+    Copyright (C) 2006 - 2007 by Karol Nowak <grzywacz@sul.uni.lodz.pl>
+    Copyright (C) 2006 - 2007 by Mark de Wever <koraq@xs4all.nl>
+    Copyright (C) 2006 - 2007 by Patrick Parker <patrick_x99@hotmail.com>
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    version 2 or at your option any later version.  This program is
+    distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY.
+- gold.wav/gold.aup
+  gold.wav/gold_data
+  gold.wav/gold.ogg
+Based on gold.wav above, plus:
+    Copyright (C) 2008  Sylvain Beucler
+
+
+Packaging
+=========
+
+The Debian packaging is (C) 2008, Sylvain Beucler <beuc@beuc.net> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+
+Licenses
+========
+
+On Debian systems, the complete text of the GNU General Public
+License can be found in /usr/share/common-licenses/GPL-2 file,
+later versions can be found in the same directory.

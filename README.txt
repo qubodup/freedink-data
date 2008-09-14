@@ -1,15 +1,18 @@
 This the Dink Smallwood game data, with the following changes:
 
-- free replacements for sounds, cf.
-  - http://www.freedink.org/doc/sounds/
-  - README-REPLACEMENTS.txt
+  - free replacements for sounds, cf. README-REPLACEMENTS.txt
 
-- decompressed scripts (*.d -> *.c, using freedink/contrib/d2c.c)
+  - decompressed scripts (*.d -> *.c, using freedink/contrib/d2c.c)
 
-- reference 'system' instead of a widespread proprietary OS in
-  ESCAPE.c
+  - reference 'system' instead of a widespread proprietary OS in
+    ESCAPE.c
 
-- explicitely mention that this is a modified version in dmod.diz
+  - explicitely mention that this is a modified version in dmod.diz
+
+
+We need help adding free sounds replacements! Check:
+
+  http://www.freedink.org/doc/sounds/
 
 
 The original data pack has the following license:

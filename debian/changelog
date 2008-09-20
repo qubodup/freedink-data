@@ -1,5 +1,5 @@
-freedink-data (1.08.20080914-1) unstable; urgency=low
+freedink-data (1.08.20080920-1) unstable; urgency=low
 
   * Initial release (Closes: #492760)
 
- -- Sylvain Beucler <beuc@beuc.net>  Sun, 14 Sep 2008 18:58:47 +0200
+ -- Sylvain Beucler <beuc@beuc.net>  Sat, 20 Sep 2008 20:50:51 +0200

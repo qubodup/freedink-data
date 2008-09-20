@@ -1,12 +1,13 @@
 Name:		freedink-data
-Version:	1.08.20080914
+Version:	1.08.20080920
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
 Group:		Amusements/Games
 License:	zlib
 URL:		http://www.freedink.org/
-Source0:	http://www.freedink.org/releases/freedink-data-1.08.20080914.tar.gz
+Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
+#Source0:	http://www.freedink.org/releases/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:	noarch
 
@@ -43,5 +44,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Sun Sep 14 2008 Sylvain Beucler <beuc@beuc.net> 1.08.20080914-1
+* Sun Sep 20 2008 Sylvain Beucler <beuc@beuc.net> 1.08.20080920-1
 - Initial package

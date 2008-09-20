@@ -7,10 +7,9 @@ all:
 	@echo "No default action"
 
 install:
-#	Copy game data and copyright files
+#	Copy game data
 	install -d -m 755 $(DESTDIR)$(DATADIR)/dink
 	cp -r dink $(DESTDIR)$(DATADIR)/dink/
-	cp README.txt README-REPLACEMENTS.txt $(DESTDIR)$(DATADIR)/dink/
 
 #	Clean-up:
 #	Git files:

@@ -17,7 +17,7 @@ editor, allowing players to create hundreds of new adventures called
 Dink Modules or D-Mods for short.
 
 This package contains architecture-independent data for the original
-game (except for non-free sounds).
+game, along with free sound and music replacements.
 
 
 %prep

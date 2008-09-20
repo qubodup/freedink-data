@@ -38,6 +38,10 @@ The original data pack has the following license:
      misrepresented as being the original software.
   3. This notice may not be removed or altered from any source distribution.
 
+and can be downloaded from:
+
+  http://www.codedojo.com/files/dink/dink_108_game_data.zip
+
 and includes the following files:
 
   Dink.dat

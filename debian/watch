@@ -1,0 +1,9 @@
+# With this file, you can run the "uscan" command
+# to check for upstream updates and more.
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+# Uncommment to examine a FTP server
+ftp://ftp.gnu.org/gnu/freedink/freedink-data-(.*)\.tar\.gz debian uupdate

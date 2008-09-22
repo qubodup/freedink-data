@@ -4,7 +4,7 @@ Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
 Group:		Amusements/Games
-License:	zlib
+License:	zlib and CC-BY-SA and (GPLv3+ or Free Art or CC-BY-SA) and OAL and Public Domain and CC-BY and GPLv2+
 URL:		http://www.freedink.org/
 Source0:	ftp://ftp.gnu.org/gnu/freedink/%{name}-%{version}.tar.gz
 #Source0:	http://www.freedink.org/releases/%{name}-%{version}.tar.gz
@@ -23,6 +23,9 @@ game, along with free sound and music replacements.
 
 %prep
 %setup -q
+# Strip DOS EOL from documentation
+# https://fedoraproject.org/wiki/PackageMaintainers/Common_Rpmlint_Issues#wrong-file-end-of-line-encoding
+sed -i 's/\r//' README.txt README-REPLACEMENTS.txt
 
 
 %build
@@ -30,7 +33,7 @@ game, along with free sound and music replacements.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install PREFIX=/usr DESTDIR=$RPM_BUILD_ROOT
+make install PREFIX=%{_prefix} DESTDIR=$RPM_BUILD_ROOT
 
 
 %clean
@@ -39,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc README.txt README-REPLACEMENTS.txt
+%doc README.txt README-REPLACEMENTS.txt licenses/
 %{_datadir}/dink/
 
 

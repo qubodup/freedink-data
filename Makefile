@@ -9,7 +9,7 @@ all:
 install:
 #	Copy game data
 	install -d -m 755 $(DESTDIR)$(DATADIR)/dink
-	cp -r dink $(DESTDIR)$(DATADIR)/dink/
+	cp -a dink $(DESTDIR)$(DATADIR)/dink/
 
 #	Clean-up:
 #	Git files:

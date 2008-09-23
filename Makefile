@@ -8,7 +8,17 @@ all:
 
 install:
 #	Copy game data
+
+#	The final directory is '$PREFIX/share/dink/dink' ('dink'
+#	twice), as there can be site-wide D-Mods such as
+#	'$PREFIX/share/dink/island'
 	install -d -m 755 $(DESTDIR)$(DATADIR)/dink
+
+#	'-a' will preserve timestamps, which some distros prefer. It
+#	will also preserve symlinks, which may be useful as there are
+#	a few duplicate musics. Use a .zip archive for woe releases,
+#	it will duplicate files but avoid creating empty files instead
+#	of symlinks.
 	cp -a dink $(DESTDIR)$(DATADIR)/dink/
 
 #	Clean-up:

@@ -47,5 +47,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Sun Sep 20 2008 Sylvain Beucler <beuc@beuc.net> 1.08.20080920-1
+* Wed Sep 24 2008 Sylvain Beucler <beuc@beuc.net> - 1.08.20080920-3
+- Actually apply patch0 (preserve timestamps)
+
+* Tue Sep 23 2008 Sylvain Beucler <beuc@beuc.net> - 1.08.20080920-2
+- Specify all licenses used by the package
+- Added licenses texts in docs
+- Replaced /usr by a RPM macro
+- Add patch from upstream to preserve timestamps no install
+- Converted DOS newlines
+
+* Sat Sep 20 2008 Sylvain Beucler <beuc@beuc.net> - 1.08.20080920-1
 - Initial package

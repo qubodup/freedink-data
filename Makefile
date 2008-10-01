@@ -23,11 +23,11 @@ install:
 
 #	Clean-up:
 #	Git files:
-	find $(DESTDIR)$(DATADIR) -name ".gitignore" -print0 | xargs -0r rm
+	find $(DESTDIR)$(DATADIR)/dink/ -name ".gitignore" -print0 | xargs -0r rm
 #	Backup files:
-	find $(DESTDIR)$(DATADIR) -name "*~" -print0 | xargs -0r rm
+	find $(DESTDIR)$(DATADIR)/dink/ -name "*~" -print0 | xargs -0r rm
 #	Savegames:
-	find $(DESTDIR)$(DATADIR) -name "save*.dat" -print0 | xargs -0r rm
+	find $(DESTDIR)$(DATADIR)/dink/ -name "save*.dat" -print0 | xargs -0r rm
 #	Cheat^wDebugging tool
 	rm -f $(DESTDIR)$(DATADIR)/dink/dink/Story/key-67.c
 

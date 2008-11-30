@@ -1,0 +1,24 @@
+* v1.08.20081130                                         -*- outline -*-
+
+** Fix installation
+
+  Preserve file permissions (requested by Fedora)
+
+  Don't chown on /usr/local/share, but on /usr/local/share/dink/dink
+  (reported by Stephen Hurd)
+
+  Don't remove files (savegames, *~, etc.) in the destination dir when
+  installing - only do that when preparing a release
+
+  More work on distro packaging (Debian, Fedora, Gentoo)
+
+* v1.08.20080920
+
+** Initial release
+
+** Incorporate dink-data
+
+** Add replacements
+
+  1.mid, 104.mid, 105.mid, 106.mid, denude.mid, fire.wav, gold.wav and
+  intro.wav

@@ -1,7 +1,8 @@
 DESTDIR=
 PREFIX=/usr/local
 DATADIR=$(PREFIX)/share
-releasedir=freedink-data-1.08.`date +%Y%m%d`
+version=1.08.`date +%Y%m%d`
+releasedir=freedink-data-$(version)
 
 all:
 	@echo "No default action"
@@ -21,29 +22,39 @@ install:
 #	of symlinks.
 	cp -a dink $(DESTDIR)$(DATADIR)/dink/
 
-#	Clean-up:
-#	Git files:
-	find $(DESTDIR)$(DATADIR)/dink/ -name ".gitignore" -print0 | xargs -0r rm
-#	Backup files:
-	find $(DESTDIR)$(DATADIR)/dink/ -name "*~" -print0 | xargs -0r rm
-#	Savegames:
-	find $(DESTDIR)$(DATADIR)/dink/ -name "save*.dat" -print0 | xargs -0r rm
-#	Cheat^wDebugging tool
-	rm -f $(DESTDIR)$(DATADIR)/dink/dink/Story/key-67.c
-
 #	Tidy permissions
-	find $(DESTDIR)$(DATADIR) -type d -print0 | xargs -0r chmod 755
-	find $(DESTDIR)$(DATADIR) -type f -print0 | xargs -0r chmod 644
+	find $(DESTDIR)$(DATADIR)/dink/dink/ -type d -print0 | xargs -0r chmod 755
+	find $(DESTDIR)$(DATADIR)/dink/dink/ -type f -print0 | xargs -0r chmod 644
 
-# Do this from a fresh Git checkout to avoid packaging temporary files
-release:
+# Release:
+# (Do this from a fresh Git checkout to avoid packaging temporary files)
+dist:
+##	Source release
+	git2cl > ChangeLog
 	mkdir $(releasedir)
 	cp -a *.txt *.spec Makefile dink/ doc/ licenses/ src/ $(releasedir)
 
+#	Clean-up:
+#	git files
 	find $(releasedir) -name ".gitignore" -print0 | xargs -0r rm
+#	backup files
 	find $(releasedir) -name "*~" -print0 | xargs -0r rm
+#	savegames
 	find $(releasedir) -name "save*.dat" -print0 | xargs -0r rm
+#	cheat^wDebugging tool
 	rm -f $(releasedir)/dink/Story/key-67.c
+#	debug mode output
+	rm -f $(releasedir)/dink/DEBUG.TXT
 
+#	Tarball:
 	tar czf $(releasedir).tar.gz $(releasedir)
+
+##	Derived release (doesn't include Audacity and Rosegarden
+##	projects, original Ogg Vorbis files, etc.):
+	cd $(releasedir) && \
+	make install DESTDIR=`pwd`/t && \
+	cd t/usr/local/share/ && \
+	tar czf ../../../../../freedink-data-inst-$(version).tar.gz dink
+	rm -rf $(releasedir)/t
+
 	rm -rf $(releasedir)

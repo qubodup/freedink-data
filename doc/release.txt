@@ -1,0 +1,35 @@
+#!/bin/bash
+# Prepare an official release
+# * not tested yet *
+
+version=1.08.`date +%Y%m%d`
+
+# Create freedink-data-$version.tar.gz and
+# freedink-data-inst-$version.tar.gz. This also updates the ChangeLog.
+make dist
+
+# Commit the current state
+git commit -am "Release $version"
+
+# Tag it
+git tag v$version
+
+# Make a pristine-tar copy of the release. Beware, this requires 500MB
+# of free space! (but only a few kBs in the .git repository)
+pristine-tar commit freedink-data-$version.tar.gz v$version
+
+# Upload it at ftp.gnu.org
+# http://www.gnu.org/prep/maintain/html_node/Automated-FTP-Uploads.html
+gpg --sign -b freedink-data-$version.tar.gz
+cat <<EOF > freedink-data-$version.tar.gz.directive
+version: 1.1
+directory: freedink
+filename: freedink-data-$version.tar.gz
+EOF
+gpg --clearsign freedink-data-$version.tar.gz.directive
+rm -f freedink-data-$version.tar.gz.directive
+
+# Send all 3 files to ftp://anonymous@ftp-upload.gnu.org/incoming/ftp/
+# freedink-data-$version.tar.gz
+# freedink-data-$version.tar.gz.sig
+# freedink-data-$version.tar.gz.directive.asc

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-07 22:56+0100\n"
+"POT-Creation-Date: 2008-12-16 21:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -429,6 +429,14 @@ msgstr ""
 msgid "Now what is it I can help you with?"
 msgstr ""
 
+#: Story/KING.c:138
+msgid "Complain about your taxes"
+msgstr ""
+
+#: Story/KING.c:139
+msgid "Offer to help Milder"
+msgstr ""
+
 #: Story/KING.c:140 Story/S1-BOOT.c:28 Story/S1-BRG2.c:30 Story/S1-H1-M.c:86
 #: Story/S1-H2-O.c:107 Story/S1-H3-OF.c:39 Story/S1-WAND.c:21
 #: Story/S1-WAND2.c:32 Story/S2-AUNTP.c:212 Story/S2-BAR.c:164
@@ -775,6 +783,14 @@ msgstr ""
 
 #: Story/S1-BOOT.c:23
 msgid "dance and be hyper.\""
+msgstr ""
+
+#: Story/S1-BOOT.c:25
+msgid "Buy his boots ($500)"
+msgstr ""
+
+#: Story/S1-BOOT.c:26 Story/S1-BOOT.c:27
+msgid "Complain about the price"
 msgstr ""
 
 #: Story/S1-BOOT.c:34
@@ -1222,6 +1238,10 @@ msgstr ""
 msgid "Get angry for no reason"
 msgstr ""
 
+#: Story/S1-H1-M.c:85
+msgid "Tell her you fed the pigs"
+msgstr ""
+
 #: Story/S1-H1-M.c:93
 msgid "Mother, how do I feed the pigs?  I forgot!"
 msgstr ""
@@ -1470,6 +1490,10 @@ msgstr ""
 msgid "Ask about her well being"
 msgstr ""
 
+#: Story/S1-H2-O.c:105
+msgid "Ask after her pet"
+msgstr ""
+
 #: Story/S1-H2-O.c:106
 msgid "Inquire about all her bottles"
 msgstr ""
@@ -1634,8 +1658,16 @@ msgstr ""
 msgid "Oh Dink, it's you.."
 msgstr ""
 
+#: Story/S1-H3-L.c:18
+msgid "Coax her into telling you why she's upset"
+msgstr ""
+
 #: Story/S1-H3-L.c:19
 msgid "Try to comfort her"
+msgstr ""
+
+#: Story/S1-H3-L.c:20
+msgid "Brag about how you cleared their farm"
 msgstr ""
 
 #: Story/S1-H3-L.c:21 Story/S4-H2P1.c:23 Story/S4-H2P3.c:23
@@ -1704,14 +1736,6 @@ msgstr ""
 
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
-msgstr ""
-
-#: Story/S1-H3-L.c:58
-msgid "Try to comfort her about her family"
-msgstr ""
-
-#: Story/S1-H3-L.c:59
-msgid "Apologize for being an ass"
 msgstr ""
 
 #: Story/S1-H3-L.c:64
@@ -1822,8 +1846,16 @@ msgstr ""
 msgid "Ask how the family's doing"
 msgstr ""
 
+#: Story/S1-H3-OF.c:36
+msgid "Inquire about his farm"
+msgstr ""
+
 #: Story/S1-H3-OF.c:37
 msgid "Ask to see Libby"
+msgstr ""
+
+#: Story/S1-H3-OF.c:38
+msgid "Get info about the farm"
 msgstr ""
 
 #: Story/S1-H3-OF.c:44
@@ -1964,6 +1996,10 @@ msgstr ""
 
 #: Story/S1-LG.c:30
 msgid "Ask about Milder FlatStomp"
+msgstr ""
+
+#: Story/S1-LG.c:31
+msgid "Tell her you killed Ethel's duck"
 msgstr ""
 
 #: Story/S1-LG.c:37
@@ -2306,6 +2342,10 @@ msgstr ""
 msgid "But these things can be hard to tell."
 msgstr ""
 
+#: Story/S1-MH-M.c:62
+msgid "Tell him you're worthy"
+msgstr ""
+
 #: Story/S1-MH-M.c:63 Story/S3-ST1P.c:20
 msgid "Ask about Magic"
 msgstr ""
@@ -2563,6 +2603,10 @@ msgstr ""
 msgid "Ask about news"
 msgstr ""
 
+#: Story/S1-WAND.c:20
+msgid "Ask about AlkTree nuts"
+msgstr ""
+
 #: Story/S1-WAND.c:34
 msgid "AlkTree nuts??  Those make for a hearty meal.  Let's see.."
 msgstr ""
@@ -2733,6 +2777,10 @@ msgstr ""
 
 #: Story/S1-WAND2.c:30
 msgid "Ask for news"
+msgstr ""
+
+#: Story/S1-WAND2.c:31
+msgid "Ask if he has any AlkTree nuts"
 msgstr ""
 
 #: Story/S1-WAND2.c:45
@@ -3069,6 +3117,42 @@ msgstr ""
 
 #: Story/S2-AUNTP.c:183
 msgid "Just ask if you need anything."
+msgstr ""
+
+#: Story/S2-AUNTP.c:203
+msgid "Ask about your mother"
+msgstr ""
+
+#: Story/S2-AUNTP.c:204
+msgid "Ask her about the town"
+msgstr ""
+
+#: Story/S2-AUNTP.c:205
+msgid "Encourage her to dump Jack"
+msgstr ""
+
+#: Story/S2-AUNTP.c:206
+msgid "Encourage her to continue getting beaten by Jack"
+msgstr ""
+
+#: Story/S2-AUNTP.c:207
+msgid "Comfort her"
+msgstr ""
+
+#: Story/S2-AUNTP.c:208
+msgid "Ask for a bigger bed"
+msgstr ""
+
+#: Story/S2-AUNTP.c:209
+msgid "Tell Maria about your latest adventure"
+msgstr ""
+
+#: Story/S2-AUNTP.c:210
+msgid "Talk about nothing"
+msgstr ""
+
+#: Story/S2-AUNTP.c:211
+msgid "Brag to Maria about saving the world"
 msgstr ""
 
 #: Story/S2-AUNTP.c:218
@@ -4169,6 +4253,26 @@ msgstr ""
 msgid "Uh, darn thing won't budge!!"
 msgstr ""
 
+#: Story/S2-JACK.c:27
+msgid "Say hi to Jack"
+msgstr ""
+
+#: Story/S2-JACK.c:28
+msgid "Thank Jack for his hospitality"
+msgstr ""
+
+#: Story/S2-JACK.c:29
+msgid "Say something rude to Jack"
+msgstr ""
+
+#: Story/S2-JACK.c:30
+msgid "Tell Jack to lay off Maria"
+msgstr ""
+
+#: Story/S2-JACK.c:31
+msgid "Coerce Jack into hitting Maria again"
+msgstr ""
+
 #: Story/S2-JACK.c:38
 msgid "Hi Jack! Whacha doing?"
 msgstr ""
@@ -4405,6 +4509,22 @@ msgstr ""
 
 #: Story/S2-MAN2.c:110
 msgid "You'd best learn some manners quickly, boy."
+msgstr ""
+
+#: Story/S2-MAN2.c:120
+msgid "Impress the men with your tales of valour"
+msgstr ""
+
+#: Story/S2-MAN2.c:121
+msgid "Convince the men that you ARE a warrior"
+msgstr ""
+
+#: Story/S2-MAN2.c:122
+msgid "Argue with the men even more"
+msgstr ""
+
+#: Story/S2-MAN2.c:123
+msgid "Chat with the men"
 msgstr ""
 
 #: Story/S2-MAN2.c:130
@@ -4732,6 +4852,26 @@ msgstr ""
 msgid "LITTLE THINGS MUST DIE!"
 msgstr ""
 
+#: Story/S2-NADP.c:31
+msgid "Ask Nadine why her house is such a mess"
+msgstr ""
+
+#: Story/S2-NADP.c:32
+msgid "Offer to find Nadine's girl"
+msgstr ""
+
+#: Story/S2-NADP.c:33
+msgid "Be rude to Nadine"
+msgstr ""
+
+#: Story/S2-NADP.c:34
+msgid "Let her know exactly how fruitless your search has been thus far"
+msgstr ""
+
+#: Story/S2-NADP.c:35
+msgid "Ask Nadine how she and Mary are doing"
+msgstr ""
+
 #: Story/S2-NADP.c:41
 msgid "Say, how are you and the little tike doing?"
 msgstr ""
@@ -4848,6 +4988,14 @@ msgstr ""
 msgid "\"We'll buy a few things.  What have you got?\""
 msgstr ""
 
+#: Story/S2-OUT.c:183 Story/S4-ST1P.c:131
+msgid "Sell a Longsword - $200"
+msgstr ""
+
+#: Story/S2-OUT.c:184 Story/S4-ST1P.c:132
+msgid "Sell a nut - $2"
+msgstr ""
+
 #: Story/S2-OUT.c:185 Story/S4-ST1P.c:135
 msgid "Sell nothing"
 msgstr ""
@@ -4929,8 +5077,17 @@ msgid "This ain't good."
 msgstr ""
 
 #: Story/S2-RYANT.c:20 Story/S3-CHICK.c:26 Story/S3-MAYOR.c:17
-#: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S6-ST1P.c:86
+#: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S4-ST1P.c:41
+#: Story/S6-ST1P.c:86
 msgid "Say hi"
+msgstr ""
+
+#: Story/S2-RYANT.c:21
+msgid "Ask what he does"
+msgstr ""
+
+#: Story/S2-RYANT.c:22
+msgid "Offer to help him out"
 msgstr ""
 
 #: Story/S2-RYANT.c:29 Story/S3-CHICK.c:36
@@ -5451,6 +5608,10 @@ msgstr ""
 msgid "\"Hello, friend.  I will teach you bow lore for $1500 gold.\""
 msgstr ""
 
+#: Story/S3-BOWL.c:32
+msgid "Learn bow lore"
+msgstr ""
+
 #: Story/S3-BOWL.c:44
 msgid "* YOU LEARN BOW LORE *"
 msgstr ""
@@ -5521,6 +5682,18 @@ msgstr ""
 
 #: Story/S3-CHICK.c:27
 msgid "Ask what she does"
+msgstr ""
+
+#: Story/S3-CHICK.c:28
+msgid "Tell her about the planned assault"
+msgstr ""
+
+#: Story/S3-CHICK.c:29
+msgid "See what's happened since"
+msgstr ""
+
+#: Story/S3-CHICK.c:30
+msgid "Show her the Scroll"
 msgstr ""
 
 #: Story/S3-CHICK.c:38
@@ -5751,6 +5924,18 @@ msgstr ""
 msgid "What do you want man?  I gotta keep moving!"
 msgstr ""
 
+#: Story/S3-FREAK.c:92
+msgid "Ask why he's running"
+msgstr ""
+
+#: Story/S3-FREAK.c:93
+msgid "Ask about the ducks"
+msgstr ""
+
+#: Story/S3-FREAK.c:94
+msgid "Ask about the parade"
+msgstr ""
+
 #: Story/S3-FREAK.c:100
 msgid "Why are you running around so fast?"
 msgstr ""
@@ -5943,6 +6128,10 @@ msgstr ""
 msgid "i bey kalling yoo deed!"
 msgstr ""
 
+#: Story/S3-GOBG.c:68
+msgid "Ask the Goblin guard to let you in"
+msgstr ""
+
 #: Story/S3-GOBG.c:69
 msgid "Incite an 'incident'"
 msgstr ""
@@ -6000,11 +6189,12 @@ msgstr ""
 msgid "Hello sir."
 msgstr ""
 
-#: Story/S3-LARRY.c:20
+#: Story/S3-LARRY.c:20 Story/S4-ST2P.c:12 Story/S4-ST3P.c:179
 msgid "Ask about the store"
 msgstr ""
 
-#: Story/S3-LARRY.c:21 Story/S4-ST2P.c:14 Story/S4-ST3P.c:181
+#: Story/S3-LARRY.c:21 Story/S4-ST1P.c:40 Story/S4-ST2P.c:14
+#: Story/S4-ST3P.c:181
 msgid "See what's for sale"
 msgstr ""
 
@@ -6438,7 +6628,7 @@ msgstr ""
 msgid "Find out about the next town"
 msgstr ""
 
-#: Story/S3-ST1P.c:22
+#: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
 msgid "See what's news"
 msgstr ""
 
@@ -7172,6 +7362,10 @@ msgstr ""
 msgid "Please, go away."
 msgstr ""
 
+#: Story/S4-MD3.c:27
+msgid "Ask to come in"
+msgstr ""
+
 #: Story/S4-MD3.c:28
 msgid "Never Mind"
 msgstr ""
@@ -7356,6 +7550,18 @@ msgstr ""
 msgid "Please, don't beat me sir."
 msgstr ""
 
+#: Story/S4-ST1P.c:133
+msgid "Sell a Clawsword - $1000"
+msgstr ""
+
+#: Story/S4-ST1P.c:134
+msgid "Sell a slayer claw - $150"
+msgstr ""
+
+#: Story/S4-ST2P.c:13
+msgid "See what's up"
+msgstr ""
+
 #: Story/S4-ST2P.c:19
 msgid "How's the fur trading industry going?"
 msgstr ""
@@ -7490,6 +7696,10 @@ msgstr ""
 
 #: Story/S4-ST3P.c:163
 msgid "Arr! You don't have enough gold to buy the Clawsword!"
+msgstr ""
+
+#: Story/S4-ST3P.c:180
+msgid "Ask about Pete"
 msgstr ""
 
 #: Story/S4-ST3P.c:186
@@ -8446,6 +8656,10 @@ msgstr ""
 msgid "\"My masterpiece is finished!\""
 msgstr ""
 
+#: Story/S8-GUY.c:42
+msgid "Buy the FlameBow for $25,000"
+msgstr ""
+
 #: Story/S8-GUY.c:74
 msgid "* FLAMEBOW BOUGHT *"
 msgstr ""
@@ -8624,6 +8838,26 @@ msgstr ""
 
 #: Story/SFOOD.c:19
 msgid "Yum!"
+msgstr ""
+
+#: Story/SPICE.c:12
+msgid "Oh my god, it's you!!!"
+msgstr ""
+
+#: Story/SPICE.c:13
+msgid "Hello there guy, what's your name?"
+msgstr ""
+
+#: Story/SPICE.c:14
+msgid "Uhh ..."
+msgstr ""
+
+#: Story/SPICE.c:16
+msgid "Let's not discuss that now Sporty.  Let's talk about you .."
+msgstr ""
+
+#: Story/SPICE.c:17
+msgid "all five of you and me!!"
 msgstr ""
 
 #: Story/START-1.c:35

@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
-"Report-Msgid-Bugs-To: bug-freedink@gnu.org\n"
-"POT-Creation-Date: 2008-12-07 22:56+0100\n"
-"PO-Revision-Date: 2008-12-08 00:22+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-16 21:52+0100\n"
+"PO-Revision-Date: 2008-12-16 23:50+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "J'ai trouvé &mcrap pièces d'or."
 
 #: Story/APOTION.c:20
 msgid "Megapotion!  All stats raised by one."
-msgstr "Mégapotion!  Un niveau en plus partout."
+msgstr "Mégapotion!  Un point en plus partout."
 
 #: Story/BUTTON6.c:7
 msgid "I don't own a map yet."
@@ -56,7 +56,8 @@ msgstr "Attends..  Je ne comprends pas!"
 
 #: Story/DAM-ICEE.c:72
 msgid "It's best that way.  Now follow me, I'll get you out of here."
-msgstr "C'est pour le mieux.  Maintenant suis moi, je vais te faire sortir d'ici."
+msgstr ""
+"C'est pour le mieux.  Maintenant suis moi, je vais te faire sortir d'ici."
 
 #: Story/DINFO.c:17 Story/ESCAPE.c:11
 msgid "Load a previously saved game"
@@ -72,7 +73,9 @@ msgstr "Quitter"
 
 #: Story/DUCK.c:10
 msgid "I'm a bottle, not a duck.  Even though I sound like one.  Funny, eh?"
-msgstr "Je suis une bouteille, pas un canard.  Même si on dirait que je suis un.  Amusant, hein?"
+msgstr ""
+"Je suis une bouteille, pas un canard.  Même si on dirait que je suis un.  "
+"Amusant, hein?"
 
 #: Story/EN-DRAG.c:78 Story/SC-DRAG.c:77
 msgid "<Casts harm>"
@@ -175,7 +178,9 @@ msgstr "Entrée = Inventaire"
 #: Story/ESCAPE.c:126
 msgid ""
 "Use the arrow keys to move.  Joystick and control pad are also supported."
-msgstr "Utiliser les touches fléchées pour vous déplacer.  Les joysticks et manettes sont également gérées."
+msgstr ""
+"Utiliser les touches fléchées pour vous déplacer.  Les joysticks et manettes "
+"sont également gérées."
 
 #: Story/ESCAPE.c:128 Story/ESCAPE.c:143 Story/S1-BOOT.c:83
 #: Story/S2-HEALP.c:51 Story/S2-HEALP.c:64 Story/S2-HEALP.c:137
@@ -332,7 +337,8 @@ msgstr "Mon Roi, j'ai de mauvaises nouvelles."
 
 #: Story/KING.c:12
 msgid "Sir Flatstomp is dead.  He died in my arms, bravely."
-msgstr "Le chevalier Flatstomp est mort.  Il est mort dans mes bras, bravement."
+msgstr ""
+"Le chevalier Flatstomp est mort.  Il est mort dans mes bras, bravement."
 
 #: Story/KING.c:14
 msgid "I will inform Lyna.  I was afraid this was so."
@@ -372,7 +378,8 @@ msgstr "Il y a des centaines d'autres aventures qui vous attendent."
 
 #: Story/KING.c:32
 msgid "Get them (and other great games!) at www.rtsoft.com"
-msgstr "Récupérez-les (ainsi que d'autres formidables jeux!) sur www.rtsoft.com"
+msgstr ""
+"Récupérez-les (ainsi que d'autres formidables jeux!) sur www.rtsoft.com"
 
 #: Story/KING.c:34
 msgid "Or make your own, download the free development kit."
@@ -388,7 +395,8 @@ msgstr "Justin - désolé de t'avoir fait dessiner du sang ;)"
 
 #: Story/KING.c:40
 msgid "Pap - Great level design and story (when you were here...)"
-msgstr "Pap - Très bonne conception des niveaux et scenario (quand tu étais là...)"
+msgstr ""
+"Pap - Très bonne conception des niveaux et scenario (quand tu étais là...)"
 
 #: Story/KING.c:42
 msgid "Shawn - corndogs are NOT the food of the God's"
@@ -408,27 +416,35 @@ msgstr "Et maintenant, de quoi manger pour mon héro affamé!"
 
 #: Story/KING.c:110
 msgid "Ahh, my favorite subject!"
-msgstr ""
+msgstr "Ah, mon sujet favori!"
 
 #: Story/KING.c:119
 msgid "You must hurry, Dink."
-msgstr ""
+msgstr "Tu dois te hâter, Dink."
 
 #: Story/KING.c:126
 msgid "Hello, Dink."
-msgstr ""
+msgstr "Bonjour, Dink."
 
 #: Story/KING.c:128
 msgid "I've heard much about you - it is good to finally meet you."
-msgstr ""
+msgstr "J'ai tant entendu parler de toi - il est bon de te rencontrer enfin."
 
 #: Story/KING.c:130
 msgid "Greetings, M'lord."
-msgstr ""
+msgstr "Je vous salue, mon roi."
 
 #: Story/KING.c:132
 msgid "Now what is it I can help you with?"
-msgstr ""
+msgstr "Bien, en quoi puis-je t'aider?"
+
+#: Story/KING.c:138
+msgid "Complain about your taxes"
+msgstr "Plains-toi des taxes"
+
+#: Story/KING.c:139
+msgid "Offer to help Milder"
+msgstr "Propose d'aller aider Milder"
 
 #: Story/KING.c:140 Story/S1-BOOT.c:28 Story/S1-BRG2.c:30 Story/S1-H1-M.c:86
 #: Story/S1-H2-O.c:107 Story/S1-H3-OF.c:39 Story/S1-WAND.c:21
@@ -446,389 +462,397 @@ msgstr ""
 #: Story/S6-FOUNT.c:12 Story/S6-ST1P.c:88 Story/S6-ST1P.c:158
 #: Story/S6-VEND.c:76 Story/S6-WARP.c:7 Story/S7-WARP.c:7 Story/S8-GUY.c:43
 msgid "Leave"
-msgstr ""
+msgstr "Pars"
 
 #: Story/KING.c:147
 msgid "Well... I think you should lower the pig tax, sir."
-msgstr ""
+msgstr "Hé bien... Je pense que vous devriez baisser les taxes sur les cochons, sire."
 
 #: Story/KING.c:149
 msgid "Oh really?"
-msgstr ""
+msgstr "Oh vraiment?"
 
 #: Story/KING.c:151
 msgid "Yes - my family got royally screwed by the crown each year."
-msgstr ""
+msgstr "Oui - ma famille s'est fait royalement plumée par la couronne tous les ans."
 
 #: Story/KING.c:153
 msgid "I will take that into consideration Dink, I really will."
-msgstr ""
+msgstr "Je vais y réfléchir, Dink, sincèrement."
 
 #: Story/KING.c:160
 msgid "I heard about Milder."
-msgstr ""
+msgstr "J'ai entendu parler de Milder."
 
 #: Story/KING.c:162
 msgid "Yes.. he was a very brave knight - he entered the darklands knowing..."
-msgstr ""
+msgstr "Oui.. c'était un brave chevalier - il a pénétré les Terres Obscures en sachant..."
 
 #: Story/KING.c:164
 msgid "full well that very few return.  And now he is lost too."
-msgstr ""
+msgstr "très bien que peu en sont revenus.  Et à présent lui aussi est perdu."
 
 #: Story/KING.c:166
 msgid "I would like permission to go after him, my King."
-msgstr ""
+msgstr "Je demande permission de partir à sa recherche, mon Roi."
 
 #: Story/KING.c:168
 msgid "You Dink?  It is suicide."
-msgstr ""
+msgstr "Toi Dink?  C'est du suicide."
 
 #: Story/KING.c:170
 msgid "He grew up in my village - I cannot turn my back on him."
-msgstr ""
+msgstr "Il a grandi dans mon village - je ne peux pas le laisser tomber."
 
 #: Story/KING.c:172
 msgid "And I cannot refuse you."
-msgstr ""
+msgstr "Et je ne peux te le refuser."
 
 #: Story/KING.c:174
 msgid "But... just getting to the darklands is quite a challenge..."
-msgstr ""
+msgstr "Mais... atteindre les Terres Obscures est déjà fort difficile..."
 
 #: Story/KING.c:176
 msgid "Please - just tell me the way."
-msgstr ""
+msgstr "Je vous en prie - dites-moi comment m'y rendre."
 
 #: Story/KING.c:178
 msgid "Go north from this castle until you hit the cliffs."
-msgstr ""
+msgstr "Marche au Nord depuis ce château jusqu'à ce que tu rencontres des falaises."
 
 #: Story/KING.c:180
 msgid "I will have men there to guide you through the passage."
-msgstr ""
+msgstr "Je vais envoyer des hommes là-bas pour te guider à travers le passage."
 
 #: Story/KING.c:182
 msgid "And Dink..."
-msgstr ""
+msgstr "Et Dink..."
 
 #: Story/KING.c:184
 msgid "Something very strange is happening to the world..."
-msgstr ""
+msgstr "Quelque chose d'étrange est en train d'arriver à ce monde..."
 
 #: Story/KING.c:186
 msgid "The darklands seem to be the origin.  Please be careful."
-msgstr ""
+msgstr "Les Terres Obscures semblent en être l'origine.  Je te demande d'être prudent."
 
 #: Story/KING.c:188
 msgid "Thank you.  I'll be back, and I won't be alone."
-msgstr ""
+msgstr "Merci.  Je serai de retour, et je ne serai pas seul."
 
 #: Story/KING.c:204
 msgid "You have just attacked me, the King?"
-msgstr ""
+msgstr "Tu viens de m'attaquer, moi le Roi?"
 
 #: Story/KING.c:206
 msgid "Ahh, the famous Dink Smallwood sense of humor I heard so much about!"
-msgstr ""
+msgstr "Ahh, le célèbre humour de Dink Smallwood dont j'ai tant entendu parler!"
 
 #: Story/LRAISE.c:18
 msgid "YOU ARE NOW LEVEL &level"
-msgstr ""
+msgstr "VOUS ÊTES MAINTENANT AU NIVEAU &level"
 
 #: Story/LRAISE.c:20
 msgid "You may increase one of your attributes."
-msgstr ""
+msgstr "Vous pouvez augmenter une de vos stats."
 
 #: Story/LRAISE.c:22
 msgid "Increase Attack"
-msgstr ""
+msgstr "Améliorer l'Attaque"
 
 #: Story/LRAISE.c:23
 msgid "Increase Defense"
-msgstr ""
+msgstr "Améliorer la Défense"
 
 #: Story/LRAISE.c:24
 msgid "Increase Magic"
-msgstr ""
+msgstr "Améliorer la Magie"
 
 #: Story/LRAISE.c:45
 msgid "What a gyp!"
-msgstr ""
+msgstr "Quelle arnarque!"
 
 #: Story/PAPGOLD.c:15
 msgid "I found 200 gold!"
-msgstr ""
+msgstr "J'ai trouvé 200 pièces d'or!"
 
 #: Story/PDIE.c:13
 msgid "Wow, that was quite a pig!"
-msgstr ""
+msgstr "Woaou, c'était un sacré cochon!"
 
 #: Story/POSTER.c:10
 msgid "The King's News, issue 43."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 43."
 
 #: Story/POSTER.c:12
 msgid "A young man by the name of Milder Flatstomp has won the King's"
-msgstr ""
+msgstr "Un jeune homme du nom de Milder Flatstomp a remporté"
 
 #: Story/POSTER.c:14
 msgid "jousting tournament."
-msgstr ""
+msgstr "la joute organisée par le Roi."
 
 #: Story/POSTER.c:16
 msgid "What?!  Whatever!"
-msgstr ""
+msgstr "Hein?!  Et puis quoi encore!"
 
 #: Story/POSTER.c:24
 msgid "The King's News, issue 44."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 44."
 
 #: Story/POSTER.c:26
 msgid "Milder Flatstomp is knighted by King Daniel for his part in uncovering"
-msgstr ""
+msgstr "Midler Flatstomp est fait chevalier par le Roi Daniel pour sa participation"
 
 #: Story/POSTER.c:28
 msgid "a Cast plot!"
-msgstr ""
+msgstr "dans la découverte d'une conspiration de la Clique!"
 
 #: Story/POSTER.c:30
 msgid ""
 "Also in the news:  A pig farmer named Dink Smallwood found a lost Terris "
 "girl."
-msgstr ""
+msgstr "Également aux nouvelles:  Un éleveur de cochons nommé Dink Smallwood a retrouvé une fille de Terris portée disparue."
 
 #: Story/POSTER.c:32
 msgid "Pig farmer!? What a crock.  At least I'm on there though."
-msgstr ""
+msgstr "Éleveur de cochons!? Quelle fadaise.  Mais au moins je suis dans le journal."
 
 #: Story/POSTER.c:34
 msgid " Also:  The town of Kernsin is having a festival, all invited."
-msgstr ""
+msgstr " Également:  La ville de Kernsin fait son festiva, ouvert à tous."
 
 #: Story/POSTER.c:43
 msgid "The King's News, issue 45."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 45."
 
 #: Story/POSTER.c:45
 msgid "The famous Knight Milder Flatstomp has wed!"
-msgstr ""
+msgstr "Le célèbre Chevalier Milder Flatstomp s'est marié!"
 
 #: Story/POSTER.c:47
 msgid "Flatstomp got married?  Wow, small world."
-msgstr ""
+msgstr "Flatstomp s'est marié?  Ah, le monde est petit."
 
 #: Story/POSTER.c:49
 msgid "King Daniel wishes Milder and Lyna (the lucky maiden) well."
-msgstr ""
+msgstr "Le Roi Daniel souhaite une vie heureuse à Milder et Lyna (la bienheureuse mariée)."
 
 #: Story/POSTER.c:51
 msgid "LYNA? NOOO!!!"
-msgstr ""
+msgstr "LYNA? NOOON!!!"
 
 #: Story/POSTER.c:53
 msgid " Also:  The town of KernSin is having a parade today."
-msgstr ""
+msgstr " Également:  La ville de KernSin organise une parade aujourd'hui."
 
 #: Story/POSTER.c:60
 msgid "The King's News, issue 46."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 46."
 
 #: Story/POSTER.c:62
 msgid "Dink Smallwood saves KernSin and foils the Cast!"
-msgstr ""
+msgstr "Dink Smallwood sauve KernSin et déjoue les plans de la Clique!"
 
 #: Story/POSTER.c:64
 msgid "Yeah!!!!!"
-msgstr ""
+msgstr "Ouais!!!!!"
 
 #: Story/POSTER.c:66
 msgid "Also in the news:  Windemere Village experiences a famine."
-msgstr ""
+msgstr "Également aux nouvelles:  Le village de Windemere subit une famine."
 
 #: Story/POSTER.c:75
 msgid "The King's News, issue 47."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 47."
 
 #: Story/POSTER.c:77
 msgid ""
 "The Knight Milder Flatstomp ventures into The Darklands - hunting the Cast."
-msgstr ""
+msgstr "Le Chevalier Milder Flatstomp s'aventure dans les Terres Obscures - à la recherche de la Clique."
 
 #: Story/POSTER.c:79
 msgid "Big freakin' deal."
-msgstr ""
+msgstr "Qu'est-ce qu'on s'en fout."
 
 #: Story/POSTER.c:81
 msgid ""
 " Also:  Hero Smallwood saves Windemere Village from famine!  He reportly"
-msgstr ""
+msgstr " Également:  Le héro Dink Smallwood sauve le village de Windemere de la famine!  D'après nos sources"
 
 #: Story/POSTER.c:83
 msgid ""
 "taught them proper agricultural procedure he learned pig farming in "
 "Stonebrook."
-msgstr ""
+msgstr "il a enseigné aux habitants de bonnes pratiques d'agriculture qu'il a appris en élevant des cochons à Stonebrook."
 
 #: Story/POSTER.c:85
 msgid "Arg! Oh well, close enough."
-msgstr ""
+msgstr "Arr! Bon, on était pas loin."
 
 #: Story/POSTER.c:92 Story/POSTER.c:105
 msgid "The King's News, issue 48."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 48."
 
 #: Story/POSTER.c:94 Story/POSTER.c:107
 msgid "Sir Flatstomp is declared missing in the Darklands!"
-msgstr ""
+msgstr "Le Chevalier Flatstomp est reporté disparu dans les Terres Obscures!"
 
 #: Story/POSTER.c:96 Story/POSTER.c:109
 msgid "'Tis a sad day for our country' - King Daniel"
-msgstr ""
+msgstr "'C'est un triste jour pour notre pays' - le Roi Daniel"
 
 #: Story/POSTER.c:98 Story/POSTER.c:111
 msgid "Wow.. Poor Milder...he really wasn't such a bad guy."
-msgstr ""
+msgstr "Oh.. Pauvre Milder... ce n'était pas un si mauvais bougre."
 
 #: Story/POSTER.c:118
 msgid "The King's News, issue 49."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 49."
 
 #: Story/POSTER.c:120
 msgid "King Daniel sends Dink Smallwood to rescue Sir Milder!"
-msgstr ""
+msgstr "Le Roi Daniel envoie Dink Smallwood pour sauver le Chevalier Milder!"
 
 #: Story/POSTER.c:122
 msgid "'Smallwood is brave, I'll give him that.' - King Daniel"
-msgstr ""
+msgstr "'Smallwood est brave, on ne peut lui enlever ça.' - le Roi Daniel"
 
 #: Story/POSTER.c:130
 msgid "The King's News, issue 50."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 50."
 
 #: Story/POSTER.c:132
 msgid "Smallwood has returned from the Darklands!"
-msgstr ""
+msgstr "Smallwood est revenu des Terres Obscures!"
 
 #: Story/POSTER.c:134
 msgid "'I can't wait until get gets to the castle!' - King Daniel"
-msgstr ""
+msgstr "'J'ai hâte qu'il se présente au chateau!' - le Roi Daniel"
 
 #: Story/POSTER.c:141
 msgid "The King's News, issue 51."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 51."
 
 #: Story/POSTER.c:143
 msgid "Smallwood for King!  Read all about it!"
-msgstr ""
+msgstr "Smallwood Roi!  Lisez-tout dans ce numéro!"
 
 #: Story/POSTER.c:145
 msgid "'You've won the game, please don't take my throne too!' - King Daniel"
-msgstr ""
+msgstr "'Vous avez fini le jeu, je vous en prie ne prenez pas mon trône aussi!' - le Roi Daniel"
 
 #: Story/POSTER.c:151
 msgid "The King's News, issue 76."
-msgstr ""
+msgstr "Les Nouvelles du Roi, numéro 76."
 
 #: Story/POSTER.c:153
 msgid "No news to report."
-msgstr ""
+msgstr "Rien à signaler."
 
 #: Story/S1-BLOVE.c:10
 msgid "Hey, that's Lyna with Milder Flatstomp!"
-msgstr ""
+msgstr "Hé, c'est Lyna avec Milder Flatstomp!"
 
 #: Story/S1-BLOVE.c:12
 msgid "You know I love you baby... so what's the problem?"
-msgstr ""
+msgstr "Tu sais que je t'aime chérie... alors où est le problème?"
 
 #: Story/S1-BLOVE.c:14
 msgid "Milder... I want to get to know you first."
-msgstr ""
+msgstr "Milder... je veux d'abord mieux te connaître."
 
 #: Story/S1-BLOVE.c:16
 msgid "I have a mind too, you know."
-msgstr ""
+msgstr "J'ai des sentiments aussi, tu sais."
 
 #: Story/S1-BLOVE.c:18
 msgid "You kinda talk too much, you know that?"
-msgstr ""
+msgstr "Tu parles un peu trop, tu sais ça?"
 
 #: Story/S1-BLOVE.c:20
 msgid "You're an ass!"
-msgstr ""
+msgstr "Pauvre con!"
 
 #: Story/S1-BLOVE.c:26
 msgid "Hhhmph,  chicks!"
-msgstr ""
+msgstr "Hhhmf,  les gonzesses!"
 
 #: Story/S1-BOOT.c:20
 msgid "\"I'm a cobbler/pharmacist.  I make"
-msgstr ""
+msgstr "\"Je suis cordonnier/pharmacien.  Je fais"
 
 #: Story/S1-BOOT.c:21
 msgid "special herb boots.  When the herb"
-msgstr ""
+msgstr "les bottes spéciales à l'herbe.  Quand l'herbe"
 
 #: Story/S1-BOOT.c:22
 msgid "touches your skin, you'll want to"
-msgstr ""
+msgstr "va toucher ta peau, tu auras envie de"
 
 #: Story/S1-BOOT.c:23
 msgid "dance and be hyper.\""
-msgstr ""
+msgstr "dancer et d'être survolté.\""
+
+#: Story/S1-BOOT.c:25
+msgid "Buy his boots ($500)"
+msgstr "Achète ses bottes ($500)"
+
+#: Story/S1-BOOT.c:26 Story/S1-BOOT.c:27
+msgid "Complain about the price"
+msgstr "Plains-toi du prix"
 
 #: Story/S1-BOOT.c:34
 msgid "You know, I bought the ones I'm wearing for only 1 piece of gold."
-msgstr ""
+msgstr "Vous savez, j'ai acheté celles que je chausse pour seulement 1 pièces d'or."
 
 #: Story/S1-BOOT.c:36
 msgid "You get what you pay for."
-msgstr ""
+msgstr "Vous en avez pour votre argent."
 
 #: Story/S1-BOOT.c:38
 msgid "Do you sell a lot of these?"
-msgstr ""
+msgstr "Vous en vendez beaucoup?"
 
 #: Story/S1-BOOT.c:40
 msgid "I've never sold one."
-msgstr ""
+msgstr "Je n'en ai jamais vendu une seule."
 
 #: Story/S1-BOOT.c:42
 msgid "Nice."
-msgstr ""
+msgstr "Super."
 
 #: Story/S1-BOOT.c:48
 msgid "You know, the price is too much, could you please lower it?"
-msgstr ""
+msgstr "Vous savez, le prix est trop élevé, pourriez-vous le baisser?"
 
 #: Story/S1-BOOT.c:50
 msgid "Sure, how about 2 gold?"
-msgstr ""
+msgstr "Bien sûr, que dites-vous de 2 pièces d'or?"
 
 #: Story/S1-BOOT.c:52
 msgid "Great!  I'll take.. hey!"
-msgstr ""
+msgstr "Génial!  Je vais prendre.. hé!"
 
 #: Story/S1-BOOT.c:54
 msgid "I already bought them at the rip off price!"
-msgstr ""
+msgstr "Je les ai déjà achetées au prix exhorbitant!"
 
 #: Story/S1-BOOT.c:56
 msgid "What a pity."
-msgstr ""
+msgstr "Quel dommage."
 
 #: Story/S1-BOOT.c:58
 msgid "I would like to make a return."
-msgstr ""
+msgstr "Je voudrais un remboursement."
 
 #: Story/S1-BOOT.c:60
 msgid "And I would like to ask you to leave."
-msgstr ""
+msgstr "Et je voudrais que je sortiez."
 
 #: Story/S1-BOOT.c:68 Story/S3-BOWL.c:40 Story/S6-VEND.c:83 Story/S8-GUY.c:49
 msgid "I don't have enough money!"
-msgstr ""
+msgstr "Je n'ai pas assez d'argent!"
 
 #: Story/S1-BOOT.c:81 Story/S2-HEALP.c:49 Story/S2-OUT.c:71 Story/S2-OUT.c:106
 #: Story/S2-OUT.c:141 Story/S3-ST2P.c:38 Story/S4-HEALP.c:50
@@ -836,195 +860,195 @@ msgstr ""
 #: Story/S5-ST1P.c:36 Story/S6-ST1P.c:18 Story/S6-ST1P.c:55 Story/S6-VEND.c:96
 #: Story/S6-VEND.c:112 Story/S8-GUY.c:63
 msgid "You are carrying too much."
-msgstr ""
+msgstr "Tu portes trop d'objets."
 
 #: Story/S1-BOOT.c:93
 msgid "* HYPER BOOTS BOUGHT *"
-msgstr ""
+msgstr "* ACHAT DES HYPER BOTTES *"
 
 #: Story/S1-BOOT.c:109 Story/S8-GUY.c:89
 msgid "Help!!! Murderer!"
-msgstr ""
+msgstr "À l'aide!!! À l'assassin!"
 
 #: Story/S1-BRG2.c:15
 msgid "Did something touch me?  A fly perhaps?"
-msgstr ""
+msgstr "Quelque chose m'a touché?  Une mouche peut-être?"
 
 #: Story/S1-BRG2.c:26
 msgid "\"Hello good sir, the bridge toll is 100 gold.\""
-msgstr ""
+msgstr "\"Bonjour cher monsieur, le péage du pont est de 100 pièces d'or.\""
 
 #: Story/S1-BRG2.c:28
 msgid "Pay the toll"
-msgstr ""
+msgstr "Paie le péage"
 
 #: Story/S1-BRG2.c:29
 msgid "Argue"
-msgstr ""
+msgstr "Conteste"
 
 #: Story/S1-BRG2.c:39
 msgid "You don't have enough gold, fool!"
-msgstr ""
+msgstr "Vous n'avez pas assez d'argent, imbécile!"
 
 #: Story/S1-BRG2.c:44
 msgid "Thanks.  Have a nice day."
-msgstr ""
+msgstr "Merci.  Passez une bonne journée."
 
 #: Story/S1-BRG2.c:60
 msgid "This is ridiculous.  How can you justify charging this much?"
-msgstr ""
+msgstr "C'est ricidule.  Comment justifiez-vous pareil prix?"
 
 #: Story/S1-BRG2.c:62
 msgid "My kids need to eat."
-msgstr ""
+msgstr "Je dois nourrir mes enfants."
 
 #: Story/S1-BRG2.c:64
 msgid "Does the king know about your little 'business'?"
-msgstr ""
+msgstr "Le roi est-il au courant de vos 'affaires'?"
 
 #: Story/S1-BRG2.c:66
 msgid "Of course not."
-msgstr ""
+msgstr "Bien sûr que non."
 
 #: Story/S1-BRG2.c:68
 msgid "Ah, how nice."
-msgstr ""
+msgstr "Ah, c'est bien sympathique."
 
 #: Story/S1-BUL.c:16
 msgid "Here, piggie piggies."
-msgstr ""
+msgstr "Ici, cochons cochons."
 
 #: Story/S1-BUL.c:23
 msgid "Well, lookie what we got here."
-msgstr ""
+msgstr "Hé bien, regardez ce que nous avons là."
 
 #: Story/S1-BUL.c:25
 msgid "What do you want, Milder?"
-msgstr ""
+msgstr "Qu'est-ce que tu veux, Milder?"
 
 #: Story/S1-BUL.c:27
 msgid "Nothing."
-msgstr ""
+msgstr "Rien."
 
 #: Story/S1-BUL.c:29
 msgid "'cept to watch you work... Is pig farming fun?"
-msgstr ""
+msgstr "Sauf te regarder travailler... C'est sympa d'élever des cochons?"
 
 #: Story/S1-BUL.c:31
 msgid "I'm NOT a pig farmer."
-msgstr ""
+msgstr "Je ne suis PAS un éleveur de cochons."
 
 #: Story/S1-BUL.c:33
 msgid "Are you feeding pigs right now?"
-msgstr ""
+msgstr "Est-ce que tu nourris des cochons en ce moment même?"
 
 #: Story/S1-BUL.c:35
 msgid "Er.."
-msgstr ""
+msgstr "Euh.."
 
 #: Story/S1-BUL.c:37
 msgid "Um.."
-msgstr ""
+msgstr "Hum.."
 
 #: Story/S1-BUL.c:39
 msgid "Bawahahahah!  See you around, squirt."
-msgstr ""
+msgstr "Ouahahahahah!  À plus, minable."
 
 #: Story/S1-BUL.c:41
 msgid "I *HATE* that guy!"
-msgstr ""
+msgstr "Je *HAIS* ce type!"
 
 #: Story/S1-CAVE.c:8 Story/S1-CAVES.c:9
 msgid "Smells damp in here."
-msgstr ""
+msgstr "Ça sent l'humidité ici."
 
 #: Story/S1-CAVE.c:13 Story/S1-CAVES.c:14
 msgid "I don't like this one bit..."
-msgstr ""
+msgstr "Je n'aime pas ça..."
 
 #: Story/S1-CAVE.c:34 Story/S1-CAVES.c:35
 msgid "Can we leave now? <shiver>"
-msgstr ""
+msgstr "On peut partir maintenant? <frissonne>"
 
 #: Story/S1-CAVE.c:36 Story/S1-CAVES.c:37
 msgid "I'm scared."
-msgstr ""
+msgstr "J'ai peur."
 
 #: Story/S1-CAVE.c:38 Story/S1-CAVES.c:39
 msgid "Why, that's a funny noise."
-msgstr ""
+msgstr "Hmm, c'est un drôle de bruit."
 
 #: Story/S1-CAVE.c:41 Story/S1-CAVES.c:42
 msgid "This cave sucks, let's leave..."
-msgstr ""
+msgstr "Cette grotte pue, allons-nous en..."
 
 #: Story/S1-CAVEM.c:53
 msgid "Who dares enter my cave?"
-msgstr ""
+msgstr "Qui ose entrer dans ma grotte?"
 
 #: Story/S1-CAVEM.c:57
 msgid "I sense someone in my domain."
-msgstr ""
+msgstr "Je sens un présence dans mon domaine."
 
 #: Story/S1-CAVEM.c:61
 msgid "I feel I'm threatened ..."
-msgstr ""
+msgstr "Je me sens menacé..."
 
 #: Story/S1-ELTR.c:8
 msgid "To get passage on the boat with Death"
-msgstr ""
+msgstr "Pour obtenir une traversée sur le bateau avec la Mort"
 
 #: Story/S1-ELTR.c:9
 msgid "please order the full version."
-msgstr ""
+msgstr "veuillez acheter la version complète."
 
 #: Story/S1-ELTR.c:11
 msgid "You'll be glad you did!"
-msgstr ""
+msgstr "Tu ne regretteras pas!"
 
 #: Story/S1-ELTR.c:14
 msgid "Buy me please!"
-msgstr ""
+msgstr "Achète-moi s'il te plaît!"
 
 #: Story/S1-ELTR.c:17
 msgid "My Mom's dead and I need a home."
-msgstr ""
+msgstr "Ma Maman est morte et j'ai besoin d'un foyer."
 
 #: Story/S1-FARM.c:6
 msgid "I see the problem"
-msgstr ""
+msgstr "Je vois le problème"
 
 #: Story/S1-FARMS.c:3
 msgid "SmileStein Farm - We grow it, you eat it."
-msgstr ""
+msgstr "La Ferme SmileStein - Nous les cultivons, vous les mangez."
 
 #: Story/S1-FMONS.c:10
 msgid "You cannot defeat us Mr. Smallwood, we are too much for you."
-msgstr ""
+msgstr "Vous ne pouvez pas nous vaincre, M. Smallwood, nous sommes trop nombreux pour vous."
 
 #: Story/S1-FMONS.c:11
 msgid "Try your best but you risk your life doing so..."
-msgstr ""
+msgstr "Fais de ton mieux mais tu risques ta vie..."
 
 #: Story/S1-FMONS.c:16
 msgid "RRrrr ar a rar a  arrgghhh."
-msgstr ""
+msgstr "RRrrr ar a rar a  arrgghhh."
 
 #: Story/S1-FMONS.c:36 Story/S1-FMONS.c:40
 msgid "You cannot win, Smallwood."
-msgstr ""
+msgstr "Tu ne peux pas gagner, Smallwood."
 
 #: Story/S1-FMONS.c:53
 msgid "Damn you ... damn .. you."
-msgstr ""
+msgstr "Sois maudit ... soit .. maudit."
 
 #: Story/S1-FOUNT.c:10
 msgid "The water has refreshed me."
-msgstr ""
+msgstr "L'eau m'a rafraîchi."
 
 #: Story/S1-FOUNT.c:15
 msgid "WATER MUST DIE!"
-msgstr ""
+msgstr "L'EAU DOIT MOURIR!"
 
 #: Story/S1-GG.c:12
 msgid "Watch it boy, even my temper may wear eventually."
@@ -1222,6 +1246,11 @@ msgstr ""
 #: Story/S1-H1-M.c:84
 msgid "Get angry for no reason"
 msgstr ""
+
+#: Story/S1-H1-M.c:85
+#, fuzzy
+msgid "Tell her you fed the pigs"
+msgstr "Dink, peux-tu aller nourrir les cochons?"
 
 #: Story/S1-H1-M.c:93
 msgid "Mother, how do I feed the pigs?  I forgot!"
@@ -1471,6 +1500,10 @@ msgstr ""
 msgid "Ask about her well being"
 msgstr ""
 
+#: Story/S1-H2-O.c:105
+msgid "Ask after her pet"
+msgstr ""
+
 #: Story/S1-H2-O.c:106
 msgid "Inquire about all her bottles"
 msgstr ""
@@ -1635,8 +1668,16 @@ msgstr ""
 msgid "Oh Dink, it's you.."
 msgstr ""
 
+#: Story/S1-H3-L.c:18
+msgid "Coax her into telling you why she's upset"
+msgstr ""
+
 #: Story/S1-H3-L.c:19
 msgid "Try to comfort her"
+msgstr ""
+
+#: Story/S1-H3-L.c:20
+msgid "Brag about how you cleared their farm"
 msgstr ""
 
 #: Story/S1-H3-L.c:21 Story/S4-H2P1.c:23 Story/S4-H2P3.c:23
@@ -1705,14 +1746,6 @@ msgstr ""
 
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
-msgstr ""
-
-#: Story/S1-H3-L.c:58
-msgid "Try to comfort her about her family"
-msgstr ""
-
-#: Story/S1-H3-L.c:59
-msgid "Apologize for being an ass"
 msgstr ""
 
 #: Story/S1-H3-L.c:64
@@ -1823,8 +1856,16 @@ msgstr ""
 msgid "Ask how the family's doing"
 msgstr ""
 
+#: Story/S1-H3-OF.c:36
+msgid "Inquire about his farm"
+msgstr ""
+
 #: Story/S1-H3-OF.c:37
 msgid "Ask to see Libby"
+msgstr ""
+
+#: Story/S1-H3-OF.c:38
+msgid "Get info about the farm"
 msgstr ""
 
 #: Story/S1-H3-OF.c:44
@@ -1966,6 +2007,11 @@ msgstr ""
 #: Story/S1-LG.c:30
 msgid "Ask about Milder FlatStomp"
 msgstr ""
+
+#: Story/S1-LG.c:31
+#, fuzzy
+msgid "Tell her you killed Ethel's duck"
+msgstr "Où le canard d'Ethel peut-il bien être?"
 
 #: Story/S1-LG.c:37
 msgid "So baby, you still single and bothered?"
@@ -2307,6 +2353,10 @@ msgstr ""
 msgid "But these things can be hard to tell."
 msgstr ""
 
+#: Story/S1-MH-M.c:62
+msgid "Tell him you're worthy"
+msgstr ""
+
 #: Story/S1-MH-M.c:63 Story/S3-ST1P.c:20
 msgid "Ask about Magic"
 msgstr ""
@@ -2564,6 +2614,10 @@ msgstr ""
 msgid "Ask about news"
 msgstr ""
 
+#: Story/S1-WAND.c:20
+msgid "Ask about AlkTree nuts"
+msgstr ""
+
 #: Story/S1-WAND.c:34
 msgid "AlkTree nuts??  Those make for a hearty meal.  Let's see.."
 msgstr ""
@@ -2734,6 +2788,10 @@ msgstr ""
 
 #: Story/S1-WAND2.c:30
 msgid "Ask for news"
+msgstr ""
+
+#: Story/S1-WAND2.c:31
+msgid "Ask if he has any AlkTree nuts"
 msgstr ""
 
 #: Story/S1-WAND2.c:45
@@ -3070,6 +3128,42 @@ msgstr ""
 
 #: Story/S2-AUNTP.c:183
 msgid "Just ask if you need anything."
+msgstr ""
+
+#: Story/S2-AUNTP.c:203
+msgid "Ask about your mother"
+msgstr ""
+
+#: Story/S2-AUNTP.c:204
+msgid "Ask her about the town"
+msgstr ""
+
+#: Story/S2-AUNTP.c:205
+msgid "Encourage her to dump Jack"
+msgstr ""
+
+#: Story/S2-AUNTP.c:206
+msgid "Encourage her to continue getting beaten by Jack"
+msgstr ""
+
+#: Story/S2-AUNTP.c:207
+msgid "Comfort her"
+msgstr ""
+
+#: Story/S2-AUNTP.c:208
+msgid "Ask for a bigger bed"
+msgstr ""
+
+#: Story/S2-AUNTP.c:209
+msgid "Tell Maria about your latest adventure"
+msgstr ""
+
+#: Story/S2-AUNTP.c:210
+msgid "Talk about nothing"
+msgstr ""
+
+#: Story/S2-AUNTP.c:211
+msgid "Brag to Maria about saving the world"
 msgstr ""
 
 #: Story/S2-AUNTP.c:218
@@ -4170,6 +4264,26 @@ msgstr ""
 msgid "Uh, darn thing won't budge!!"
 msgstr ""
 
+#: Story/S2-JACK.c:27
+msgid "Say hi to Jack"
+msgstr ""
+
+#: Story/S2-JACK.c:28
+msgid "Thank Jack for his hospitality"
+msgstr ""
+
+#: Story/S2-JACK.c:29
+msgid "Say something rude to Jack"
+msgstr ""
+
+#: Story/S2-JACK.c:30
+msgid "Tell Jack to lay off Maria"
+msgstr ""
+
+#: Story/S2-JACK.c:31
+msgid "Coerce Jack into hitting Maria again"
+msgstr ""
+
 #: Story/S2-JACK.c:38
 msgid "Hi Jack! Whacha doing?"
 msgstr ""
@@ -4407,6 +4521,23 @@ msgstr ""
 #: Story/S2-MAN2.c:110
 msgid "You'd best learn some manners quickly, boy."
 msgstr ""
+
+#: Story/S2-MAN2.c:120
+msgid "Impress the men with your tales of valour"
+msgstr ""
+
+#: Story/S2-MAN2.c:121
+msgid "Convince the men that you ARE a warrior"
+msgstr ""
+
+#: Story/S2-MAN2.c:122
+msgid "Argue with the men even more"
+msgstr ""
+
+#: Story/S2-MAN2.c:123
+#, fuzzy
+msgid "Chat with the men"
+msgstr "Est-ce la fin?"
 
 #: Story/S2-MAN2.c:130
 msgid "Greetings men.  I bring stories of my adventures from the East."
@@ -4733,6 +4864,26 @@ msgstr ""
 msgid "LITTLE THINGS MUST DIE!"
 msgstr ""
 
+#: Story/S2-NADP.c:31
+msgid "Ask Nadine why her house is such a mess"
+msgstr ""
+
+#: Story/S2-NADP.c:32
+msgid "Offer to find Nadine's girl"
+msgstr ""
+
+#: Story/S2-NADP.c:33
+msgid "Be rude to Nadine"
+msgstr ""
+
+#: Story/S2-NADP.c:34
+msgid "Let her know exactly how fruitless your search has been thus far"
+msgstr ""
+
+#: Story/S2-NADP.c:35
+msgid "Ask Nadine how she and Mary are doing"
+msgstr ""
+
 #: Story/S2-NADP.c:41
 msgid "Say, how are you and the little tike doing?"
 msgstr ""
@@ -4849,6 +5000,14 @@ msgstr ""
 msgid "\"We'll buy a few things.  What have you got?\""
 msgstr ""
 
+#: Story/S2-OUT.c:183 Story/S4-ST1P.c:131
+msgid "Sell a Longsword - $200"
+msgstr ""
+
+#: Story/S2-OUT.c:184 Story/S4-ST1P.c:132
+msgid "Sell a nut - $2"
+msgstr ""
+
 #: Story/S2-OUT.c:185 Story/S4-ST1P.c:135
 msgid "Sell nothing"
 msgstr ""
@@ -4930,8 +5089,17 @@ msgid "This ain't good."
 msgstr ""
 
 #: Story/S2-RYANT.c:20 Story/S3-CHICK.c:26 Story/S3-MAYOR.c:17
-#: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S6-ST1P.c:86
+#: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S4-ST1P.c:41
+#: Story/S6-ST1P.c:86
 msgid "Say hi"
+msgstr ""
+
+#: Story/S2-RYANT.c:21
+msgid "Ask what he does"
+msgstr ""
+
+#: Story/S2-RYANT.c:22
+msgid "Offer to help him out"
 msgstr ""
 
 #: Story/S2-RYANT.c:29 Story/S3-CHICK.c:36
@@ -5452,6 +5620,10 @@ msgstr ""
 msgid "\"Hello, friend.  I will teach you bow lore for $1500 gold.\""
 msgstr ""
 
+#: Story/S3-BOWL.c:32
+msgid "Learn bow lore"
+msgstr ""
+
 #: Story/S3-BOWL.c:44
 msgid "* YOU LEARN BOW LORE *"
 msgstr ""
@@ -5522,6 +5694,18 @@ msgstr ""
 
 #: Story/S3-CHICK.c:27
 msgid "Ask what she does"
+msgstr ""
+
+#: Story/S3-CHICK.c:28
+msgid "Tell her about the planned assault"
+msgstr ""
+
+#: Story/S3-CHICK.c:29
+msgid "See what's happened since"
+msgstr ""
+
+#: Story/S3-CHICK.c:30
+msgid "Show her the Scroll"
 msgstr ""
 
 #: Story/S3-CHICK.c:38
@@ -5752,6 +5936,18 @@ msgstr ""
 msgid "What do you want man?  I gotta keep moving!"
 msgstr ""
 
+#: Story/S3-FREAK.c:92
+msgid "Ask why he's running"
+msgstr ""
+
+#: Story/S3-FREAK.c:93
+msgid "Ask about the ducks"
+msgstr ""
+
+#: Story/S3-FREAK.c:94
+msgid "Ask about the parade"
+msgstr ""
+
 #: Story/S3-FREAK.c:100
 msgid "Why are you running around so fast?"
 msgstr ""
@@ -5944,6 +6140,10 @@ msgstr ""
 msgid "i bey kalling yoo deed!"
 msgstr ""
 
+#: Story/S3-GOBG.c:68
+msgid "Ask the Goblin guard to let you in"
+msgstr ""
+
 #: Story/S3-GOBG.c:69
 msgid "Incite an 'incident'"
 msgstr ""
@@ -6001,11 +6201,12 @@ msgstr ""
 msgid "Hello sir."
 msgstr ""
 
-#: Story/S3-LARRY.c:20
+#: Story/S3-LARRY.c:20 Story/S4-ST2P.c:12 Story/S4-ST3P.c:179
 msgid "Ask about the store"
 msgstr ""
 
-#: Story/S3-LARRY.c:21 Story/S4-ST2P.c:14 Story/S4-ST3P.c:181
+#: Story/S3-LARRY.c:21 Story/S4-ST1P.c:40 Story/S4-ST2P.c:14
+#: Story/S4-ST3P.c:181
 msgid "See what's for sale"
 msgstr ""
 
@@ -6439,7 +6640,7 @@ msgstr ""
 msgid "Find out about the next town"
 msgstr ""
 
-#: Story/S3-ST1P.c:22
+#: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
 msgid "See what's news"
 msgstr ""
 
@@ -7173,6 +7374,10 @@ msgstr ""
 msgid "Please, go away."
 msgstr ""
 
+#: Story/S4-MD3.c:27
+msgid "Ask to come in"
+msgstr ""
+
 #: Story/S4-MD3.c:28
 msgid "Never Mind"
 msgstr ""
@@ -7357,6 +7562,18 @@ msgstr ""
 msgid "Please, don't beat me sir."
 msgstr ""
 
+#: Story/S4-ST1P.c:133
+msgid "Sell a Clawsword - $1000"
+msgstr ""
+
+#: Story/S4-ST1P.c:134
+msgid "Sell a slayer claw - $150"
+msgstr ""
+
+#: Story/S4-ST2P.c:13
+msgid "See what's up"
+msgstr ""
+
 #: Story/S4-ST2P.c:19
 msgid "How's the fur trading industry going?"
 msgstr ""
@@ -7491,6 +7708,10 @@ msgstr ""
 
 #: Story/S4-ST3P.c:163
 msgid "Arr! You don't have enough gold to buy the Clawsword!"
+msgstr ""
+
+#: Story/S4-ST3P.c:180
+msgid "Ask about Pete"
 msgstr ""
 
 #: Story/S4-ST3P.c:186
@@ -8447,6 +8668,10 @@ msgstr ""
 msgid "\"My masterpiece is finished!\""
 msgstr ""
 
+#: Story/S8-GUY.c:42
+msgid "Buy the FlameBow for $25,000"
+msgstr ""
+
 #: Story/S8-GUY.c:74
 msgid "* FLAMEBOW BOUGHT *"
 msgstr ""
@@ -8627,6 +8852,26 @@ msgstr ""
 msgid "Yum!"
 msgstr ""
 
+#: Story/SPICE.c:12
+msgid "Oh my god, it's you!!!"
+msgstr ""
+
+#: Story/SPICE.c:13
+msgid "Hello there guy, what's your name?"
+msgstr ""
+
+#: Story/SPICE.c:14
+msgid "Uhh ..."
+msgstr ""
+
+#: Story/SPICE.c:16
+msgid "Let's not discuss that now Sporty.  Let's talk about you .."
+msgstr ""
+
+#: Story/SPICE.c:17
+msgid "all five of you and me!!"
+msgstr ""
+
 #: Story/START-1.c:35
 msgid "Creating new game..."
 msgstr "Création d'un nouveau jeu..."
@@ -8653,7 +8898,9 @@ msgstr "Ou, commander EN LIGNE (connexion sécurisée) sur www.rtsoft.com/dink/"
 
 #: Story/START-3.c:51
 msgid "Preorder now for only $15 + 4.95 shipping! (within US)"
-msgstr "Passez une pré-commande maintenant pour seulement $15 + 4.95 de frais de port! (aux États-Unis)"
+msgstr ""
+"Passez une pré-commande maintenant pour seulement $15 + 4.95 de frais de "
+"port! (aux États-Unis)"
 
 #: Story/START-3.c:53
 msgid "(preorder price valid until 10-31-97)"
@@ -8689,7 +8936,9 @@ msgstr "À ton service."
 
 #: Story/START.c:79
 msgid "Error - Scripts require version V1.03+ of dink.exe.  Upgrade!"
-msgstr "Erreur - Les scripts nécessitent la version 1.03+ de dink.exe.  Mettez le jeu à jour!"
+msgstr ""
+"Erreur - Les scripts nécessitent la version 1.03+ de dink.exe.  Mettez le "
+"jeu à jour!"
 
 #: Story/TREEDUCK.c:9
 msgid "I feel magical!"

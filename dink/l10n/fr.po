@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2008-12-27 19:07+0100\n"
+"PO-Revision-Date: 2008-12-28 11:37+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -1161,9 +1161,8 @@ msgid "But it really doesn't matter now."
 msgstr "Mais cela n'a plus aucune importance à présent."
 
 #: Story/S1-H1-2.c:17
-#, fuzzy
 msgid "Maybe this got out of control."
-msgstr "C'est peut-être parti hors de contrôle."
+msgstr "Il est peut-être devenu incrontrôlable."
 
 #: Story/S1-H1-2.c:20
 msgid "Ahh, fire.  Warm."
@@ -3501,9 +3500,8 @@ msgid "Guards!! Help me, destroy this madman!"
 msgstr "Guardes!! Aidez-moi, éliminez ce fou!"
 
 #: Story/S2-BAR.c:222
-#, fuzzy
 msgid "Let's play."
-msgstr "Venez jouer."
+msgstr "On va s'amuser."
 
 #: Story/S2-BAR.c:224
 msgid "Attack him!"
@@ -4514,9 +4512,8 @@ msgid "Give me a break..."
 msgstr "Oh arrête..."
 
 #: Story/S2-MAN2.c:79
-#, fuzzy
 msgid "It tastes better than what you serve here, barkeep!"
-msgstr "Ça a plus de goût que ce que servez ici, ???,"
+msgstr "Ça a plus de goût que ce que servez ici, barmaid!"
 
 #: Story/S2-MAN2.c:80
 msgid "I'll make a note of that..."
@@ -5452,9 +5449,8 @@ msgid "Otherwise, no one has heard of the castle since."
 msgstr "À part ça, personne n'a entendu parler du château depuis."
 
 #: Story/S2-WANT.c:3
-#, fuzzy
 msgid "Wanted - Any info on the rogue group known as The Cast."
-msgstr "On recherche - Tout information sur un groupe connu sous le nom de la Clique."
+msgstr "On recherche - Toute information sur l'association de malfaiteurs connu sous le nom de la Clique."
 
 #: Story/S2-WANT.c:4
 msgid "Contact King Daniel at Goodheart Castle for possible reward."
@@ -5605,9 +5601,8 @@ msgid "What do you mean?"
 msgstr "Qu'est-ce que vous voulez-dire?"
 
 #: Story/S3-BH.c:31
-#, fuzzy
 msgid "I mean you just barging in here, no knocking, nothing!"
-msgstr "Je veux dire que vous débarquez ici, sans frapper ni rien!"
+msgstr "Que vous faites irruption ici, sans frapper ni rien!"
 
 #: Story/S3-BH.c:32
 msgid "What's with that?"
@@ -5662,7 +5657,6 @@ msgid "Just ... just please leave."
 msgstr "Veuillez ... veuillez sortir."
 
 #: Story/S3-BOWL.c:30
-#, fuzzy
 msgid "\"Hello, friend.  I will teach you bow lore for $1500 gold.\""
 msgstr "\"Bonjour l'ami.  Je peux vous enseigner le maniement de l'arc pour 1500 pièces d'or.\""
 
@@ -6266,14 +6260,12 @@ msgid "Hey, what kind of store you got here?"
 msgstr "Hé, qu'est-ce que c'est comme boutique?"
 
 #: Story/S3-LARRY.c:28
-#, fuzzy
 msgid "We're Robinson Cabinets."
-msgstr "Nous sommes le Cabinet Robinson."
+msgstr "Nous sommes les Meubles Robinson."
 
 #: Story/S3-LARRY.c:30
-#, fuzzy
 msgid "We can supply all your wood furnishing needs."
-msgstr "Nous pouvons subvenir à tous vos besoins en mobilier de bois."
+msgstr "Nous pouvons vous fournir tout le mobilier en bois dont vous avez besoin."
 
 #: Story/S3-LARRY.c:32
 msgid ""
@@ -6305,18 +6297,16 @@ msgid "See what I mean.."
 msgstr "Vous voyez ce que je veux dire.."
 
 #: Story/S3-LARRY.c:64
-#, fuzzy
 msgid "Any goofy specials this month?"
-msgstr "De bonnes affaires ce mois-ci?"
+msgstr "Des petites affaires ce mois-ci?"
 
 #: Story/S3-LARRY.c:66
-#, fuzzy
 msgid "Nope, sorry.  We pretty much contract out by jobs"
-msgstr "Non, désolé.  ....?...."
+msgstr "Non, désolé.  Nous sous-traitons pour les travaux"
 
 #: Story/S3-LARRY.c:68
 msgid "on individual houses.  We also do countertops and the like."
-msgstr ""
+msgstr "sur les résidences.  Nous faisons aussi des comptoirs, ce genre de choses."
 
 #: Story/S3-LARRY.c:70
 msgid "I see, well I don't own a house, but thanks for the info."
@@ -6424,7 +6414,7 @@ msgstr "M. le Maire, j'ai des nouvelles urgentes, votre ville va être attaquée
 
 #: Story/S3-MAYOR.c:36
 msgid "What?!?  That's preposterous, you've got to be joking!"
-msgstr ""
+msgstr "Quoi?!?  C'est absurde, vous plaisantez!"
 
 #: Story/S3-MAYOR.c:38
 msgid "No, I'm dead serious!  It's the Cast Knights."
@@ -6988,9 +6978,8 @@ msgid "What are you guarding here?"
 msgstr "Qu'est-ce que vous gardez ici"
 
 #: Story/S4-DG.c:26
-#, fuzzy
 msgid "This is the town's duck altar."
-msgstr "C'est l'hôtel aux canards de la ville."
+msgstr "C'est l'autel aux canards de la ville."
 
 #: Story/S4-DG.c:28
 msgid "We worship them here."
@@ -7014,12 +7003,11 @@ msgstr "Oui, bien sûr."
 
 #: Story/S4-DG.c:42
 msgid "So how does one get in to see the altar?"
-msgstr "Comment peut-on entrer pour voir l'hôtel?"
+msgstr "Comment peut-on entrer pour voir l'autel?"
 
 #: Story/S4-DG.c:44
-#, fuzzy
 msgid "It is a great honor to worship inside.. one you have not earned."
-msgstr "C'est un grand honneur de "
+msgstr "Vénérer à l'intérieur est un grand honneur.. que vous n'avez pas mérité."
 
 #: Story/S4-DG.c:46
 msgid "You can pray to the duck from here."
@@ -7520,9 +7508,8 @@ msgid "Long live the ducks."
 msgstr "Longue vie aux canards."
 
 #: Story/S4-ST1P.c:21
-#, fuzzy
 msgid "Welcome to Jill's pawn shop."
-msgstr "pawnshop = \"mont-de-piété\" ???"
+msgstr "Bienvenue au Mont de Piété de Jill."
 
 #: Story/S4-ST1P.c:25
 msgid "Oh, too have some food ..."
@@ -7633,7 +7620,6 @@ msgid "See what's up"
 msgstr "Demande les nouvelles"
 
 #: Story/S4-ST2P.c:19
-#, fuzzy
 msgid "How's the fur trading industry going?"
 msgstr "Comment va le commerce de fourrures?"
 
@@ -7750,9 +7736,8 @@ msgid "Arrr, I miss the sea ..."
 msgstr "Arrr, la mer me manque ..."
 
 #: Story/S4-ST3P.c:42
-#, fuzzy
 msgid "You don't have enough gold to buy this sword, landlubber!"
-msgstr "Tu n'as pas assez d'or pour acheter cette épée, ...!"
+msgstr "Tu n'as pas assez d'or pour acheter cette épée, marin d'eau douce!"
 
 #: Story/S4-ST3P.c:62
 msgid "\"Arrr, feast your eyes on these fine tools...\""
@@ -7816,17 +7801,15 @@ msgstr "J'ai eu ce style de vie, du sang sur ma lame,"
 
 #: Story/S4-ST3P.c:209
 msgid "rum in me gut, and plunder in the hold."
-msgstr ""
+msgstr "du rhum dans les tripes, et du butin dans la cale."
 
 #: Story/S4-ST3P.c:211
-#, fuzzy
 msgid "But, a small run in with the Royal navy,"
-msgstr "Mais, une petite rencontre avec la flotte Royale,"
+msgstr "Mais, une petite rencontre avec la marine Royale,"
 
 #: Story/S4-ST3P.c:213
-#, fuzzy
 msgid "has forced me to lay low for a while."
-msgstr "m'a forcé à faire profil bas pendant un moment."
+msgstr "m'a obligé à faire profil bas pendant un moment."
 
 #: Story/S4-ST3P.c:215
 msgid "But rest assured my treasure awaits me"
@@ -8158,9 +8141,8 @@ msgid "But how!  Where is he?"
 msgstr "Mais comment!  Où est-il?"
 
 #: Story/S6-ST1P.c:112
-#, fuzzy
 msgid "The portal is very close to here.  You will find it."
-msgstr "Le portail est très près d'ici.  Tu vas le trouver."
+msgstr "Le portail est très près d'ici.  Tu le trouveras facilement."
 
 #: Story/S6-ST1P.c:117
 msgid "Ah, Dink, I've heard of you."
@@ -8183,7 +8165,6 @@ msgid "Strange, I've seen a lot of movement out of the darklands."
 msgstr "C'est étrange, j'ai vu beaucoup d'activité hors des Terres Obscures."
 
 #: Story/S6-ST1P.c:128
-#, fuzzy
 msgid "Seems they're pushing out into the world."
 msgstr "On dirait qu'ils forcent le passage."
 
@@ -8193,7 +8174,7 @@ msgstr "Ils peuvent bien faire ce qu'ils veulent,"
 
 #: Story/S6-ST1P.c:132
 msgid "but I have to find Milder!"
-msgstr "mais je doiis retrouver Milder!"
+msgstr "mais je dois retrouver Milder!"
 
 #: Story/S6-ST1P.c:134
 msgid "I'm sure time's running out for your friend Dink."
@@ -8229,18 +8210,16 @@ msgid "Light Sword - $4000"
 msgstr "Épée de Lumière - 4000$"
 
 #: Story/S6-ST1P.c:157
-#, fuzzy
 msgid "Massive Bow - $5000"
-msgstr "L'Arc ??? - 5000$"
+msgstr "Le Grand Arc - 5000$"
 
 #: Story/S6-ST1P.c:188
 msgid "Hahaha!!"
 msgstr "Hahaha!!"
 
 #: Story/S6-VEND.c:20
-#, fuzzy
 msgid "I suppose I'll be dead soon.  I'm not particularly worried."
-msgstr "Je crois que je vais bientôt mourir.  Je ne suis pas particulièrement "
+msgstr "Je crois que je vais bientôt mourir.  Je ne suis pas particulièrement inquiet."
 
 #: Story/S6-VEND.c:36
 msgid "Please sir, I have nothing else to sell."
@@ -8616,7 +8595,7 @@ msgstr "Tu m'as battu."
 
 #: Story/S8-DISH.c:3
 msgid "Wow, they have a dish."
-msgstr ""
+msgstr "Ouah, ils ont une antenne satellite."
 
 #: Story/S8-DUCK.c:15
 msgid "Hi, we are the giant ducks of Koka Isle."
@@ -8887,9 +8866,8 @@ msgid "And if one were to destroy you, they would gain immense power."
 msgstr "Et si l'un d'entre eux venait à te détruire, ils obtiendraient un immense pouvoir."
 
 #: Story/SC-WIZ.c:84
-#, fuzzy
 msgid "There is some chaos brewing in this land now."
-msgstr "Quelque chaos se développe dans cette terre en ce moment."
+msgstr "Quelque chaos est en train de se préparer en cette terre."
 
 #: Story/SC-WIZ.c:86
 msgid "We don't know who's behind it either.  I was on my way to"

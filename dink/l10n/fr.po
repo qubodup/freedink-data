@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-14 20:23+0100\n"
+"PO-Revision-Date: 2009-01-14 20:57+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -846,7 +846,7 @@ msgstr "Génial !  Je vais prendre.. hé !"
 
 #: Story/S1-BOOT.c:54
 msgid "I already bought them at the rip off price!"
-msgstr "Je les ai déjà achetées à un prix exhorbitant !"
+msgstr "Je les ai déjà achetées à un prix exorbitant !"
 
 #: Story/S1-BOOT.c:56
 msgid "What a pity."

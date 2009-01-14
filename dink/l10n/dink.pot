@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2009-01-14 19:31+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,6 +41,13 @@ msgstr ""
 msgid "I must now complete my mission."
 msgstr ""
 
+# The Cast: name of group of villains. The name is also reused in D-Mods such as:
+# - Revenge of the Cast
+# - Cast Awakening Part 1: Initiation
+# - Ghosts of the Cast : Seth's Revenge
+#
+# The origin of the work isn't clear for native English speakers but you
+# can find leads at http://www.dinknetwork.com/forum.cgi?MID=97039
 #: Story/DAM-ICEE.c:65
 msgid "Mission? To what, destroy the Cast?"
 msgstr ""
@@ -65,10 +72,6 @@ msgstr ""
 msgid "Restart game"
 msgstr ""
 
-#: Story/DINFO.c:19
-msgid "Quit to Windows"
-msgstr ""
-
 #: Story/DUCK.c:10
 msgid "I'm a bottle, not a duck.  Even though I sound like one.  Funny, eh?"
 msgstr ""
@@ -82,6 +85,12 @@ msgstr ""
 msgid "Magic resisted."
 msgstr ""
 
+# Apparently those are pop-culture references obfuscated in Goblin talk,
+# e.g. "Austin Powers: International Man of Mystery" -
+# cf. http://www.dinknetwork.com/forum.cgi?MID=97039
+#
+# Native English speakers usually didn't got the joke, so translating is
+# optional.
 #: Story/EN-GH.c:47 Story/EN-GS.c:46 Story/S3-GH.c:47 Story/S3-GS.c:46
 msgid "Gro'k ki owab dakis gedi!"
 msgstr ""

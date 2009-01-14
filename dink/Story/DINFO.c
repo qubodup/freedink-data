@@ -16,7 +16,7 @@ again:
         choice_start();
 "Load a previously saved game"
 "Restart game"
-"Quit to Windows"
+"Quit to system"
         choice_end();
 
 if (&result == 1)

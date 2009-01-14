@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-14 20:57+0100\n"
+"PO-Revision-Date: 2009-01-14 21:12+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -1089,7 +1089,7 @@ msgstr "À propos, tu as reçu une lettre.  Elle est chez toi,"
 
 #: Story/S1-GG.c:34
 msgid "you should go take a look at it."
-msgstr "tu devrais y jeter un œuil."
+msgstr "tu devrais y jeter un œil."
 
 #: Story/S1-GG.c:36 Story/S1-H3-OF.c:53 Story/S8-DUCK2.c:21
 #: Story/S8-DUCK2.c:41

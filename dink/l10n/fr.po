@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-17 10:50+0100\n"
+"PO-Revision-Date: 2009-01-17 12:44+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -3159,7 +3159,7 @@ msgstr "Merci, je suis sûr que sera très bien."
 
 #: Story/S2-AUNTP.c:183
 msgid "Just ask if you need anything."
-msgstr "N'hésite pas à demander si as besoin de quelque chose."
+msgstr "N'hésite pas à demander si tu as besoin de quelque chose."
 
 #: Story/S2-AUNTP.c:203
 msgid "Ask about your mother"
@@ -3267,7 +3267,7 @@ msgstr "Tu... tu a vu ?"
 
 #: Story/S2-AUNTP.c:268
 msgid "Why don't you leave him?  Now?  Tonight?"
-msgstr "Pourquoi tu ne le quitte pas ?  Maintenant ?  Cette nuit ?"
+msgstr "Pourquoi tu ne le quittes pas ?  Maintenant ?  Cette nuit ?"
 
 #: Story/S2-AUNTP.c:270
 msgid "I'm afraid of him.  He would find me."
@@ -3343,7 +3343,7 @@ msgstr "Et j'ai du travail qui m'attend."
 
 #: Story/S2-AUNTP.c:326
 msgid "Hey guess what, I just got back from a huge adventure."
-msgstr "Hé devines quoi, je reviens tout juste d'une grande aventure."
+msgstr "Hé devine quoi, je reviens tout juste d'une grande aventure."
 
 #: Story/S2-AUNTP.c:328
 msgid "That's great."
@@ -3367,11 +3367,11 @@ msgstr "Désolé Dink, je sais combien les jeunes hommes aiment raconter des his
 
 #: Story/S2-AUNTP.c:339
 msgid "Pass off her indifference lightly"
-msgstr "Ne fais pas de cas de son indifférence"
+msgstr "Ne fais pas grand cas de son indifférence"
 
 #: Story/S2-AUNTP.c:340
 msgid "Get rude about it"
-msgstr "Énerve-t'en"
+msgstr "Deviens grossier"
 
 #: Story/S2-AUNTP.c:344
 msgid "Heh - that's what I like about you auntie!"
@@ -3387,7 +3387,7 @@ msgstr "Excuse-moi ?"
 
 #: Story/S2-AUNTP.c:353
 msgid "I see now I shouldn't have killed Jack."
-msgstr "Je me rends compte maintenant que je n'aurais pas dû tué Jack."
+msgstr "Je me rends compte maintenant que je n'aurais pas dû tuer Jack."
 
 #: Story/S2-AUNTP.c:355
 msgid "I should have joined forces with him."
@@ -3523,7 +3523,7 @@ msgstr "héros par ici.  Oh, et mes employés sont flemmards, c'est à peu près
 
 #: Story/S2-CA-G.c:25
 msgid "Nice, you win the game, then start killing guards?  Get 'em!"
-msgstr "Bien, tu finis le jeu, et maintenant tu tue les gardes.  Attrapez-le !"
+msgstr "Bien, tu finis le jeu, et maintenant tu tues les gardes.  Attrapez-le !"
 
 #: Story/S2-CA-G.c:31
 msgid "The guy just hit me!  I am now going to kill him."
@@ -3977,7 +3977,7 @@ msgstr "Ton sang va couler comme la rivière Jordan."
 
 #: Story/S2-CMAN.c:28
 msgid "Can I interest you in our love gift for December?  Only $80!"
-msgstr "Puis porter à votre attention notre cadeau Amour de Décembre ?  Seulement 80$ !"
+msgstr "Puis-je attirer votre attention sur notre cadeau d'amour de décembre ?  Seulement 80$ !"
 
 #: Story/S2-CSLAY.c:9
 msgid "Not bad.. not bad at all."

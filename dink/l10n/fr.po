@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-14 21:12+0100\n"
+"PO-Revision-Date: 2009-01-17 10:50+0100\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -389,7 +389,7 @@ msgstr "Justin - désolé de t'avoir fait dessiner du sang ;)"
 #: Story/KING.c:40
 msgid "Pap - Great level design and story (when you were here...)"
 msgstr ""
-"Pap - Très bonne conception des niveaux et scenario (quand tu étais là...)"
+"Pap - Très bonne conception des niveaux et scénario (quand tu étais là...)"
 
 #: Story/KING.c:42
 msgid "Shawn - corndogs are NOT the food of the God's"
@@ -569,7 +569,7 @@ msgstr "Améliorer la Magie"
 
 #: Story/LRAISE.c:45
 msgid "What a gyp!"
-msgstr "Quelle arnarque !"
+msgstr "Quelle arnaque !"
 
 #: Story/PAPGOLD.c:15
 msgid "I found 200 gold!"
@@ -602,7 +602,7 @@ msgstr "Les Nouvelles du Roi, numéro 44."
 #: Story/POSTER.c:26
 msgid "Milder Flatstomp is knighted by King Daniel for his part in uncovering"
 msgstr ""
-"Midler Flatstomp est fait chevalier par le Roi Daniel pour sa participation"
+"Milder Flatstomp est fait chevalier par le Roi Daniel pour sa participation"
 
 #: Story/POSTER.c:28
 msgid "a Cast plot!"
@@ -735,7 +735,7 @@ msgstr "Smallwood est revenu des Terres Obscures !"
 
 #: Story/POSTER.c:134
 msgid "'I can't wait until get gets to the castle!' - King Daniel"
-msgstr "'J'ai hâte qu'il se présente au chateau !' - le Roi Daniel"
+msgstr "'J'ai hâte qu'il se présente au château !' - le Roi Daniel"
 
 #: Story/POSTER.c:141
 msgid "The King's News, issue 51."
@@ -743,7 +743,7 @@ msgstr "Les Nouvelles du Roi, numéro 51."
 
 #: Story/POSTER.c:143
 msgid "Smallwood for King!  Read all about it!"
-msgstr "Smallwood Roi !  Lisez-tout dans ce numéro !"
+msgstr "Smallwood Roi !  Lisez tout dans ce numéro !"
 
 #: Story/POSTER.c:145
 msgid "'You've won the game, please don't take my throne too!' - King Daniel"
@@ -906,7 +906,7 @@ msgstr "Merci.  Passez une bonne journée."
 
 #: Story/S1-BRG2.c:60
 msgid "This is ridiculous.  How can you justify charging this much?"
-msgstr "C'est ricidule.  Comment justifiez-vous pareil prix ?"
+msgstr "C'est ridicule.  Comment justifiez-vous pareil prix ?"
 
 #: Story/S1-BRG2.c:62
 msgid "My kids need to eat."
@@ -1152,7 +1152,7 @@ msgstr "Mais cela n'a plus aucune importance à présent."
 
 #: Story/S1-H1-2.c:17
 msgid "Maybe this got out of control."
-msgstr "Il est peut-être devenu incrontrôlable."
+msgstr "Il est peut-être devenu incontrôlable."
 
 #: Story/S1-H1-2.c:20
 msgid "Ahh, fire.  Warm."
@@ -1629,7 +1629,7 @@ msgstr "Les engrais et formules de M. SmileStein."
 
 #: Story/S1-H3-2.c:13
 msgid "Eat it smelly bottles!"
-msgstr "Prenez-ça bouteilles qui puent !"
+msgstr "Prenez ça bouteilles qui puent !"
 
 #: Story/S1-H3-3.c:9
 msgid "Mr.SmileStein's bed, I shudder at what happens here."
@@ -1697,7 +1697,7 @@ msgstr "Essaie de la réconforter"
 
 #: Story/S1-H3-L.c:20
 msgid "Brag about how you cleared their farm"
-msgstr "Vente-toi d'avoir nettoyé leur champ"
+msgstr "Vante-toi d'avoir nettoyé leur champ"
 
 #: Story/S1-H3-L.c:21 Story/S4-H2P1.c:23 Story/S4-H2P3.c:23
 msgid "Never mind"
@@ -1705,7 +1705,7 @@ msgstr "Aucune importance"
 
 #: Story/S1-H3-L.c:26
 msgid "Libby, what's wrong?  Why are you so upset?"
-msgstr "Libby, qu'est-ce qui ne va pas ?  Pourquoi est-tu fâchée ?"
+msgstr "Libby, qu'est-ce qui ne va pas ?  Pourquoi es-tu fâchée ?"
 
 #: Story/S1-H3-L.c:27
 msgid "Nothing Dink, you wouldn't understand."
@@ -1979,7 +1979,7 @@ msgstr "Elle ne veut pas être dérangée."
 
 #: Story/S1-H3-OF.c:104
 msgid "Well, my farm is off to the west a bit."
-msgstr "Hé bien, mon champ est un peu plus loin à l'Ouest."
+msgstr "Hé bien, mon champ est un peu plus loin à l'ouest."
 
 #: Story/S1-H3-OF.c:105
 msgid "The monsters seem to be trampling it constantly."
@@ -2086,7 +2086,7 @@ msgstr "Tu en es sûre, ça me paraît bien fantaisiste."
 
 #: Story/S1-LG.c:103
 msgid "Yeah, oh yeah, just the other night when I was coming back"
-msgstr "Si si, juste l'autre nuit quand je rentrai"
+msgstr "Si si, juste l'autre nuit quand je rentrais"
 
 #: Story/S1-LG.c:104
 msgid "from picking flowers, I heard Libby up in her room crying."
@@ -2143,7 +2143,7 @@ msgstr ""
 
 #: Story/S1-LG.c:146
 msgid "in PortTown are looking for some more help and that they may be"
-msgstr "de PortTown cherchent d'autrent recrues et qu'il mènent peut-être"
+msgstr "de PortTown cherchent d'autres recrues et qu'il mènent peut-être"
 
 #: Story/S1-LG.c:147
 msgid "waging a war with the Northern Trading Company!"
@@ -2172,7 +2172,7 @@ msgstr ""
 
 #: Story/S1-LG.c:162
 msgid "But besides that he's just a big oaf, but I"
-msgstr "Mais à part ça c'est just un gros lourd, mais je"
+msgstr "Mais à part ça c'est juste un gros lourd, mais je"
 
 #: Story/S1-LG.c:163
 msgid "also saw him flirting with Libby AND Lyna!"
@@ -2221,7 +2221,7 @@ msgstr "Nous venons d'apprendre l'accident tragique qui est survenu..."
 
 #: Story/S1-LTR.c:20
 msgid "your home a short while ago.  Needless to say we are shocked."
-msgstr "chez toi il y a peu.  Il va sans dire que sommes sous le choc."
+msgstr "chez toi il y a peu.  Il va sans dire que nous sommes sous le choc."
 
 #: Story/S1-LTR.c:21
 msgid "This must be a hard time for you, being so young and suffering..."
@@ -2332,7 +2332,7 @@ msgstr "Ouah, je ne crois jamais avoir vu votre maison par ici auparavant."
 
 #: Story/S1-MH-M.c:34
 msgid "I like being closer to nature."
-msgstr "J'ai être plus proche de la nature."
+msgstr "J'aime être plus proche de la nature."
 
 #: Story/S1-MH-M.c:36
 msgid "I've been watching you for a while Dink."
@@ -2397,7 +2397,7 @@ msgstr "Martridge, Je .. J'ai les capacités.  Je suis prêt."
 
 #: Story/S1-MH-M.c:73
 msgid "I promise I'll be honorable and learn to use it right."
-msgstr "Je promet d'être droit et d'apprendre à l'user à bon essien."
+msgstr "Je promet d'être droit et d'apprendre à l'user à bon escient."
 
 #: Story/S1-MH-M.c:75
 msgid "Well Dink, you must prove yourself."
@@ -2518,7 +2518,7 @@ msgstr "S'il vous plaît, je n'ai pas d'argent, je voyage léger."
 
 #: Story/S1-ROB2.c:27
 msgid "We'll be the judge of that, where are you headed?"
-msgstr "Nous en jugerons par nous même, où vous rendez-vous ?"
+msgstr "Nous en jugerons par nous-mêmes, où vous rendez-vous ?"
 
 #: Story/S1-ROB2.c:30
 msgid "I'm just passing through to Windemere sir."
@@ -2651,7 +2651,7 @@ msgstr "Renseigne-toi sur les AlkNoisettes"
 
 #: Story/S1-WAND.c:34
 msgid "AlkTree nuts??  Those make for a hearty meal.  Let's see.."
-msgstr "Les Alknoisettes ??  Elles font un solid repas.  Voyons.."
+msgstr "Les Alknoisettes ??  Elles font un solide repas.  Voyons.."
 
 #: Story/S1-WAND.c:35
 msgid "I think there's a tree to the south east of the small village"
@@ -2675,7 +2675,7 @@ msgstr "Faites attention dans l'Ouest.  Le château des Gobelins a des"
 
 #: Story/S1-WAND.c:83
 msgid "defenses to say the least."
-msgstr "défenses extrème, c'est le moins qu'on puisse dire."
+msgstr "défenses extrêmes, c'est le moins qu'on puisse dire."
 
 #: Story/S1-WAND.c:85
 msgid "I've seen many a traveler lose his head if you know what I mean."
@@ -2683,11 +2683,11 @@ msgstr "J'ai vu de nombreux voyageurs perdre la tête si vous voyez ce que je ve
 
 #: Story/S1-WAND.c:89
 msgid "I've heard of an old man who lives just north of SunCool pond."
-msgstr "J'ai entendu parlé d'un vieil homme qui vit juste au Nord du bassin SunCool."
+msgstr "J'ai entendu parler d'un vieil homme qui vit juste au Nord du bassin SunCool."
 
 #: Story/S1-WAND.c:90
 msgid "Although I've never seen him I have heard noises when I've"
-msgstr "Bien que je l'ai jamais vu, j'ai entendu des bruits quand j'ai"
+msgstr "Bien que je l'aie jamais vu, j'ai entendu des bruits quand j'ai"
 
 #: Story/S1-WAND.c:91
 msgid "gone by there."
@@ -2695,7 +2695,7 @@ msgstr "été là-bas."
 
 #: Story/S1-WAND.c:95
 msgid "Travel by sea is quite spendy these days. I suggest if"
-msgstr "Les voyages maritimes sont plutôt onéreuses ces temps-ci.  Si vous n'êtes pas"
+msgstr "Les voyages maritimes sont plutôt onéreux ces temps-ci.  Si vous n'êtes pas"
 
 #: Story/S1-WAND.c:96
 msgid "you aren't a person of wealth you look towards perhaps"
@@ -2747,11 +2747,11 @@ msgstr "Si vous rencontrez des gobelins, faites attention."
 
 #: Story/S1-WAND.c:129
 msgid "They're pretty prone to violence, so just don't"
-msgstr "Ils sont prompt à la violence, alors prenez garde"
+msgstr "Ils sont prompts à la violence, alors prenez garde"
 
 #: Story/S1-WAND.c:130
 msgid "upset them.  However they're quite stupid."
-msgstr "de les énerver.  Cela dit ils sont assez bête."
+msgstr "de les énerver.  Cela dit ils sont assez bêtes."
 
 #: Story/S1-WAND.c:131
 msgid "You could probably tell them just about anything,"
@@ -2759,7 +2759,7 @@ msgstr "Vous pouvez probablement leur dire n'importe quoi,"
 
 #: Story/S1-WAND.c:132
 msgid "they'll believe it."
-msgstr "ils le croieront."
+msgstr "ils le croiront."
 
 #: Story/S1-WAND.c:144
 msgid "I heard there was a bad fire in a nearby village,"
@@ -2847,7 +2847,7 @@ msgstr "Il n'ennuiera plus personne..."
 
 #: Story/S1-WAND2.c:92
 msgid "I just escaped from the Goblin Sanctuary."
-msgstr "Je viens de m'échaper du Sanctuaire des Gobelins."
+msgstr "Je viens de m'échapper du Sanctuaire des Gobelins."
 
 #: Story/S1-WAND2.c:93
 msgid "It's quite a horrible place and I wouldn't recommend going there."
@@ -2879,7 +2879,7 @@ msgstr "dans une bande de mercenaires."
 
 #: Story/S1-WAND2.c:105
 msgid "Unfortunately for me one of my first jobs led me right into"
-msgstr "Malheureusemeent pour moi, un de mes premiers emplois m'a amené à être"
+msgstr "Malheureusement pour moi, un de mes premiers emplois m'a amené à être"
 
 #: Story/S1-WAND2.c:106
 msgid "being captured by the goblins.  Last time I go to the WestLands."
@@ -2895,7 +2895,7 @@ msgstr "Ces types sont vraiment bêtes comme leur pieds !"
 
 #: Story/S1-WAND2.c:112
 msgid "I'm embarrassed that I got captured in the first place."
-msgstr "En fait j'ai honte de m'être fait capturé."
+msgstr "En fait j'ai honte de m'être fait capturer."
 
 #: Story/S1-WAND2.c:131
 msgid "When I was captured at the Goblin Sanctuary I did notice something."
@@ -2927,7 +2927,7 @@ msgstr "Pendant que j'ai emprisonné, les gobelins ont dit que du côté des fal
 
 #: Story/S1-WAND2.c:144
 msgid "There was a wizard that they were fighting, they thought"
-msgstr "ils combataient un magicien, ils pensaient"
+msgstr "ils combattaient un magicien, ils pensaient"
 
 #: Story/S1-WAND2.c:145
 msgid "they could actually get his magic if they defeated him."
@@ -2935,11 +2935,11 @@ msgstr "qu'ils pourraient avoir sa magie s'ils arrivaient à le vaincre."
 
 #: Story/S1-WAND2.c:146
 msgid "Anyway they said this guy could actually turn people to ice!!"
-msgstr "Cependant ils ont dit que ce type pouvaient transformer les gens en glace !!"
+msgstr "Cependant ils ont dit que ce type pouvait transformer les gens en glace !!"
 
 #: Story/S1-WAND2.c:147
 msgid "I'd guess they lost about 30 troops before they gave up."
-msgstr "Je crois qu'ils ont perdus 30 troupes avant d'abandonner."
+msgstr "Je crois qu'ils ont perdu 30 troupes avant d'abandonner."
 
 #: Story/S1-WAND2.c:151
 msgid "I hear your Mom's a slut.  But that's just the word on"
@@ -3051,7 +3051,7 @@ msgstr "Bien sûr que je suis ici.. mais pas physiquement."
 
 #: Story/S1-WIZ.c:57
 msgid "If you would like to learn more.. Come to my hidden cabin."
-msgstr "Si tu veux en apprendre davantages.. Viens dans ma cabane cachée."
+msgstr "Si tu veux en apprendre davantage.. Viens dans ma cabane cachée."
 
 #: Story/S1-WIZ.c:59
 msgid "How am I supposed to find it if it's hidden?"
@@ -3059,7 +3059,7 @@ msgstr "Comment puis-je la trouver si elle est cachée ?"
 
 #: Story/S1-WIZ.c:61
 msgid "Good point.  It lies behind some trees north-east of here."
-msgstr "Bonne question.  Elle se situe derrière quelques arbres au Nord-Est d'ici."
+msgstr "Bonne question.  Elle se situe derrière quelques arbres au nord-est d'ici."
 
 #: Story/S1-WIZ.c:63
 msgid "Ok, I may drop by later.. are you in a circus?"
@@ -3199,7 +3199,7 @@ msgstr "Vante-toi d'avoir sauvé le monde"
 
 #: Story/S2-AUNTP.c:218
 msgid "I just wanted to say, thanks for letting me stay with you."
-msgstr "Je voulais juste dir, merci de me laisser vivre ici."
+msgstr "Je voulais juste dire, merci de me laisser vivre ici."
 
 #: Story/S2-AUNTP.c:220
 msgid "It's really no problem, Dink.  Have you been looking for a job at all?"
@@ -3275,7 +3275,7 @@ msgstr "J'ai peur de lui.  Il me retrouverait."
 
 #: Story/S2-AUNTP.c:272
 msgid "Well maybe I'll just have to do something about it myself."
-msgstr "Peut-être que je vais devoir faire quelque-chose moi-même."
+msgstr "Peut-être que je vais devoir faire quelque chose moi-même."
 
 #: Story/S2-AUNTP.c:274
 msgid "Be careful!  He's very strong,"
@@ -3343,7 +3343,7 @@ msgstr "Et j'ai du travail qui m'attend."
 
 #: Story/S2-AUNTP.c:326
 msgid "Hey guess what, I just got back from a huge adventure."
-msgstr "Hé devines quoi, je reviens tout juste d'une grande adventure."
+msgstr "Hé devines quoi, je reviens tout juste d'une grande aventure."
 
 #: Story/S2-AUNTP.c:328
 msgid "That's great."
@@ -3399,7 +3399,7 @@ msgstr "Encaisse comme un homme, femme !"
 
 #: Story/S2-AUNTP.c:376
 msgid "Please.. please don't hit me!"
-msgstr "S'îl te plaît.. s'il te plaît ne me frappe pas !"
+msgstr "S'il te plaît.. s'il te plaît ne me frappe pas !"
 
 #: Story/S2-AUNTP.c:378
 msgid "I hope you like it rough!"
@@ -3487,7 +3487,7 @@ msgstr "<appuie sur un bouton sous le comptoir>"
 
 #: Story/S2-BAR.c:219
 msgid "Guards!! Help me, destroy this madman!"
-msgstr "Guardes !! Aidez-moi, éliminez ce fou !"
+msgstr "Gardes !! Aidez-moi, éliminez ce fou !"
 
 #: Story/S2-BAR.c:222
 msgid "Let's play."
@@ -3523,7 +3523,7 @@ msgstr "héros par ici.  Oh, et mes employés sont flemmards, c'est à peu près
 
 #: Story/S2-CA-G.c:25
 msgid "Nice, you win the game, then start killing guards?  Get 'em!"
-msgstr "Bien, tu finis le jeu, et maintenant tu tue les gardes.  Attrappez-le !"
+msgstr "Bien, tu finis le jeu, et maintenant tu tue les gardes.  Attrapez-le !"
 
 #: Story/S2-CA-G.c:31
 msgid "The guy just hit me!  I am now going to kill him."
@@ -3567,7 +3567,7 @@ msgstr "Parle-moi de notre bon Roi."
 
 #: Story/S2-CA-G.c:66
 msgid "King Daniel has ruled with an iron hand for nearly a decade now."
-msgstr "Le Roi Daniel a reigné d'une main de fer depuis presque dix ans maintenant."
+msgstr "Le Roi Daniel a régné d'une main de fer depuis presque dix ans maintenant."
 
 #: Story/S2-CA-G.c:68
 msgid ""
@@ -3601,7 +3601,7 @@ msgstr "Et vous êtes ?"
 msgid ""
 "I've never heard of you.  Please, go back to your village and play hero "
 "there."
-msgstr "Je n'ai jamais entendu parler de vous.  Retournez-donc dans votre village et jouez-y au héros."
+msgstr "Je n'ai jamais entendu parler de vous.  Retournez donc dans votre village et jouez-y au héros."
 
 #: Story/S2-CA-G.c:99 Story/S2-CA-G.c:108
 msgid "Ah, the one that saved that little girl.  Nice work."
@@ -3625,7 +3625,7 @@ msgstr "Bonjour, Smallwood.  Félicitations pour avoir déjoué cette attaque à
 
 #: Story/S2-CA-G.c:120
 msgid "It was no more than any other man would have done."
-msgstr "N'import qui autre aurait fait de même."
+msgstr "N'importe qui autre aurait fait de même."
 
 #: Story/S2-CA-G.c:122
 msgid "But alas, the King is visiting abroad."
@@ -3749,7 +3749,7 @@ msgstr "Hmm, juste mon sort boule de feu."
 
 #: Story/S2-CAVE.c:62
 msgid "I don't think that'll cut it."
-msgstr "Je ne pense pas que ça va suffir."
+msgstr "Je ne pense pas que ça va suffire."
 
 #: Story/S2-CAVE.c:64
 msgid "Try in town, someone there's gotta know something."
@@ -4157,7 +4157,7 @@ msgstr "Comment peut-on vénérer une dépouille en décomposition ?!"
 
 #: Story/S2-CULT.c:115
 msgid "I think the Carcass would appreciate another sacrifice, Bishop Nelson."
-msgstr "Je vois que la Carcasse aprécierait un autre sacrifice, Bishop Nelson."
+msgstr "Je vois que la Carcasse apprécierait un autre sacrifice, Bishop Nelson."
 
 #: Story/S2-CULT.c:117
 msgid "Excellent point, Jennifer."
@@ -4245,7 +4245,7 @@ msgstr "Aïe !"
 
 #: Story/S2-H1-S.c:7
 msgid "Whoa, this place looks abandoned..."
-msgstr "Wouah, cet endroit a l'air abandonné..."
+msgstr "Ouah, cet endroit a l'air abandonné..."
 
 #: Story/S2-H1-S.c:8
 msgid "must've been the monsters nearby."
@@ -4253,7 +4253,7 @@ msgstr "Ce doit être les monstres aux alentours."
 
 #: Story/S2-H2-S.c:6
 msgid "Not a bad little room.  I think I'm going to enjoy my stay."
-msgstr "Pas mauvaise cette petit chambre.  Je crois que je vais aprécier mon séjour."
+msgstr "Pas mauvaise cette petit chambre.  Je crois que je vais apprécier mon séjour."
 
 #: Story/S2-H2-S.c:8
 msgid "Except for that guy Jack..."
@@ -4261,7 +4261,7 @@ msgstr "Sauf ce Jack..."
 
 #: Story/S2-HEALP.c:62 Story/S4-HEALP.c:63
 msgid "You don't have enough gold to buy elixer."
-msgstr "Vous n'avez pas assez d'or pour acheter un elixir."
+msgstr "Vous n'avez pas assez d'or pour acheter un élixir."
 
 #: Story/S2-HEALP.c:79 Story/S2-OUT.c:55 Story/S4-HEALP.c:80
 msgid "Please don't wreck the place, thanks."
@@ -4273,7 +4273,7 @@ msgstr "\"Vous êtes en pleine forme, monsieur.\""
 
 #: Story/S2-HEALP.c:98 Story/S2-HEALP.c:124
 msgid "Buy a bottle of elixer for $25"
-msgstr "Achète une bouteille d'elixier pour 25$"
+msgstr "Achète une bouteille d'élixir pour 25$"
 
 #: Story/S2-HEALP.c:121 Story/S4-HEALP.c:122
 msgid "\"You are injured!  It will cost $&amount gold to heal you.\""
@@ -4329,7 +4329,7 @@ msgstr "C'est vraiment gentil à toi de me laisser rester ici et tout."
 
 #: Story/S2-JACK.c:48
 msgid "<grumble>  You find a new place tomorrow."
-msgstr "<gromelle>  Trouves-toi un autre endroit dès demain."
+msgstr "<grommelle>  Trouves-toi un autre endroit dès demain."
 
 #: Story/S2-JACK.c:53
 msgid "Hey Jack!"
@@ -4341,7 +4341,7 @@ msgstr "Oui ?"
 
 #: Story/S2-JACK.c:57
 msgid "Eat me!"
-msgstr "Attrappe-moi !"
+msgstr "Attrape-moi !"
 
 #: Story/S2-JACK.c:59
 msgid "Why you little!!  Take this!"
@@ -4527,7 +4527,7 @@ msgstr "J'ai peut-être alimenté ce grand feu il y a quelques saisons."
 
 #: Story/S2-MAN2.c:90
 msgid "Quite toasty things got!"
-msgstr "Ça a bien crâmé !"
+msgstr "Ça a bien cramé !"
 
 #: Story/S2-MAN2.c:91
 msgid "Whatever, you've had too much to drink."
@@ -4543,7 +4543,7 @@ msgstr "Moui, pourquoi faire ?"
 
 #: Story/S2-MAN2.c:97
 msgid "I hear there's a cave to the northeast with quite a catch inside it."
-msgstr "J'ai etendu fire qu'il y a une grotte au nord-est d'ici avec un joli butin à l'intérieur."
+msgstr "J'ai entendu dire qu'il y a une grotte au nord-est d'ici avec un joli butin à l'intérieur."
 
 #: Story/S2-MAN2.c:98
 msgid "I don't know..."
@@ -4571,7 +4571,7 @@ msgstr "Discute avec les hommes"
 
 #: Story/S2-MAN2.c:130
 msgid "Greetings men.  I bring stories of my adventures from the East."
-msgstr "Bonjour messieurs.  Je vous apporte de récit de mes aventures dans l'Est."
+msgstr "Bonjour messieurs.  Je vous apporte de récit de mes aventures dans l'est."
 
 #: Story/S2-MAN2.c:137
 msgid "Oh really?  And who might you be?"
@@ -4587,7 +4587,7 @@ msgstr "Tu as eu des aventures, hein ?"
 
 #: Story/S2-MAN2.c:144
 msgid "Oh yes.  Once, I was in this really scary cave..."
-msgstr "Oh oui.  Un fois j'étais dans cette grotte effrante..."
+msgstr "Oh oui.  Un fois j'étais dans cette grotte effrayante..."
 
 #: Story/S2-MAN2.c:146
 msgid "Yes, go on!"
@@ -5000,7 +5000,7 @@ msgstr "Vous savez que je n'ai rien !  Regardez mon garde-manger !"
 
 #: Story/S2-NADP.c:103
 msgid "No thanks.  Also, your arms look pointy and stupid."
-msgstr "No merci.  Et puis vos bras ont l'air tout pointus et bêtes."
+msgstr "Non merci.  Et puis vos bras ont l'air tout pointus et bêtes."
 
 #: Story/S2-NADP.c:105
 msgid "How dare you!"
@@ -5100,7 +5100,7 @@ msgstr "Suis moi..."
 
 #: Story/S2-RYAN3.c:29
 msgid "Now if I can just pick this lock..."
-msgstr "Maitenant si j'arrive à crocheter cette serrure..."
+msgstr "Maintenant si j'arrive à crocheter cette serrure..."
 
 #: Story/S2-RYAN3.c:32
 msgid "What are we doing?"
@@ -5256,7 +5256,7 @@ msgstr "Maison de Nadine"
 msgid ""
 "Danger! Murkwood Forest - Has been magically sealed shut by decree of King "
 "Daniel."
-msgstr "Danger ! Forêt de Murkwood Forest - Scellée magiquement par décret du Roi Daniel "
+msgstr "Danger ! Forêt de Murkwood - Scellée magiquement par décret du Roi Daniel "
 
 #: Story/S2-SK.c:3
 msgid "Residence of Jack and Maria Kneedlewood"
@@ -5276,7 +5276,7 @@ msgstr "Bienvenue dans la ville de Terris"
 
 #: Story/S2-T2S.c:8
 msgid "South to KernSin"
-msgstr "Au Sud : KenrSin"
+msgstr "Au Sud : KernSin"
 
 #: Story/S2-TABLE.c:3
 msgid "A small wooden table."
@@ -5292,7 +5292,7 @@ msgstr "Merci de nous avoir aider à attraper ce type, Dink."
 
 #: Story/S2-TDS.c:47
 msgid "Yeah, he's been hounding us for a long time."
-msgstr "Ouis, nous le traquions depuis un bon moment."
+msgstr "Oui, nous le traquions depuis un bon moment."
 
 #: Story/S2-TDS.c:49
 msgid "Oh, uh .. glad to be of assistance guys."
@@ -5416,7 +5416,7 @@ msgstr "dans cette contrée."
 
 #: Story/S2-WAND.c:109
 msgid "It's said they launched attack and attack from it,"
-msgstr "Ils disent qu'ils lancaient attaque après attaque depuis cette base,"
+msgstr "Ils disent qu'ils lançaient attaque après attaque depuis cette base,"
 
 #: Story/S2-WAND.c:111
 msgid "terrorizing the land."
@@ -5588,7 +5588,7 @@ msgstr "Ouais ouais, qu'est-ce que vous fabriquez ??"
 
 #: Story/S3-BH.c:29
 msgid "What do you mean?"
-msgstr "Qu'est-ce que vous voulez-dire ?"
+msgstr "Qu'est-ce que vous voulez dire ?"
 
 #: Story/S3-BH.c:31
 msgid "I mean you just barging in here, no knocking, nothing!"
@@ -5604,7 +5604,7 @@ msgstr "Et il y a ... quelque chose de MAL à cela ?"
 
 #: Story/S3-BH.c:40
 msgid "YES, now get the HELL OUT!!"
-msgstr "OUI, maintenant DEBARASSE LE PLANCHER !!"
+msgstr "OUI, maintenant DÉBARRASSE LE PLANCHER !!"
 
 #: Story/S3-BH.c:46
 msgid "Nope, just looking through houses and stuff."
@@ -5720,7 +5720,7 @@ msgstr "Achevez-le."
 
 #: Story/S3-CHICK.c:15
 msgid "** FIXING BUG.. RESETTING GOBLIN VILLAGE **"
-msgstr "** CORRECTION DE BUG.. RÉINITIALISATION DU VILLAGE GOBELIN **"
+msgstr "** CORRECTION DE BOGUE.. RÉ-INITIALISATION DU VILLAGE GOBELIN **"
 
 #: Story/S3-CHICK.c:27
 msgid "Ask what she does"
@@ -5752,7 +5752,7 @@ msgstr "Tu fais un petit tour en ville ?"
 
 #: Story/S3-CHICK.c:46
 msgid "I was just taking a look at the town square."
-msgstr "Je jettais juste un œil au square de la ville."
+msgstr "Je jetais juste un œil au square de la ville."
 
 #: Story/S3-CHICK.c:48
 msgid "What for?"
@@ -5789,7 +5789,7 @@ msgstr "Hmm"
 
 #: Story/S3-CHICK.c:72
 msgid "You know, I've heard some things about this parade."
-msgstr "Tu said, j'ai entendu dire des choses sur cette parade."
+msgstr "Tu sais, j'ai entendu dire des choses sur cette parade."
 
 #: Story/S3-CHICK.c:74
 msgid "Yeah me too, everyone's happy as can be."
@@ -5881,7 +5881,7 @@ msgstr "l'un d'entre eux l'a attaqué.  C'est très de nos jours."
 
 #: Story/S3-CHICK.c:145
 msgid "That could be something, I'll check it out."
-msgstr "C'est peut-être une piste, je vais investiguer."
+msgstr "C'est peut-être une piste, je vais enquêter."
 
 #: Story/S3-CHICK.c:153
 msgid "Take a look at this!"
@@ -5909,7 +5909,7 @@ msgstr "Nous devons les arrêter !"
 
 #: Story/S3-CHICK.c:164
 msgid "Quick, get this information to my father ... hurry!"
-msgstr "Vite, montre ces informations à mon père ... fais-vite !"
+msgstr "Vite, montre ces informations à mon père ... fais vite !"
 
 #: Story/S3-CHICK.c:180
 msgid "Hey watch it sucka!"
@@ -5965,7 +5965,7 @@ msgstr "Préparez vous à aller !!"
 
 #: Story/S3-FREAK.c:82
 msgid "Get lost!! You have completely destroyed my act!"
-msgstr "Va t-en !! Tu as complètement détruit mon spectacle !"
+msgstr "Va-t-en !! Tu as complètement détruit mon spectacle !"
 
 #: Story/S3-FREAK.c:90
 msgid "What do you want man?  I gotta keep moving!"
@@ -6073,7 +6073,7 @@ msgstr "Ouais bon, ne te fais pas soucis ..."
 
 #: Story/S3-FREAK.c:160
 msgid "we're practicing for next year."
-msgstr "nous nous entraînons puor l'année prochaine."
+msgstr "nous nous entraînons pour l'année prochaine."
 
 #: Story/S3-FREAK.c:162
 msgid "Aww man..."
@@ -6537,7 +6537,7 @@ msgstr "Qu'est-ce que c'est ?  Tu as bien appris notre langue, Mog."
 #: Story/S3-MOG.c:20
 msgid ""
 "Of course.  I was raised by.. what is this?  My comrades litter the ground!"
-msgstr "Bien sûr.  J'ai été élevé par.. qu'est-ce que ceci ?  Mes caramades sont à terre !"
+msgstr "Bien sûr.  J'ai été élevé par.. qu'est-ce que ceci ?  Mes camarades sont à terre !"
 
 #: Story/S3-MOG.c:22
 msgid "It was I who fell them."
@@ -6573,7 +6573,7 @@ msgstr "Aidez-moi !  Ce type deviens fou !"
 
 #: Story/S3-PEEPS.c:41
 msgid "Guards!!! Over here!!!"
-msgstr "Guards !!! Par ici !!!"
+msgstr "Gardes !!! Par ici !!!"
 
 #: Story/S3-PEEPS.c:43
 msgid "Help!! This Dink guy is no hero, he was behind the attack!"
@@ -6793,7 +6793,7 @@ msgstr "Pas grand chose, tout est plutôt calme"
 
 #: Story/S3-ST1P.c:99
 msgid "people are waiting for the parade to happen soon."
-msgstr "les gens attedent la parade qui va bientôt avoir lieu."
+msgstr "les gens attendent la parade qui va bientôt avoir lieu."
 
 #: Story/S3-ST1P.c:115
 msgid "Oh my golly gosh, please don't hurt me mister..."
@@ -6973,11 +6973,11 @@ msgstr "C'est l'autel aux canards de la ville."
 
 #: Story/S4-DG.c:28
 msgid "We worship them here."
-msgstr "Nous le vénerrons ici."
+msgstr "Nous le vénérons ici."
 
 #: Story/S4-DG.c:30
 msgid "Oh, I thought it might be a ranch or something."
-msgstr "Oh, je pensais que c'était un ... ou quelque chose comme ça."
+msgstr "Oh, je pensais que c'était un ranch ou quelque chose comme ça."
 
 #: Story/S4-DG.c:32
 msgid "On some occasions we do offer food here to the ducks."
@@ -7651,7 +7651,7 @@ msgstr "Comment faites-vous pour la nourriture ?"
 
 #: Story/S4-ST2P.c:39
 msgid "Oh me?  Well I'm not from these parts, and know how to"
-msgstr "Oh moi ?  En fait je ne suis pas d'ici, et je sias comment"
+msgstr "Oh moi ?  En fait je ne suis pas d'ici, et je sais comment"
 
 #: Story/S4-ST2P.c:41
 msgid "make foods from other things.  I live on soups and herbs,"
@@ -7759,7 +7759,7 @@ msgstr "C'est quoi c't'endroit, tu demandes ?  Tu vois pas tout seul ?!"
 
 #: Story/S4-ST3P.c:190
 msgid "This be Blistering Pete's weapons shop,"
-msgstr "C'est l'armurerie de Pete le Bourssouflé,"
+msgstr "C'est l'armurerie de Pete le Boursouflé,"
 
 #: Story/S4-ST3P.c:192
 msgid "Sharpest blades this side of the sea."
@@ -7879,7 +7879,7 @@ msgstr "Peu importe, nous somme très reconnaissants."
 
 #: Story/S5-END.c:22
 msgid "Those two dragons have been on the rampage for a month."
-msgstr "Ces deux dragons ont fait un carnage dupuis un mois."
+msgstr "Ces deux dragons ont fait un carnage depuis un mois."
 
 #: Story/S5-END.c:24
 msgid "It all started when we built this town on their nest."
@@ -7888,7 +7888,7 @@ msgstr "Tout a commencé quand nous avons construit cette ville près de leur ni
 #: Story/S5-END.c:26
 msgid ""
 "So basically, I just killed two innocent Dragons for protecting their own?"
-msgstr "Alors en fait, j'ai tué deux dragons innocents juste parce qu'ils protégaient les leurs ?"
+msgstr "Alors en fait, j'ai tué deux dragons innocents juste parce qu'ils protégeaient les leurs ?"
 
 #: Story/S5-END.c:28
 msgid "Um.. gotta get back to the store, see ya later."
@@ -7940,7 +7940,7 @@ msgstr "Noooon !  La mère est morte !  J'AI ÉCHOUÉ !!!!!!!"
 
 #: Story/S5-FMOM.c:34
 msgid "My daughter is just about your age."
-msgstr "Ma fille a le même age que vous.."
+msgstr "Ma fille a le même âge que vous.."
 
 #: Story/S5-GUY.c:27
 msgid "Look!  Someone came down!"
@@ -8004,7 +8004,7 @@ msgstr "Tu es un assassin n'est-ce pas ?"
 
 #: Story/S5-ST1P.c:20
 msgid "So, hitting the owner of a weapons store huh?"
-msgstr "Alors, tu t'e prends au propriétaire d'un magasin d'armes hein ?"
+msgstr "Alors, tu t'en prends au propriétaire d'un magasin d'armes hein ?"
 
 #: Story/S5-ST1P.c:21
 msgid "Some people."
@@ -8016,7 +8016,7 @@ msgstr "Tu n'as pas assez d'argent pour acheter ça."
 
 #: Story/S5-ST1P.c:70
 msgid "\"What will it be, hero?\""
-msgstr "\"Qu'est-ce que ce sera, héro ?\""
+msgstr "\"Qu'est-ce que ce sera, héron ?\""
 
 #: Story/S5-ST1P.c:72
 msgid "Throwing Axe - $3000"
@@ -8120,7 +8120,7 @@ msgstr "J'ai tué Seth."
 
 #: Story/S6-ST1P.c:98
 msgid "Praise be!  You are a true hero, Dink!"
-msgstr "Dieu soit loué !  Tu es un vrai héro, Dink !"
+msgstr "Dieu soit loué !  Tu es un vrai héros, Dink !"
 
 #: Story/S6-ST1P.c:108
 msgid "Please Dink, you must hurry to your friend."
@@ -8253,7 +8253,7 @@ msgstr "Et je suppose que vous savez tout."
 
 #: Story/S6-VEND.c:60
 msgid "Nope.  If I did, I doubt I would want to live it."
-msgstr "Non.  Si c'étais le cas, je voudrais probablement pas le vivre."
+msgstr "Non.  Si c'était le cas, je voudrais probablement pas le vivre."
 
 #: Story/S6-VEND.c:62
 msgid "I'll just be leaving now."
@@ -8289,7 +8289,7 @@ msgstr "Ça... me ressemble."
 
 #: Story/S7-DRAG.c:77 Story/s7-boss.c:84
 msgid "<Casts greater harm>"
-msgstr "<Sort : plus de dégats>"
+msgstr "<Sort : plus de dégâts>"
 
 #: Story/S7-GIRL.c:25
 msgid "I'm hungry mommy."
@@ -8297,7 +8297,7 @@ msgstr "J'ai faim maman."
 
 #: Story/S7-GIRL.c:32
 msgid "I feel so old.. yet why have I not aged?"
-msgstr "Je me sens si agée.. et pourtant pourquoi est-ce que je ne vieilli pas ?"
+msgstr "Je me sens si âgée.. et pourtant pourquoi est-ce que je ne vieilli pas ?"
 
 #: Story/S7-GIRL.c:39
 msgid "Last thing I remember is that group of knights.. and blood."
@@ -8425,7 +8425,7 @@ msgstr "NOOON !  C'EST LUI !"
 
 #: Story/S7-MIL.c:110
 msgid "What the!??!  Who the hell are you?"
-msgstr "Qu'estr-ce que !??!  Qui diable êtes-vous ?"
+msgstr "Qu'est-ce que !??!  Qui diable êtes-vous ?"
 
 #: Story/S7-MIL.c:112
 msgid "I am the beginning and the end."
@@ -8713,7 +8713,7 @@ msgstr "* ARC DE FEU ACHETÉ *"
 
 #: Story/S8-SIGN.c:3
 msgid "Blistering Pete waz here"
-msgstr "Pete le Boussouflé était ici"
+msgstr "Pete le Boursouflé était ici"
 
 #: Story/S8-WELL.c:3
 msgid "I want to draw blood, not water!"
@@ -8793,7 +8793,7 @@ msgstr "Que ... qu'en est-il de la ville de KernSin ?"
 
 #: Story/SC-WIZ.c:50
 msgid "Ooooo, well, both the city and its castle were destroyed"
-msgstr "Ooooo, hé bien, la ville et son château ont été detruits"
+msgstr "Oooooh, hé bien, la ville et son château ont été détruits"
 
 #: Story/SC-WIZ.c:52
 msgid "during the last part of the war 100 years ago."
@@ -8869,7 +8869,7 @@ msgstr "les Terres Obscures quand je suis arrivé ici, je dois porter secours à
 
 #: Story/SC-WIZ.c:90
 msgid "Be careful Dink, whoever is behind this is probably an ancient,"
-msgstr "Sois prudent Dink, qui que ce soit, c'est probablement un ancient,"
+msgstr "Sois prudent Dink, qui que ce soit, c'est probablement un ancien,"
 
 #: Story/SC-WIZ.c:92
 msgid "making it all seem to be someone else."

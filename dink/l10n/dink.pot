@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-14 19:31+0100\n"
+"PO-Revision-Date: 2009-01-25 11:02+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -7255,7 +7255,7 @@ msgstr ""
 msgid "Thank you, small one."
 msgstr ""
 
-#: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58 Story/START-3.c:99
+#: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58
 msgid "Yes."
 msgstr ""
 
@@ -8875,58 +8875,6 @@ msgstr ""
 
 #: Story/START-2.c:98
 msgid "Try loading a saved game that exists, friend."
-msgstr ""
-
-#: Story/START-3.c:35
-msgid "The price"
-msgstr ""
-
-#: Story/START-3.c:36
-msgid "How to order"
-msgstr ""
-
-#: Story/START-3.c:42
-msgid "Call toll free 1-888-218-3881 to order."
-msgstr ""
-
-#: Story/START-3.c:44
-msgid "Or, order ONLINE (securely) at www.rtsoft.com/dink/"
-msgstr ""
-
-#: Story/START-3.c:51
-msgid "Preorder now for only $15 + 4.95 shipping! (within US)"
-msgstr ""
-
-#: Story/START-3.c:53
-msgid "(preorder price valid until 10-31-97)"
-msgstr ""
-
-#: Story/START-3.c:62
-msgid "Wait a minute!"
-msgstr ""
-
-#: Story/START-3.c:69
-msgid "Hi."
-msgstr ""
-
-#: Story/START-3.c:96
-msgid "This game is only $15?"
-msgstr ""
-
-#: Story/START-3.c:100
-msgid "Is this some kind of joke?  This ain't funny."
-msgstr ""
-
-#: Story/START-3.c:102
-msgid "Nope, no joke."
-msgstr ""
-
-#: Story/START-3.c:111
-msgid "Incredible!!!  Thank you magic voice."
-msgstr ""
-
-#: Story/START-3.c:115
-msgid "Anytime."
 msgstr ""
 
 #: Story/START.c:79

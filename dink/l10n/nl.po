@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-13 21:30+0100\n"
+"PO-Revision-Date: 2009-01-25 11:00+0100\n"
 "Last-Translator: Nanette <clubs_shetlandpony@hotmail.com>\n"
 "Language-Team: XX <xx@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -12,15 +12,8 @@ msgstr ""
 
 #: Story/1GOLD.c:16 Story/LGOLD.c:28 Story/MGOLD.c:29 Story/SGOLD.c:16
 #: Story/XLGOLD.c:29
-#, fuzzy
 msgid "I found &mcrap gold."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik heb &mcrap euro gevonden.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik vond &mcrap euro.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik heb &mcrap euro gevonden."
+msgstr "Ik heb &mcrap euro gevonden."
 
 #: Story/APOTION.c:20
 msgid "Megapotion!  All stats raised by one."
@@ -75,57 +68,41 @@ msgid "I'm a bottle, not a duck.  Even though I sound like one.  Funny, eh?"
 msgstr "Ik ben een fles, geen eend. Al klink ik wel als een eend. Vreemd hè?"
 
 #: Story/EN-DRAG.c:78 Story/SC-DRAG.c:77
-#, fuzzy
 msgid "<Casts harm>"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"<Brengt letsel aan>\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"<veroorzaakt letsel>"
+msgstr "<Brengt letsel aan>"
 
 #: Story/EN-DRAG.c:96 Story/S7-DRAG.c:95 Story/SC-DRAG.c:95
 #: Story/s7-boss.c:102
-#, fuzzy
 msgid "Magic resisted."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik ben bestand tegen magie.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Bestand tegen magie.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Bestand tegen tovenarij.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Magie kan me niet verwonden."
+msgstr "Bestand tegen magie."
 
 #: Story/EN-GH.c:47 Story/EN-GS.c:46 Story/S3-GH.c:47 Story/S3-GS.c:46
 msgid "Gro'k ki owab dakis gedi!"
-msgstr ""
+msgstr "Gro'k ki owab dakis gedi!"
 
 #: Story/EN-GH.c:49 Story/EN-GS.c:48 Story/S3-GH.c:49 Story/S3-GS.c:48
 msgid "Tig glock sigre!"
-msgstr ""
+msgstr "Tig glock sigre!"
 
 #: Story/EN-GH.c:51 Story/EN-GS.c:50 Story/S3-GH.c:51 Story/S3-GS.c:50
 msgid "Oston tewers inat'l meen o mistary!"
-msgstr ""
+msgstr "Oston tewers inat'l meen o mistary!"
 
 #: Story/EN-GH.c:53 Story/EN-GS.c:52 Story/S3-GH.c:53 Story/S3-GS.c:52
 msgid "Hoglim dack byork!"
-msgstr ""
+msgstr "Hoglim dack byork!"
 
 #: Story/ESCAPE.c:12
 msgid "Restart"
 msgstr "Opnieuw starten "
 
 #: Story/ESCAPE.c:13
-#, fuzzy
 msgid "Quit to system"
-msgstr "Terug naar Windows"
+msgstr ""
 
 #: Story/ESCAPE.c:14
-#, fuzzy
 msgid "Help"
-msgstr "Hallo."
+msgstr "Help"
 
 #: Story/ESCAPE.c:15
 msgid "Continue"
@@ -157,9 +134,8 @@ msgid "Phew, that was a close one!"
 msgstr "Phew, dat was op het nippertje!"
 
 #: Story/ESCAPE.c:108
-#, fuzzy
 msgid "What would you like help on?"
-msgstr "Hoe bedoel je?"
+msgstr ""
 
 #: Story/ESCAPE.c:110
 msgid "Keyboard commands"
@@ -204,9 +180,8 @@ msgstr ""
 #: Story/S5-ST1P.c:38 Story/S5-ST1P.c:51 Story/S6-ST1P.c:20 Story/S6-ST1P.c:33
 #: Story/S6-ST1P.c:57 Story/S6-ST1P.c:70 Story/S6-VEND.c:98
 #: Story/S6-VEND.c:114 Story/S8-GUY.c:65
-#, fuzzy
 msgid "Ok"
-msgstr "Dat hoef je me geen tweede keer te zeggen!!"
+msgstr "Ok"
 
 #: Story/ESCAPE.c:138
 msgid "In this quest, saving your game can"
@@ -334,7 +309,7 @@ msgstr "Yummie, dat smaakt lekker."
 
 #: Story/ITEM-P1.c:7
 msgid "Vas Neeko Matrid Osana"
-msgstr ""
+msgstr "Vas Neeko Matrid Osana"
 
 #: Story/ITEM-PIG.c:85
 msgid "Come on pigs, eat!"
@@ -390,23 +365,23 @@ msgstr "Er zijn nog meer dan honderd andere avonturen!"
 
 #: Story/KING.c:32
 msgid "Get them (and other great games!) at www.rtsoft.com"
-msgstr "Speciale dank aan de volgende mensen:"
+msgstr ""
 
 #: Story/KING.c:34
 msgid "Or make your own, download the free development kit."
-msgstr "Justin - sorry dat ik je bloed heb laten maken;)"
+msgstr ""
 
 #: Story/KING.c:36
 msgid "Special thanks to the following:"
-msgstr "Pap - Groots level design en verhaal"
+msgstr "Speciale dank aan de volgende mensen:"
 
 #: Story/KING.c:38
 msgid "Justin - sorry I made you draw blood ;)"
-msgstr "Bedankt voor het spelen - Seth"
+msgstr "Justin - sorry dat ik je bloed heb laten maken;)"
 
 #: Story/KING.c:40
 msgid "Pap - Great level design and story (when you were here...)"
-msgstr "Het is zo het beste. Nou kom mee, dan gaan we hier gauw weg."
+msgstr "Pap - Groots level design en verhaal"
 
 #: Story/KING.c:42
 msgid "Shawn - corndogs are NOT the food of the God's"
@@ -418,7 +393,7 @@ msgstr ""
 
 #: Story/KING.c:46
 msgid "Thanks for playing - Seth"
-msgstr ""
+msgstr "Bedankt voor het spelen - Seth"
 
 #: Story/KING.c:49
 msgid "And now, food for my hungry hero!"
@@ -471,105 +446,8 @@ msgstr "Bied aan om Milder te helpen"
 #: Story/S4-ST3P.c:67 Story/S4-ST3P.c:182 Story/S5-ST1P.c:73
 #: Story/S6-FOUNT.c:12 Story/S6-ST1P.c:88 Story/S6-ST1P.c:158
 #: Story/S6-VEND.c:76 Story/S6-WARP.c:7 Story/S7-WARP.c:7 Story/S8-GUY.c:43
-#, fuzzy
 msgid "Leave"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg dat ze te duur zijn\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je hebt niet genoeg geld.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je hebt niet genoeg geld.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug"
+msgstr "Terug"
 
 #: Story/KING.c:147
 msgid "Well... I think you should lower the pig tax, sir."
@@ -641,12 +519,10 @@ msgid "Something very strange is happening to the world..."
 msgstr "Er is iets erg vreemds gaande in de wereld..."
 
 #: Story/KING.c:186
-#, fuzzy
 msgid "The darklands seem to be the origin.  Please be careful."
 msgstr "Het lijkt vanuit de donkere landen te komen. Wees voorzichtig!."
 
 #: Story/KING.c:188
-#, fuzzy
 msgid "Thank you.  I'll be back, and I won't be alone."
 msgstr "Dank u. Ik kom terug, en ik zal niet alleen zijn."
 
@@ -679,9 +555,8 @@ msgid "Increase Magic"
 msgstr "Verhoog je magie sterkte"
 
 #: Story/LRAISE.c:45
-#, fuzzy
 msgid "What a gyp!"
-msgstr "Tja dat is dan jammer hè."
+msgstr ""
 
 #: Story/PAPGOLD.c:15
 msgid "I found 200 gold!"
@@ -827,7 +702,6 @@ msgid "The King's News, issue 49."
 msgstr "Nieuws van de koning - nr 49."
 
 #: Story/POSTER.c:120
-#, fuzzy
 msgid "King Daniel sends Dink Smallwood to rescue Sir Milder!"
 msgstr "Koning Daniel stuurt Dink Smallwood om Heer Milder te redden!"
 
@@ -870,7 +744,6 @@ msgid "No news to report."
 msgstr "Geen nieuws op dit moment."
 
 #: Story/S1-BLOVE.c:10
-#, fuzzy
 msgid "Hey, that's Lyna with Milder Flatstomp!"
 msgstr "He, dat is Lyna met Milder Flatstomp!"
 
@@ -887,7 +760,6 @@ msgid "I have a mind too, you know."
 msgstr "Ik heb ook wat in te brengen weet je!."
 
 #: Story/S1-BLOVE.c:18
-#, fuzzy
 msgid "You kinda talk too much, you know that?"
 msgstr "Je praat teveel,  weet je dat?"
 
@@ -920,13 +792,8 @@ msgid "Buy his boots ($500)"
 msgstr "Koop de schoenen (500 euro)"
 
 #: Story/S1-BOOT.c:26 Story/S1-BOOT.c:27
-#, fuzzy
 msgid "Complain about the price"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Bespreek de prijs\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg dat ze te duur zijn"
+msgstr "Bespreek de prijs"
 
 #: Story/S1-BOOT.c:34
 msgid "You know, I bought the ones I'm wearing for only 1 piece of gold."
@@ -993,22 +860,16 @@ msgid "* HYPER BOOTS BOUGHT *"
 msgstr "* IK HEB BEWEGENDE SCHOENEN GEKOCHT*"
 
 #: Story/S1-BOOT.c:109 Story/S8-GUY.c:89
-#, fuzzy
 msgid "Help!!! Murderer!"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Help!!! moordenaar!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Help!!! Moordenaar!"
+msgstr "Help!!! Moordenaar!"
 
 #: Story/S1-BRG2.c:15
 msgid "Did something touch me?  A fly perhaps?"
 msgstr "Heeft iets mij geraakt? Een vlieg misschien?"
 
 #: Story/S1-BRG2.c:26
-#, fuzzy
 msgid "\"Hello good sir, the bridge toll is 100 gold.\""
-msgstr "Hallo jonge man, de tol is 100 euro."
+msgstr "\"Hallo jonge man, de tol is 100 euro.\""
 
 #: Story/S1-BRG2.c:28
 msgid "Pay the toll"
@@ -1080,7 +941,7 @@ msgstr "Eh.."
 
 #: Story/S1-BUL.c:37
 msgid "Um.."
-msgstr ""
+msgstr "Um.."
 
 #: Story/S1-BUL.c:39
 msgid "Bawahahahah!  See you around, squirt."
@@ -1099,35 +960,20 @@ msgid "I don't like this one bit..."
 msgstr "Ik vind dit maar niks..."
 
 #: Story/S1-CAVE.c:34 Story/S1-CAVES.c:35
-#, fuzzy
 msgid "Can we leave now? <shiver>"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Kan ik weg nu? <bibbert>\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Kan ik gaan nu? <bibbert>"
+msgstr "Kan ik gaan nu? <bibbert>"
 
 #: Story/S1-CAVE.c:36 Story/S1-CAVES.c:37
 msgid "I'm scared."
 msgstr "Ik ben bang."
 
 #: Story/S1-CAVE.c:38 Story/S1-CAVES.c:39
-#, fuzzy
 msgid "Why, that's a funny noise."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zo, das een eng geluid.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Wat is dat voor een vreemd geluid?."
+msgstr "Wat is dat voor een vreemd geluid?."
 
 #: Story/S1-CAVE.c:41 Story/S1-CAVES.c:42
-#, fuzzy
 msgid "This cave sucks, let's leave..."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Deze grot is niks voor mij, ik ga weg...\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik vind dit maar niks, ik ga weg..."
+msgstr "Ik vind dit maar niks, ik ga weg..."
 
 #: Story/S1-CAVEM.c:53
 msgid "Who dares enter my cave?"
@@ -1179,10 +1025,9 @@ msgstr "Probeer het maar, maar je zet je leven op het spel...."
 
 #: Story/S1-FMONS.c:16
 msgid "RRrrr ar a rar a  arrgghhh."
-msgstr ""
+msgstr "RRrrr ar a rar a  arrgghhh."
 
 #: Story/S1-FMONS.c:36 Story/S1-FMONS.c:40
-#, fuzzy
 msgid "You cannot win, Smallwood."
 msgstr "Je kan niet winnen Smallwood."
 
@@ -1219,9 +1064,8 @@ msgid "Thanks, I'll be ok."
 msgstr "Bedankt, het gaat prima met me."
 
 #: Story/S1-GG.c:33
-#, fuzzy
 msgid "By the way, a letter came for you.  It's at your house,"
-msgstr "Er is een brief voor je gekomen.  Hij ligt in je huis"
+msgstr "Er is een brief voor je gekomen.  Hij ligt in je huis,"
 
 #: Story/S1-GG.c:34
 msgid "you should go take a look at it."
@@ -1229,17 +1073,8 @@ msgstr "Ik denk dat je hem maar moet gaan lezen."
 
 #: Story/S1-GG.c:36 Story/S1-H3-OF.c:53 Story/S8-DUCK2.c:21
 #: Story/S8-DUCK2.c:41
-#, fuzzy
 msgid "Thanks."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Bedankt.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Dank u.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Dank je.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Dank je."
+msgstr "Dank je."
 
 #: Story/S1-GG.c:44
 msgid "Ask the guard to let you out."
@@ -1270,7 +1105,6 @@ msgid "My bed is going to burn up!"
 msgstr "Mijn bed is aan het verbranden!"
 
 #: Story/S1-H1-1.c:13
-#, fuzzy
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr "Dit is mijn bed! Zo netjes en schoon. Daar zorgt mijn moeder voor."
 
@@ -1448,7 +1282,6 @@ msgid "The villagers are very friendly.  Oh, Ethel wants to see you."
 msgstr "De dorpelingen zijn heel vriendelijk.  Oh, Ethel wil je even spreken."
 
 #: Story/S1-H1-M.c:117
-#, fuzzy
 msgid "Ethel?  She's old, isn't she?"
 msgstr "Ethel? Ze is oud, toch?."
 
@@ -1480,7 +1313,7 @@ msgstr "Auw! hou daarmee op!"
 
 #: Story/S1-H1-O.c:35
 msgid "Dink!!!"
-msgstr ""
+msgstr "Dink!!!"
 
 #: Story/S1-H1-O.c:38
 msgid "I .. I couldn't save her"
@@ -1559,7 +1392,6 @@ msgid "This bed smells kinda funny..."
 msgstr "Dit bed ruikt een beetje vreemd..."
 
 #: Story/S1-H2-1.c:13
-#, fuzzy
 msgid "You smell, therefore you die!!!"
 msgstr "Je stinkt, daarom sla ik je!!!"
 
@@ -1572,12 +1404,10 @@ msgid "Owww, I could cut myself!"
 msgstr "Owh! Ik had mezelf kunnen snijden aan de scherven!"
 
 #: Story/S1-H2-3.c:8
-#, fuzzy
 msgid "Man, party in this house!"
 msgstr "Man, feestje in dit huis"
 
 #: Story/S1-H2-3.c:13
-#, fuzzy
 msgid "Die stupid drinks!"
 msgstr "Val dood stomme drank"
 
@@ -1590,7 +1420,6 @@ msgid "Dink, noooooooo!!!"
 msgstr "Dink, neeeeeeee!!!"
 
 #: Story/S1-H2-DK.c:18
-#, fuzzy
 msgid "You little bastard!!"
 msgstr "Jij kleine etter!!"
 
@@ -1599,9 +1428,8 @@ msgid "Get out!!"
 msgstr "Wegwezen!!"
 
 #: Story/S1-H2-DK.c:22
-#, fuzzy
 msgid "Uh, sorry."
-msgstr "Oh ja, laat ik er maar eens heen gaan."
+msgstr ""
 
 #: Story/S1-H2-O.c:6
 msgid "Hello murderer!!"
@@ -1620,7 +1448,6 @@ msgid "Oh Dink, look who is here!"
 msgstr "Oh Dink, kijk eens wie hier is!"
 
 #: Story/S1-H2-O.c:26
-#, fuzzy
 msgid "Also Dink, your mother was looking for you."
 msgstr "Dink, voor ik het vergeet, je moeder zoekt je."
 
@@ -1734,7 +1561,6 @@ msgid "I.. I... didn't know... <begins to tear up>"
 msgstr "Ik.. ik... weet het niet... <begint te huilen>"
 
 #: Story/S1-H2-O.c:176
-#, fuzzy
 msgid "Hey Ethel, what's with all the spirits on the wall there?"
 msgstr "Hey Ethel, je hebt nogal een drank in de kasten staan hier."
 
@@ -1756,14 +1582,12 @@ msgid "waking up with guys you don't even know."
 msgstr "En dan wakker worden met een flinke kater."
 
 #: Story/S1-H2-O.c:183
-#, fuzzy
 msgid "Ahh the regrets, right Ethel?"
 msgstr "Dat had ik nou nooit van je gedacht hoor, Ethel."
 
 #: Story/S1-H2-O.c:185
-#, fuzzy
 msgid "Dink .."
-msgstr "AEn Dink..."
+msgstr "Dink..."
 
 #: Story/S1-H2-O.c:186
 msgid "You've got problems."
@@ -1778,7 +1602,6 @@ msgid "Stupid table!"
 msgstr "Stomme tafel!"
 
 #: Story/S1-H3-2.c:8
-#, fuzzy
 msgid "Mr.SmileStein's fertilizers and formulas."
 msgstr "Mr.SmileStien's drankjes en brouwsels."
 
@@ -1787,7 +1610,6 @@ msgid "Eat it smelly bottles!"
 msgstr "Pak aan vieze drankjes!"
 
 #: Story/S1-H3-3.c:9
-#, fuzzy
 msgid "Mr.SmileStein's bed, I shudder at what happens here."
 msgstr ""
 "Mr.SmileStien's bed, ik griezel als ik denk aan wat hierin allemaal gebeurd."
@@ -1797,13 +1619,8 @@ msgid "Ohh soft."
 msgstr "Ohh lekker zacht."
 
 #: Story/S1-H3-4.c:8 Story/S1-H3-7.c:8
-#, fuzzy
 msgid "A small table."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Een kleine tafel.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Een klein tafeltje"
+msgstr "Een kleine tafel."
 
 #: Story/S1-H3-4.c:13
 msgid "Ouch, splinters."
@@ -1862,15 +1679,8 @@ msgid "Brag about how you cleared their farm"
 msgstr "Schep op over hoe je hun boerderij hebt gered van de pillbugs"
 
 #: Story/S1-H3-L.c:21 Story/S4-H2P1.c:23 Story/S4-H2P3.c:23
-#, fuzzy
 msgid "Never mind"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ach laat maar\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Laat maar\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Laat maar"
+msgstr "Laat maar"
 
 #: Story/S1-H3-L.c:26
 msgid "Libby, what's wrong?  Why are you so upset?"
@@ -1916,42 +1726,39 @@ msgstr "Oh ... ik .... ik snap het."
 
 #: Story/S1-H3-L.c:47
 msgid "<sniff>"
-msgstr ""
+msgstr "<sniff>"
 
 #: Story/S1-H3-L.c:48
-#, fuzzy
 msgid "Is your father upset because you won't satisfy him?"
-msgstr "Is je vader overstuur omdat je hem niet goed helpt?."
+msgstr "Is je vader overstuur omdat je hem niet goed helpt?"
 
 #: Story/S1-H3-L.c:50
 msgid "DINK!!  What the hell's wrong with you??"
 msgstr "DINK!!  Wat is er met je aan de hand, je doet zo raar?"
 
 #: Story/S1-H3-L.c:51
-#, fuzzy
 msgid "It's been exactly one year since Mother died, that's why."
 msgstr "Het is precies een jaar geleden dat mijn moeder dood ging."
 
 #: Story/S1-H3-L.c:53
 msgid "Uhhh.  I ... uhm ..."
-msgstr "Sorry dat ik zo deed. Ik weet hoe je je voelt"
+msgstr "Uhhh.  I ... uhm ..."
 
 #: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
-#, fuzzy
 msgid "Oh"
-msgstr "Oh, dus dat weet je. Mooi zo. Begin daar alsjeblieft nooit mee!!"
+msgstr "Oh"
 
 #: Story/S1-H3-L.c:64
 msgid "I'm sorry about your mother.  But I know how you feel"
-msgstr "Ik ben zelf ook nog steeds erg verdrietig weet je."
+msgstr "Sorry dat ik zo deed. Ik weet hoe je je voelt"
 
 #: Story/S1-H3-L.c:65
 msgid "I'm pretty upset myself you know."
-msgstr "Dank je Dink, je hebt me toch weer een beetje blij gemaakt."
+msgstr "Ik ben zelf ook nog steeds erg verdrietig weet je."
 
 #: Story/S1-H3-L.c:66
 msgid "Thank you Dink, you've made me happy."
-msgstr "Ik ben overstuur omdat mijn vader ook overstuur is."
+msgstr "Dank je Dink, je hebt me toch weer een beetje blij gemaakt."
 
 #: Story/S1-H3-L.c:74
 msgid "Uhh, hehe, sorry for being so insensitive and saying those things."
@@ -1962,18 +1769,16 @@ msgid "Guess I shouldn't listen to rumors so much."
 msgstr "Ik moet ook niet naar al die geruchten en dat geroddel luisteren."
 
 #: Story/S1-H3-L.c:77
-#, fuzzy
 msgid "Uhh .. hehe ..he .."
-msgstr "Sorry dat ik zo deed. Ik weet hoe je je voelt"
+msgstr "Uhh .. hehe ..he .."
 
 #: Story/S1-H3-L.c:78
 msgid "Uhhhhh..."
-msgstr ""
+msgstr "Uhhhhh..."
 
 #: Story/S1-H3-L.c:79
-#, fuzzy
 msgid "Oh boy."
-msgstr "Ohh lekker zacht."
+msgstr "Oh boy."
 
 #: Story/S1-H3-L.c:87
 msgid "Don't cry Libby.  It's okay whatever it is."
@@ -2009,9 +1814,8 @@ msgid "...compared to your usual."
 msgstr "..als jij het zegt."
 
 #: Story/S1-H3-L.c:102
-#, fuzzy
 msgid "Dohh!"
-msgstr "Joehoe!"
+msgstr "Dohh!"
 
 #: Story/S1-H3-L.c:107
 msgid "Uh, never mind.  I have to get going now."
@@ -2062,7 +1866,6 @@ msgid "Ask to see Libby"
 msgstr "Vraag of je Libby mag zien"
 
 #: Story/S1-H3-OF.c:38
-#, fuzzy
 msgid "Get info about the farm"
 msgstr "Laat hem nog eens wat meer vertellen over de boerderij"
 
@@ -2075,13 +1878,8 @@ msgid "We're fine."
 msgstr "Het gaat prima."
 
 #: Story/S1-H3-OF.c:47 Story/S2-CA-G.c:59 Story/S2-WENCH.c:119
-#, fuzzy
 msgid "Ah."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Mooi.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ah, jammer"
+msgstr "Ah."
 
 #: Story/S1-H3-OF.c:50
 msgid "Dink, I'm so sorry about your mother."
@@ -2116,7 +1914,6 @@ msgid "Ask what he plans to do"
 msgstr "Vraag wat hij van plan is eraan te doen"
 
 #: Story/S1-H3-OF.c:72
-#, fuzzy
 msgid "Don't worry Mr. SmileStein, I'll take care of the problem."
 msgstr ""
 "Wees niet ongerust Mr. SmileStien, ik zal dat varkentje wel eens wassen."
@@ -2191,7 +1988,7 @@ msgstr "Dat is interessant.  Ik ben benieuwd wat hij daar verborgen houdt..."
 
 #: Story/S1-LG.c:15
 msgid "La la laaa La La"
-msgstr ""
+msgstr "La la laaa La La"
 
 #: Story/S1-LG.c:24
 msgid "Hey Dink, what's up?"
@@ -2255,7 +2052,6 @@ msgid "... gotta go"
 msgstr "... ik moet gaan"
 
 #: Story/S1-LG.c:98
-#, fuzzy
 msgid "Well, I heard that the SmileSteins have quite an abusive family now."
 msgstr "Ik heb gehoord dat de SmileStiens nogal ruzie maken de laatste tijd."
 
@@ -2300,7 +2096,6 @@ msgid "you get to know him he's a great guy."
 msgstr "je hem eenmaal kent hij erg meevalt."
 
 #: Story/S1-LG.c:131
-#, fuzzy
 msgid "I hear that the monsters over in farmer SmileStein's field"
 msgstr "Ik heb gehoord dat de monsters op SmileStien's veld"
 
@@ -2314,7 +2109,7 @@ msgstr "dat ie een jager in wil huren om ze uit te roeien."
 
 #: Story/S1-LG.c:135
 msgid "Wow"
-msgstr ""
+msgstr "Wow"
 
 #: Story/S1-LG.c:137
 msgid "Yeah, big stuff.."
@@ -2329,7 +2124,6 @@ msgid "in PortTown are looking for some more help and that they may be"
 msgstr "in PortTown op zoek zijn naar meer mannen en dat ze"
 
 #: Story/S1-LG.c:147
-#, fuzzy
 msgid "waging a war with the Northern Trading Company!"
 msgstr "denken aan een oorlog met de Noordelijke handelsmaatschappij!"
 
@@ -2396,13 +2190,8 @@ msgid "She won't be bothering people any more."
 msgstr "Ze zal de mensen niet meer vervelen met haar verhalen..."
 
 #: Story/S1-LTR.c:17 Story/S1-MH-F.c:16
-#, fuzzy
 msgid "Dear Dink,"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Lieve Dink,\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Beste Dink,"
+msgstr "Beste Dink,"
 
 #: Story/S1-LTR.c:19
 msgid "We've just gotten word of the tragic accident that happened at..."
@@ -2433,7 +2222,6 @@ msgid "Hmm... Terris.  I think that is west of here."
 msgstr "Hmm... Terris.  Ik denk dat dat ten westen ligt van hier."
 
 #: Story/S1-LTR.c:29
-#, fuzzy
 msgid "Hey!  A map was enclosed!"
 msgstr "Hey! Er zit een plattegrond bij!!"
 
@@ -2442,7 +2230,6 @@ msgid "(Press M or button 6 for map toggle)"
 msgstr "(Druk op de M toets of toets 6 om de map te bekijken)"
 
 #: Story/S1-MH-F.c:13
-#, fuzzy
 msgid "Hey, it's a scroll from Martridge!"
 msgstr "He het is een brief van Martridge!"
 
@@ -2455,7 +2242,6 @@ msgid "If you're able to see this then it means you"
 msgstr "Als je dit kan lezen betekend dat dat je echt"
 
 #: Story/S1-MH-F.c:18
-#, fuzzy
 msgid "truly do possess the ability for magic."
 msgstr "geschikt bent om met magie om te gaan."
 
@@ -2468,7 +2254,6 @@ msgid "instruct you any further.  But there are many"
 msgstr "verder leren met magie om te gaan. Maar er zijn vele leraren"
 
 #: Story/S1-MH-F.c:22
-#, fuzzy
 msgid "teachers out there, you will find one and further"
 msgstr ""
 "overal ter wereld die je willen helpen. Je komt ze vanzelf op je pad tegen."
@@ -2545,7 +2330,6 @@ msgstr ""
 "Jij hebt misschien ook het vermogen en de kracht om met magie om te gaan."
 
 #: Story/S1-MH-M.c:44
-#, fuzzy
 msgid "Really?  You think so?  Cool, what can I do?"
 msgstr "Echt waar?  Denk je dat?  Cool, wat kan ik doen?"
 
@@ -2582,13 +2366,8 @@ msgid "Tell him you're worthy"
 msgstr "Vertel hem dat je het wel waard bent!!"
 
 #: Story/S1-MH-M.c:63 Story/S3-ST1P.c:20
-#, fuzzy
 msgid "Ask about Magic"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Vraag hem naar de toverspreuken\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Vraag naar toverkunst"
+msgstr "Vraag hem naar de toverspreuken"
 
 #: Story/S1-MH-M.c:71
 msgid "Martridge, I .. I can handle it.  I'm prepared."
@@ -2747,7 +2526,7 @@ msgstr "Ik kan me niet herrinneren dat ik ooit ben aangehouden."
 
 #: Story/S1-ROB2.c:40 Story/S1-ROB2.c:41
 msgid "Ha ha ha ha"
-msgstr ""
+msgstr "Ha ha ha ha"
 
 #: Story/S1-ROB2.c:43
 msgid "Someone, help!"
@@ -2755,7 +2534,7 @@ msgstr "HELP!!!!  Is er iemand die me kan helpen!"
 
 #: Story/S1-ROB2.c:58 Story/S2-FIGHT.c:10
 msgid "Ahhhhhhh"
-msgstr ""
+msgstr "Ahhhhhhh"
 
 #: Story/S1-ROC.c:14
 msgid "Hey, looks like there's an opening behind this rock."
@@ -2936,7 +2715,6 @@ msgid "In the city of PortTown, the populous can seem quite"
 msgstr "In de stad PortTown, is de bevolking nogal"
 
 #: Story/S1-WAND.c:122
-#, fuzzy
 msgid "rowdy at times.  Some say it's because of the frequenting"
 msgstr "rumoerig af en toe. sommigen zeggen dat dat komt door de vele"
 
@@ -2969,7 +2747,6 @@ msgid "they'll believe it."
 msgstr "ze geloven alles."
 
 #: Story/S1-WAND.c:144
-#, fuzzy
 msgid "I heard there was a bad fire in a nearby village,"
 msgstr ""
 "Ik heb ook gehoord dat er een erge brand was in een dorpje hier dichtbij"
@@ -2979,13 +2756,8 @@ msgid "hope no one was hurt too bad."
 msgstr "ik hoop maar dat er niemand ernstig gewond is geraakt."
 
 #: Story/S1-WAND.c:147 Story/S1-WAND2.c:174
-#, fuzzy
 msgid "Yes.. I'm sure no one was ... hurt ..."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja dat klopt.. er is vast niemand..... gewond geraakt ... \n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja.. Ik weet zeker dat er niemand ...gewond was ..."
+msgstr "Ja.. Ik weet zeker dat er niemand ...gewond was ..."
 
 #: Story/S1-WAND.c:152 Story/S1-WAND.c:161
 msgid "In the small village nearby, I've heard there's"
@@ -3012,7 +2784,6 @@ msgid "So young man, what's your name?"
 msgstr "En jonge man, hoe heet je?"
 
 #: Story/S1-WAND.c:171
-#, fuzzy
 msgid "Smallwood, Dink Smallwood."
 msgstr "Hallo, ik ben Dink Smallwood."
 
@@ -3061,7 +2832,6 @@ msgid "He won't bother anyone anymore..."
 msgstr "Hij is wel erg stil geworden..."
 
 #: Story/S1-WAND2.c:92
-#, fuzzy
 msgid "I just escaped from the Goblin Sanctuary."
 msgstr "Ik ben net ontsnapt uit de Goblin gevangenis."
 
@@ -3101,14 +2871,12 @@ msgstr ""
 "Helaas bracht mijn eerste avontuur me gelijk in aanraking met de Goblins"
 
 #: Story/S1-WAND2.c:106
-#, fuzzy
 msgid "being captured by the goblins.  Last time I go to the WestLands."
 msgstr ""
 "die me gevangen zetten. Dat was de laatste keer dat ik in het westen ben "
 "geweest."
 
 #: Story/S1-WAND2.c:110
-#, fuzzy
 msgid "After being around those goblins for so long I'm glad to be out."
 msgstr ""
 "Nadat ik zo lang bij de Goblins ben geweest, ben ik blij dat ik er weg ben."
@@ -3122,12 +2890,10 @@ msgid "I'm embarrassed that I got captured in the first place."
 msgstr "Ik schaam me dood dat ik me ooit heb laten vangen."
 
 #: Story/S1-WAND2.c:131
-#, fuzzy
 msgid "When I was captured at the Goblin Sanctuary I did notice something."
 msgstr "Toen ik gevangen zat zijn me vreemde dingen opgevallen."
 
 #: Story/S1-WAND2.c:132
-#, fuzzy
 msgid "All their patrols that came back from the north seemed different."
 msgstr "Alle troepen die naar het noorden waren geweest waren leken veranderd."
 
@@ -3180,23 +2946,20 @@ msgid "the street.  Ha Ha Ha"
 msgstr "Ha Ha Ha"
 
 #: Story/S1-WAND2.c:153
-#, fuzzy
 msgid "Ha Ha .. Ha .."
-msgstr "Ha Ha ... wacht eens!!"
+msgstr "Ha Ha .. Ha .."
 
 #: Story/S1-WAND2.c:154
-#, fuzzy
 msgid " ... Ha ... "
-msgstr "Oh ... ik .... ik snap het."
+msgstr " ... Ha ... "
 
 #: Story/S1-WAND2.c:155
-#, fuzzy
 msgid "Ha Ha Ha ..."
-msgstr "Ha Ha ... wacht eens!!"
+msgstr "Ha Ha Ha ..."
 
 #: Story/S1-WAND2.c:156
 msgid " .. Ha Ha .."
-msgstr ""
+msgstr " .. Ha Ha .."
 
 #: Story/S1-WAND2.c:160
 msgid "Ha Ha ... wait!!!!"
@@ -3225,12 +2988,10 @@ msgid "Not really.  What's your name anyway?"
 msgstr "Niet echt. Hoe heet je eigenlijk?"
 
 #: Story/S1-WAND2.c:183
-#, fuzzy
 msgid "Smallwood,"
 msgstr "Smallwood meneer."
 
 #: Story/S1-WAND2.c:185 Story/S2-CA-G.c:88
-#, fuzzy
 msgid "Dink Smallwood."
 msgstr "Dink Smallwood meneer."
 
@@ -3243,13 +3004,8 @@ msgid "You have an interesting name there."
 msgstr "Dat is nog eens een interessante naam."
 
 #: Story/S1-WAND2.c:191 Story/S4-ST1P.c:91
-#, fuzzy
 msgid "Thank you."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Dank je.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nogmaals bedankt."
+msgstr "Dank je."
 
 #: Story/S1-WIZ.c:13
 msgid "What the..."
@@ -3507,13 +3263,8 @@ msgid "I saw Jack hit you."
 msgstr "Ik zag dat Jack u sloeg."
 
 #: Story/S2-AUNTP.c:266 Story/S2-AUNTP.c:284
-#, fuzzy
 msgid "You.. you did?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je.. echt waar?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je..je zag het?"
+msgstr "Je..je zag het?"
 
 #: Story/S2-AUNTP.c:268
 msgid "Why don't you leave him?  Now?  Tonight?"
@@ -3585,13 +3336,8 @@ msgid "I'm your aunt, Dink!"
 msgstr "Ik ben je tante!!"
 
 #: Story/S2-AUNTP.c:317 Story/S2-BAR.c:173
-#, fuzzy
 msgid "And?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"En wat dan nog?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nou en?"
+msgstr "Nou en?"
 
 #: Story/S2-AUNTP.c:319
 msgid "I have some work I have to do."
@@ -3638,13 +3384,8 @@ msgid "You stupid whore."
 msgstr "Stom mens!"
 
 #: Story/S2-AUNTP.c:351 Story/S2-CULT.c:147
-#, fuzzy
 msgid "Excuse me?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Pardon?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Mag ik even storen?"
+msgstr "Pardon?"
 
 #: Story/S2-AUNTP.c:353
 msgid "I see now I shouldn't have killed Jack."
@@ -3699,12 +3440,10 @@ msgid "I've heard he knows some magic."
 msgstr "Ik heb gehoord dat ie wat van toveren weet."
 
 #: Story/S2-BAR.c:86
-#, fuzzy
 msgid "Why don't you try asking him?"
 msgstr "Waarom probeer je niet of hij je wil helpen?."
 
 #: Story/S2-BAR.c:88
-#, fuzzy
 msgid "Ok, thanks."
 msgstr "Ok ik ga het vragen."
 
@@ -3814,7 +3553,6 @@ msgid "Castle Goodheart has stood here for centuries."
 msgstr "Kasteel Goodheart staat hier al eeuwen."
 
 #: Story/S2-CA-G.c:53
-#, fuzzy
 msgid "It is a magnificent testament to what a monarchy can do."
 msgstr "Het is een prima voorbeeld van wat een vorstendom kan betekenen."
 
@@ -3835,7 +3573,6 @@ msgid "King Daniel has ruled with an iron hand for nearly a decade now."
 msgstr "Koning Daniël regeert nu al bijna 10 jaar hier."
 
 #: Story/S2-CA-G.c:68
-#, fuzzy
 msgid ""
 "It was his strategic brilliance that stopped the Great Goblin invasion of "
 "'23."
@@ -3880,13 +3617,8 @@ msgid "So you will grant me access?"
 msgstr "Betekend dat dat ik de koning kan spreken?"
 
 #: Story/S2-CA-G.c:103 Story/S2-CA-G.c:112
-#, fuzzy
 msgid "I'm sorry, the King is otherwise engaged today."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nee sorry, de koning heeft het druk vandaag.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Sorry, maar de koning heeft het druk vandaag."
+msgstr "Sorry, maar de koning heeft het druk vandaag."
 
 #: Story/S2-CA-G.c:110
 msgid "I have news about a Cast plot!"
@@ -3921,9 +3653,8 @@ msgid "No - He's seeing Milder off before his journey to the Darklands."
 msgstr "Nee - Hij bezoekt Milder vanwege zijn reis naar de donkere landen."
 
 #: Story/S2-CA-G.c:135 Story/S7-MIL.c:131
-#, fuzzy
 msgid "Milder?"
-msgstr "Arme Milder."
+msgstr "Milder?"
 
 #: Story/S2-CA-G.c:137
 msgid "Yes, Flatstomp is the bravest man in the kingdom."
@@ -3931,7 +3662,7 @@ msgstr "Ja, Flatstomp is de beste ridder in ons koningkrijk."
 
 #: Story/S2-CA-G.c:139
 msgid "Grrrrrrr."
-msgstr ""
+msgstr "Grrrrrrr."
 
 #: Story/S2-CA-G.c:146
 msgid "Hello, Smallwood.  Of course you may see the King!"
@@ -3950,7 +3681,6 @@ msgid "Hey, that's GoodHeart castle."
 msgstr "Dit is kasteel GoodHeart."
 
 #: Story/S2-CAVE.c:21 Story/S2-CULG.c:94
-#, fuzzy
 msgid "Help me!"
 msgstr "Help me alsjeblieft!"
 
@@ -3968,7 +3698,7 @@ msgstr "Ze hebben me hierin gegooid"
 
 #: Story/S2-CAVE.c:31
 msgid "Huh?"
-msgstr ""
+msgstr "Huh?"
 
 #: Story/S2-CAVE.c:33
 msgid "Who threw you in here?"
@@ -4019,7 +3749,6 @@ msgid "You know any, kid?"
 msgstr "Weet jij iets van magie, jongen?"
 
 #: Story/S2-CAVE.c:60
-#, fuzzy
 msgid "Hmm, just my fireball spell."
 msgstr "Hmm, ik ken alleen een vuurbal toverspreuk."
 
@@ -4049,13 +3778,8 @@ msgid "Hurry!!"
 msgstr "Schiet op!!"
 
 #: Story/S2-CAVE.c:95 Story/S3-ST1P.c:32
-#, fuzzy
 msgid "Noted."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik ren al.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Was me niet opgevallen."
+msgstr "Ik ren al."
 
 #: Story/S2-CAVE.c:114
 msgid "Any luck yet?"
@@ -4126,7 +3850,6 @@ msgid "Ok."
 msgstr "Dat hoef je me geen tweede keer te zeggen!!"
 
 #: Story/S2-CAVE2.c:51
-#, fuzzy
 msgid "Ok, let's get going before they come."
 msgstr "Ok laten we maken dat we wegkomen."
 
@@ -4144,15 +3867,15 @@ msgstr "We hebben nog een appeltje te schillen met je vriend hier."
 
 #: Story/S2-CAVE2.c:64
 msgid "Hahahaaahaha"
-msgstr ""
+msgstr "Hahahaaahaha"
 
 #: Story/S2-CAVE2.c:65 Story/S2-CAVE2.c:76 Story/S2-CAVE2.c:105
 msgid "Haha ha ha"
-msgstr ""
+msgstr "Haha ha ha"
 
 #: Story/S2-CAVE2.c:66 Story/S2-CAVE2.c:78 Story/S2-CAVE2.c:106
 msgid "Ha ha haaa"
-msgstr ""
+msgstr "Ha ha haaa"
 
 #: Story/S2-CAVE2.c:69
 msgid "It's okay Dink, I can take 'em."
@@ -4172,7 +3895,7 @@ msgstr "Dan moet hij sterven! Ik zal je eens een poepie laten ruiken..."
 
 #: Story/S2-CAVE2.c:97
 msgid "Ahhhhhh!"
-msgstr ""
+msgstr "Ahhhhhh!"
 
 #: Story/S2-CAVE2.c:102
 msgid "Noooo!!"
@@ -4235,7 +3958,7 @@ msgstr ""
 
 #: Story/S2-CAVE2.c:142
 msgid "Ahhhhhh."
-msgstr ""
+msgstr "Ahhhhhh."
 
 #: Story/S2-CAVE2.c:144
 msgid "Ah man..."
@@ -4417,7 +4140,6 @@ msgstr ""
 "Fantastisch! - dank u dat u ons het licht hebt laten zien, Bisschop Nelson!"
 
 #: Story/S2-CULT.c:95
-#, fuzzy
 msgid "Guess what, I have a little surprise for you today."
 msgstr "Raad eens, Ik heb een kleine verrassing voor jullie vandaag."
 
@@ -4496,7 +4218,6 @@ msgid "I agree, crucify the new girl!"
 msgstr "Ik ben het er helemaal mee eens, offer haar maar!"
 
 #: Story/S2-CULT.c:168
-#, fuzzy
 msgid "I just adore your sadistic rituals.  May I continue to watch?"
 msgstr "Ik bewonder jullie wrede rituelen. Mag ik blijven kijken?"
 
@@ -4526,7 +4247,7 @@ msgstr "Je ziet wel, mijn meisjes kunnen meer dan alleen maar mooi zijn."
 
 #: Story/S2-DAMS.c:3
 msgid "Bjork Dam"
-msgstr ""
+msgstr "Bjork Dam"
 
 #: Story/S2-DS.c:6
 msgid "Condemned Mine - Do Not Enter!"
@@ -4555,65 +4276,32 @@ msgid "Except for that guy Jack..."
 msgstr "Afgezien dan van die vent, Jack..."
 
 #: Story/S2-HEALP.c:62 Story/S4-HEALP.c:63
-#, fuzzy
 msgid "You don't have enough gold to buy elixer."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je hebt niet genoeg geld.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je hebt niet genoeg geld om de gezondheidsdrank te kopen."
+msgstr "Je hebt niet genoeg geld om de gezondheidsdrank te kopen."
 
 #: Story/S2-HEALP.c:79 Story/S2-OUT.c:55 Story/S4-HEALP.c:80
-#, fuzzy
 msgid "Please don't wreck the place, thanks."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verniel de boel niet, wil je.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Breek de boel niet af aub, dank je.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Breek de boel niet af, wil je."
+msgstr "Breek de boel niet af, wil je."
 
 #: Story/S2-HEALP.c:96 Story/S4-HEALP.c:97
-#, fuzzy
 msgid "\"You are the perfect picture of health, sir.\""
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"U blaakt zo te zien van gezondheid, meneer.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"U ziet er gezond uit, meneer."
+msgstr "\"U ziet er gezond uit, meneer.\""
 
 #: Story/S2-HEALP.c:98 Story/S2-HEALP.c:124
-#, fuzzy
 msgid "Buy a bottle of elixer for $25"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Koop een fles gezondheids drank voor 25 euro.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug"
+msgstr "Koop een fles gezondheids drank voor 25 euro."
 
 #: Story/S2-HEALP.c:121 Story/S4-HEALP.c:122
-#, fuzzy
 msgid "\"You are injured!  It will cost $&amount gold to heal you.\""
-msgstr "Laat je genezen"
+msgstr "\"U bent gewond! Het kost &amount euro om u te genezen.\""
 
 #: Story/S2-HEALP.c:123 Story/S4-HEALP.c:124
-#, fuzzy
 msgid "Get healed"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Koop een fles gezondheids drank voor 25 euro.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Koop een fles gezondheidsdrank voor100 euro"
+msgstr "Laat je genezen"
 
 #: Story/S2-HEALP.c:135 Story/S4-HEALP.c:136
-#, fuzzy
 msgid "You don't have enough gold."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Schep op over dat je de wereld hebt gered\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verkoop een eikel voor 2 euro"
+msgstr "Je hebt niet genoeg geld."
 
 #: Story/S2-HEALP.c:144 Story/S4-HEALP.c:145
 msgid "I am healed."
@@ -4660,20 +4348,12 @@ msgid "<grumble>  You find a new place tomorrow."
 msgstr "<gromt> Als het aan mij ligt, ben je morgen weer vertrokken."
 
 #: Story/S2-JACK.c:53
-#, fuzzy
 msgid "Hey Jack!"
-msgstr "Daar ben ik dan!"
+msgstr "Hey Jack!"
 
 #: Story/S2-JACK.c:55 Story/S2-JACK.c:71 Story/S3-FREAK.c:133
-#, fuzzy
 msgid "Yeah?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja...?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja?"
+msgstr "Ja?"
 
 #: Story/S2-JACK.c:57
 msgid "Eat me!"
@@ -4848,7 +4528,6 @@ msgid "Give me a break..."
 msgstr "Doe me een lol zeg..."
 
 #: Story/S2-MAN2.c:79
-#, fuzzy
 msgid "It tastes better than what you serve here, barkeep!"
 msgstr "Het smaakt anders beter dan wat jij ons hier voorzet, barkeep!"
 
@@ -4911,13 +4590,8 @@ msgid "Convince the men that you ARE a warrior"
 msgstr "Overtuig de mannen dat je een ECHTE krijger bent"
 
 #: Story/S2-MAN2.c:122
-#, fuzzy
 msgid "Argue with the men even more"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Argumenteer nog even door met de mannen\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Argumenteer nog even door"
+msgstr "Argumenteer nog even door"
 
 #: Story/S2-MAN2.c:123
 msgid "Chat with the men"
@@ -4982,9 +4656,8 @@ msgstr "Oh biggetje toch!"
 
 #: Story/S2-MAN2.c:174 Story/S2-MAN2.c:185 Story/S2-MAN2.c:197
 #: Story/S2-MAN2.c:214 Story/S2-MAN2.c:215
-#, fuzzy
 msgid "Hahahah!"
-msgstr "Ha, ha! Die zit!!"
+msgstr "Hahahah!"
 
 #: Story/S2-MAN2.c:175
 msgid "Hahaha!  Good one, peasant!"
@@ -5007,9 +4680,8 @@ msgid "Is a bottle of SWINE ok? Bawahahah!"
 msgstr "Is een fles SWIJN goed? Bawahahah!"
 
 #: Story/S2-MAN2.c:186 Story/S2-MAN2.c:198
-#, fuzzy
 msgid "Hahaha!"
-msgstr "Ha, ha! Die zit!!"
+msgstr "Hahaha!"
 
 #: Story/S2-MAN2.c:188
 msgid "You stupid rubes!  I hate you both!"
@@ -5038,7 +4710,6 @@ msgid "Oh yes!"
 msgstr "Oh ja!"
 
 #: Story/S2-MAN2.c:212
-#, fuzzy
 msgid "Go plow Harper's field, farmer boy."
 msgstr "Ga Harpers veld dan omploegen, boertie."
 
@@ -5084,17 +4755,8 @@ msgstr "Ik hoop maar dat die verdraaide oude man me die toverspreuk leert."
 
 #: Story/S2-MDOOR.c:27 Story/S2-TDOOR.c:12 Story/S3-MDOOR.c:10
 #: Story/S4-MDOOR.c:22
-#, fuzzy
 msgid "It's locked."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hij is op slot.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"De deur is op slot.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hij is op slot.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hij is op slot."
+msgstr "Hij is op slot."
 
 #: Story/S2-MDOOR.c:49
 msgid "Hello, anyone in there?"
@@ -5113,7 +4775,6 @@ msgid "I .. I'm Dink Smallwood, I'm trying to help..."
 msgstr "Dink Smallwood, ik probeer een arme man..."
 
 #: Story/S2-MDOOR.c:57
-#, fuzzy
 msgid "a poor guy who is imprisoned in the dungeon south of here."
 msgstr "te helpen die opgesloten zit in een kerker ten zuiden van hier."
 
@@ -5144,13 +4805,8 @@ msgid "Are you high?"
 msgstr "Gebruik je drugs of zo?"
 
 #: Story/S2-MDOOR.c:73 Story/S6-VEND.c:48
-#, fuzzy
 msgid "No."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nee, natuurlijk niet!! Dat is gevaarlijk, daar ga je dood aan.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nee."
+msgstr "Nee."
 
 #: Story/S2-MDOOR.c:76
 msgid "Well, if those Cast members are involved I'd best help."
@@ -5194,45 +4850,24 @@ msgid "Er, to help the man trapped in the dungeon I mean."
 msgstr "Er, ik bedoel, help me om die man te redden alstublieft."
 
 #: Story/S2-MH-M.c:26 Story/S2-MH-M.c:63
-#, fuzzy
 msgid "I sense you are powerful enough now Tallwood."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik voel dat je over genoeg kracht beschikt Tallwood.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik voel dat je nu sterk genoeg bent Tallwood."
+msgstr "Ik voel dat je nu sterk genoeg bent Tallwood."
 
 #: Story/S2-MH-M.c:28 Story/S2-MH-M.c:65
-#, fuzzy
 msgid "You will now understand the Acid Rain magic."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik kan je de zure regen toverspreuk leren.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Je kan nu de zure regen toverspreuk leren."
+msgstr "Je kan nu de zure regen toverspreuk leren."
 
 #: Story/S2-MH-M.c:30 Story/S2-MH-M.c:67
-#, fuzzy
 msgid "Rain?  Rain is the big magic you will teach?"
 msgstr "Regen?  Het laten regenen is de grote toverspreuk die u me wil leren?"
 
 #: Story/S2-MH-M.c:32 Story/S2-MH-M.c:69
-#, fuzzy
 msgid "Scoff not child or you shall burn and kill yourself with it!"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Spot er niet mee kind. Of je zal verbranden en jezelf ermee doden!!!!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Spot er niet mee kind. Of je zal verbranden en jezelf ermee doden!!!!!"
+msgstr "Spot er niet mee kind. Of je zal verbranden en jezelf ermee doden!!!!!"
 
 #: Story/S2-MH-M.c:43 Story/S2-MH-M.c:74
-#, fuzzy
 msgid "I now have Rain Magic.  Yay."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Cool!! Ik kan nu de zure regen toverspreuk!!.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Cool!! Ik kan nu de zure regen spreuk!!."
+msgstr "Cool!! Ik kan nu de zure regen spreuk!!."
 
 #: Story/S2-MH-M.c:48
 msgid "I'm sorry Smallweed, but your magic is not powerful enough yet."
@@ -5255,9 +4890,8 @@ msgid "You need 5 magic for this spell."
 msgstr "Je hebt 5 toverpunten nodig voor deze spreuk."
 
 #: Story/S2-MH-M.c:89
-#, fuzzy
 msgid "Aww man."
-msgstr "Ah man..hij is gestorven."
+msgstr ""
 
 #: Story/S2-MH-M.c:96
 msgid "Hey Mister, you know anymore magic you can teach me?"
@@ -5281,7 +4915,6 @@ msgid "Stop laughing at me, bed!"
 msgstr "Waag het niet me uit te lachen!"
 
 #: Story/S2-NA1.c:3
-#, fuzzy
 msgid "This must be the woman's bed.  Looks dirty."
 msgstr ""
 "Dit moet het bed van de vrouw zijn. Ziet er niet al te schoon uit zeg!."
@@ -5377,7 +5010,6 @@ msgid "You.. you will?"
 msgstr "Je .. je wil me helpen?"
 
 #: Story/S2-NADP.c:84
-#, fuzzy
 msgid "Of course.  What was the dear thing's name?"
 msgstr "Natuurlijk! Wat is de naam van je dochtertje?"
 
@@ -5435,42 +5067,24 @@ msgid "You don't have enough gold to buy this bomb.  Awk!"
 msgstr "Je hebt niet genoeg geld om de bom te kopen.  Awk!"
 
 #: Story/S2-OUT.c:181 Story/S4-ST1P.c:129
-#, fuzzy
 msgid "\"We'll buy a few things.  What have you got?\""
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"We kopen ook nog wel eens wat. Wat heb je bij je?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"We kopen wel eens wat op. Wat heeft u bij u?"
+msgstr "\"We kopen wel eens wat op. Wat heeft u bij u?\""
 
 #: Story/S2-OUT.c:183 Story/S4-ST1P.c:131
-#, fuzzy
 msgid "Sell a Longsword - $200"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verkoop je lange zwaard voor 200 euro\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verkoop een lang zwaard - 200 euro"
+msgstr "Verkoop een lang zwaard - 200 euro"
 
 #: Story/S2-OUT.c:184 Story/S4-ST1P.c:132
-#, fuzzy
 msgid "Sell a nut - $2"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verkoop een eikel voor 2 euro\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Verkoop een eikel - 2 euro"
+msgstr "Verkoop een eikel - 2 euro"
 
 #: Story/S2-OUT.c:185 Story/S4-ST1P.c:135
 msgid "Sell nothing"
 msgstr "Verkoop niks"
 
 #: Story/S2-OUT.c:216
-#, fuzzy
 msgid "\"Our wares are the finest quality around.  We'll beat any price!\""
-msgstr ""
-"Onze goederen zijn van goede kwaliteit. U koopt nergens betere. We zijn de "
-"goedkoopste!"
+msgstr "\"Onze goederen zijn van goede kwaliteit. U koopt nergens betere. We zijn de goedkoopste!\""
 
 #: Story/S2-OUT.c:218 Story/S4-ST3P.c:64
 msgid "Longsword - $400"
@@ -5481,7 +5095,6 @@ msgid "Bomb - $20"
 msgstr "Bom - 20 euro"
 
 #: Story/S2-OUT.c:256
-#, fuzzy
 msgid "\"What can I do for you today, sir?\""
 msgstr "Waar kan ik u mee helpen, meneer?"
 
@@ -5538,7 +5151,6 @@ msgid "Just one more second..."
 msgstr "Nog èèn seconde..."
 
 #: Story/S2-RYAN3.c:73
-#, fuzzy
 msgid "Oh no, guards!!  Run for it!"
 msgstr "Oh nee, bewakers!! Ren voor je leven!!"
 
@@ -5549,23 +5161,8 @@ msgstr "Dit ziet er niet goed uit..."
 #: Story/S2-RYANT.c:20 Story/S3-CHICK.c:26 Story/S3-MAYOR.c:17
 #: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S4-ST1P.c:41
 #: Story/S6-ST1P.c:86
-#, fuzzy
 msgid "Say hi"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg hallo\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg gedag\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg gedag\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg hallo\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg hallo\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg gedag\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Zeg gedag"
+msgstr "Zeg hallo"
 
 #: Story/S2-RYANT.c:21
 msgid "Ask what he does"
@@ -5576,13 +5173,8 @@ msgid "Offer to help him out"
 msgstr "Bied aan om hem te helpen"
 
 #: Story/S2-RYANT.c:29 Story/S3-CHICK.c:36
-#, fuzzy
 msgid "Hey, how's it going?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, hoe gaat het ermee?"
+msgstr "He, hoe gaat het ermee?"
 
 #: Story/S2-RYANT.c:31
 msgid "Are you the guy for the job?"
@@ -5621,12 +5213,10 @@ msgid "Oh, what do you specialize in?"
 msgstr "Oh, waar bent u in gespecialiseerd?"
 
 #: Story/S2-RYANT.c:52
-#, fuzzy
 msgid "Let's just say I help acquire things.."
 msgstr "Laten we zeggen dat ik help om dingen tot stand te brengen.."
 
 #: Story/S2-RYANT.c:54
-#, fuzzy
 msgid "Ahh, I see, just what are you acquiring now?"
 msgstr "Ahh, ik begrijp het, en wat brengt u nu tot stand?"
 
@@ -5659,9 +5249,8 @@ msgid "Yeah, I know how to do all sorts of things."
 msgstr "Ja, ik weet en kan van alles."
 
 #: Story/S2-RYANT.c:76
-#, fuzzy
 msgid "Hmmmmm"
-msgstr "Ok nog brutaal huh?."
+msgstr "Hmmmmm"
 
 #: Story/S2-RYANT.c:78
 msgid "Well I guess my other guy's not showing up."
@@ -5741,7 +5330,6 @@ msgid "Teaparty!"
 msgstr "Tijd voor een theekransje!"
 
 #: Story/S2-TDS.c:45
-#, fuzzy
 msgid "Thanks for helping us catch this guy, Dink."
 msgstr "Bedankt dat je ons geholpen hebt om deze man te vangen, Dink."
 
@@ -5758,7 +5346,6 @@ msgid "He won't be bothering anyone for quite a while."
 msgstr "Hij zal voorlopig niemand meer lastig vallen."
 
 #: Story/S2-TDS.c:53
-#, fuzzy
 msgid "Yeah, say, are Tom and Bob ok inside?"
 msgstr "Zeg, gaat het goed met Tom en Bob daarbinnen?"
 
@@ -5771,7 +5358,6 @@ msgid "I guess they'll be right out."
 msgstr "Dan zullen ze zo wel komen."
 
 #: Story/S2-TDS.c:60
-#, fuzzy
 msgid "Come on, let's get this loser to the jail."
 msgstr "Kom, dan bergen we deze gozer op achter de tralies."
 
@@ -5788,13 +5374,8 @@ msgid "Ask about his tales"
 msgstr "Heeft ie nog leuke verhalen te vertellen?"
 
 #: Story/S2-WAND.c:24 Story/S3-CHICK.c:57
-#, fuzzy
 msgid "So what do you do?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo, wat doet u voor de kost?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo, wat doet u hier? "
+msgstr "Hallo, wat doet u hier? "
 
 #: Story/S2-WAND.c:26
 msgid "Well, I'm a hunter."
@@ -5833,7 +5414,6 @@ msgid "I'm warning you sir, please stop that."
 msgstr "Ik waarschuw je, hou daarmee op."
 
 #: Story/S2-WAND.c:72
-#, fuzzy
 msgid "That's it, I'm outta here!"
 msgstr "Ik ga ervandoor!"
 
@@ -5850,7 +5430,6 @@ msgid "One particular tale spoke of an island in the sea."
 msgstr "In èèn van die verhalen werd gesproken over een eiland in de zee."
 
 #: Story/S2-WAND.c:89
-#, fuzzy
 msgid "Where both humans and dragons lived."
 msgstr "Waar mensen en draken samen leefden."
 
@@ -5867,7 +5446,6 @@ msgid "They say it was a beautiful island to visit."
 msgstr "Het verhaal verteld dat het een schitterend eiland is om te bezoeken."
 
 #: Story/S2-WAND.c:97
-#, fuzzy
 msgid "But I don't think it exists, just an old tale."
 msgstr "Maar ik denk dat het niet bestaat, het is een sprookje."
 
@@ -5955,13 +5533,8 @@ msgid "Belittle her in front of the others to appear macho"
 msgstr "Doe macho"
 
 #: Story/S2-WENCH.c:104 Story/S2-WENCH.c:115
-#, fuzzy
 msgid "Wanna go get some food later?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Wil je straks met me uit eten?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ga je straks ergens met me eten?"
+msgstr "Ga je straks ergens met me eten?"
 
 #: Story/S2-WENCH.c:106
 msgid "Oh yes!  Hey, hero Smallwood just asked me out!"
@@ -6012,7 +5585,6 @@ msgid "What the hell are they doing here?"
 msgstr "Wat voor de donder doen die hier?"
 
 #: Story/S3-1ST.c:65
-#, fuzzy
 msgid "Area looks clear, I'm ready to head back."
 msgstr "Het ziet er veilig uit, ik ben er klaar voor."
 
@@ -6049,13 +5621,8 @@ msgid "... wonder if it's around here."
 msgstr "... zou dat hier ergens zijn?"
 
 #: Story/S3-BH.c:23 Story/S3-BH.c:44
-#, fuzzy
 msgid "Can I HELP you?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Kan ik je HELPEN?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Kan ik je helpen?"
+msgstr "Kan ik je HELPEN?"
 
 #: Story/S3-BH.c:25
 msgid "Uhh ... maybe."
@@ -6126,9 +5693,8 @@ msgid "Just ... just please leave."
 msgstr "Ga  ...ga gewoon weg wil je."
 
 #: Story/S3-BOWL.c:30
-#, fuzzy
 msgid "\"Hello, friend.  I will teach you bow lore for $1500 gold.\""
-msgstr "Hallo, vriend. Ik kan je goed leren boogschieten voor 1500 euro."
+msgstr "\"Hallo, vriend. Ik kan je goed leren boogschieten voor 1500 euro.\""
 
 #: Story/S3-BOWL.c:32
 msgid "Learn bow lore"
@@ -6151,7 +5717,6 @@ msgid "Here goes nothing..."
 msgstr "Hier is niks..."
 
 #: Story/S3-CAMP.c:62
-#, fuzzy
 msgid "Gotta run!!  Gotta run!!"
 msgstr "Ik moet rennen, vlug!"
 
@@ -6168,16 +5733,14 @@ msgid "It looks like this scroll might just be the proof I need."
 msgstr "Het ziet ernaar uit dat dit het bewijs is wat ik nodig heb."
 
 #: Story/S3-CAMPS.c:73
-#, fuzzy
 msgid "Not so fast ..."
 msgstr "Niet zo snel, mannetje ..."
 
 #: Story/S3-CAMPS.c:74
 msgid "Ha Ha Haaa"
-msgstr ""
+msgstr "Ha Ha Haaa"
 
 #: Story/S3-CAMPS.c:80
-#, fuzzy
 msgid "Looks like you have trouble learning, small one."
 msgstr "Volgens mij zit je in de problemen, kleintje."
 
@@ -6242,7 +5805,6 @@ msgid "What for?"
 msgstr "Hoezo?"
 
 #: Story/S3-CHICK.c:50
-#, fuzzy
 msgid "For the big parade happening soon, what else silly?"
 msgstr "Omdat de optocht straks begint, wat dacht je dan gekkerd."
 
@@ -6263,12 +5825,10 @@ msgid "I hope to make a portrait of the parade happening soon."
 msgstr "Ik hoop een schilderij te maken van de optocht."
 
 #: Story/S3-CHICK.c:65
-#, fuzzy
 msgid "Hmm"
 msgstr "Ok nog brutaal huh?."
 
 #: Story/S3-CHICK.c:72
-#, fuzzy
 msgid "You know, I've heard some things about this parade."
 msgstr "Ik heb het een en ander gehoord over deze optocht, weet je."
 
@@ -6343,7 +5903,6 @@ msgid "It's a yearly event and everyone knows when it is,"
 msgstr "Het is een jaarlijks evenement, iedereen weet wanneer het begint,"
 
 #: Story/S3-CHICK.c:135
-#, fuzzy
 msgid "they don't come beforehand, they just show up."
 msgstr "veel eerder zullen ze niet komen."
 
@@ -6386,7 +5945,6 @@ msgid "They aren't even focusing their attack at the military"
 msgstr "Ze zijn zelfs van plan het leger aan te vallen"
 
 #: Story/S3-CHICK.c:160
-#, fuzzy
 msgid "they're attacking the whole populace here."
 msgstr "ze willen iedereen en alles aanvallen in deze stad."
 
@@ -6395,7 +5953,6 @@ msgid "We've got to stop them!"
 msgstr "We moeten ze zien te stoppen!"
 
 #: Story/S3-CHICK.c:164
-#, fuzzy
 msgid "Quick, get this information to my father ... hurry!"
 msgstr "Snel, ga met deze informatie naar mijn vader ...schiet op!"
 
@@ -6493,26 +6050,16 @@ msgid "It's gonna rock!!!!!!"
 msgstr "Het word geweldig!!!!!!"
 
 #: Story/S3-FREAK.c:112 Story/S4-ST1P.c:51
-#, fuzzy
 msgid "What's with all the ducks?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Waarom heb jij zo'n hoop eenden?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Wat is er toch aan de hand met dat eenden gedoe?"
+msgstr "Waarom heb jij zo'n hoop eenden?"
 
 #: Story/S3-FREAK.c:114
 msgid "Oh, they're my pets.  We're gonna be in the parade together."
 msgstr "Oh, dat zijn mijn huisdieren.  We lopen samen mee in de optocht."
 
 #: Story/S3-FREAK.c:116 Story/S3-LOSER.c:36
-#, fuzzy
 msgid "I see ..."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ik begrijp het ...\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Nou, nee ..."
+msgstr "Ik begrijp het ..."
 
 #: Story/S3-FREAK.c:118
 msgid "Wanna see what we do?"
@@ -6531,7 +6078,6 @@ msgid "Ready guys?  Follow me!"
 msgstr "Klaar jongens? Volg me dan!"
 
 #: Story/S3-FREAK.c:130
-#, fuzzy
 msgid "Hey.."
 msgstr "He jij daar!!"
 
@@ -6540,7 +6086,6 @@ msgid "What's with that other one?"
 msgstr "Wat is er met die ene?"
 
 #: Story/S3-FREAK.c:137
-#, fuzzy
 msgid "Oh ..."
 msgstr "Oh nee ..."
 
@@ -6549,7 +6094,6 @@ msgid "he has issues."
 msgstr "hij heeft streken."
 
 #: Story/S3-FREAK.c:143
-#, fuzzy
 msgid "Oh boy ..."
 msgstr "Oh nee ..."
 
@@ -6578,9 +6122,8 @@ msgid "we're practicing for next year."
 msgstr "we blijven gewoon oefenen voor volgend jaar."
 
 #: Story/S3-FREAK.c:162
-#, fuzzy
 msgid "Aww man..."
-msgstr "Ah man..hij is gestorven."
+msgstr "Aww man..."
 
 #: Story/S3-FREAK.c:166
 msgid "Note to self:  Don't come here next year."
@@ -6600,7 +6143,7 @@ msgstr "dou me goon peen!"
 
 #: Story/S3-GOB.c:39
 msgid "i won oose vilens!"
-msgstr ""
+msgstr "i won oose vilens!"
 
 #: Story/S3-GOB.c:48
 msgid "Let that be a clear message to his people.  Haw!"
@@ -6743,15 +6286,8 @@ msgid "Hello sir."
 msgstr "Dag meneer."
 
 #: Story/S3-LARRY.c:20 Story/S4-ST2P.c:12 Story/S4-ST3P.c:179
-#, fuzzy
 msgid "Ask about the store"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Vraag wat over de winkel\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Vraag naar de winkel\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Vraag naar de winkel"
+msgstr "Vraag naar de winkel"
 
 #: Story/S3-LARRY.c:21 Story/S4-ST1P.c:40 Story/S4-ST2P.c:14
 #: Story/S4-ST3P.c:181
@@ -6794,15 +6330,8 @@ msgstr ""
 "Alstublieft meneer, ik heb geen tijd, ik moet voor mijn dochtertje zorgen."
 
 #: Story/S3-LARRY.c:46 Story/S3-LARRY.c:73 Story/S3-LARRY.c:75
-#, fuzzy
 msgid "DADDY!!!!!!!!!"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"PAPA!!!!!!!!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"PAPA!!!!!!!!!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"PAPA!!!!!!!!!"
+msgstr "PAPA!!!!!!!!!"
 
 #: Story/S3-LARRY.c:48
 msgid "See what I mean.."
@@ -6813,7 +6342,6 @@ msgid "Any goofy specials this month?"
 msgstr "Nog speciale dingen in de aanbieding deze maand?"
 
 #: Story/S3-LARRY.c:66
-#, fuzzy
 msgid "Nope, sorry.  We pretty much contract out by jobs"
 msgstr "Nee sorry.  We hebben het heel druk met opdrachten"
 
@@ -6872,13 +6400,8 @@ msgid "Hey, stop that, you'll hurt the wood."
 msgstr "He, hou daarmee op, je beschadigd het hout."
 
 #: Story/S3-LOSER.c:13 Story/S3-LOSER.c:30
-#, fuzzy
 msgid "Hey, uhh ... where did everyone go?"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, uhh ... waar is iedereen?\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, uhh ...waar is iedereen?"
+msgstr "He, uhh ... waar is iedereen?"
 
 #: Story/S3-LOSER.c:15
 msgid "The parade's over already man."
@@ -6897,12 +6420,10 @@ msgid "I don't know man, I just work here."
 msgstr "Dat weet ik niet, hoor. Ik werk hier alleen"
 
 #: Story/S3-LOSER.c:32
-#, fuzzy
 msgid "I already told you buddy, they left."
 msgstr "Dat zei ik al maat, iederen is naar huis"
 
 #: Story/S3-LOSER.c:34
-#, fuzzy
 msgid "What are you, some kind of freak?"
 msgstr "Loop je te slapen ofzo?."
 
@@ -6919,33 +6440,22 @@ msgid "Tell him about the planned assault"
 msgstr "Vertel hem van de aanvalsplannen"
 
 #: Story/S3-MAYOR.c:24 Story/S3-MAYOR.c:83
-#, fuzzy
 msgid "Hello Mayor, nice town you have here."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo burgemeester, mooie stad heeft u hier.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo burgemeester, mooie stad heeft u."
+msgstr "Hallo burgemeester, mooie stad heeft u hier."
 
 #: Story/S3-MAYOR.c:26 Story/S3-MAYOR.c:85
 msgid "Thank you fair citizen."
 msgstr "Dank je, brave burger."
 
 #: Story/S3-MAYOR.c:28 Story/S3-MAYOR.c:87
-#, fuzzy
 msgid "Yeah, noted."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Burgemeester, ik heb belangrijk nieuws, uw stad zal worden aangevallen!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Graag gedaan."
+msgstr "Graag gedaan."
 
 #: Story/S3-MAYOR.c:34
 msgid "Mayor, I have urgent news, your town is going to be attacked!"
-msgstr "PAPA!!!!!!!!!"
+msgstr "Burgemeester, ik heb belangrijk nieuws, uw stad zal worden aangevallen!"
 
 #: Story/S3-MAYOR.c:36
-#, fuzzy
 msgid "What?!?  That's preposterous, you've got to be joking!"
 msgstr "Wat?!? Dat is belachelijk! Je maakt zeker een grapje!"
 
@@ -7070,7 +6580,6 @@ msgid "All this killing and still no answers."
 msgstr "Zoveel doden, en waarom?....."
 
 #: Story/S3-MOG.c:16
-#, fuzzy
 msgid "Who dares wake the mighty Mog, king of Goblins?"
 msgstr "Wie waagt het de machtige Mog, koning van de Goblins wakker te maken?"
 
@@ -7148,7 +6657,6 @@ msgid "'Sign' me up.. for DESTRUCTION! Haw haw!"
 msgstr "'Schrijf me in.. voor de bond voor aanwijzers! Ha ha!"
 
 #: Story/S3-SIGN1.c:13
-#, fuzzy
 msgid "KernSin is closed until preparation is complete."
 msgstr "KernSin is gesloten tot de voorbereidingen klaar zijn."
 
@@ -7225,26 +6733,20 @@ msgid "Find out about the next town"
 msgstr "Probeer wat te weten te komen over de volgende stad"
 
 #: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
-#, fuzzy
 msgid "See what's news"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Is er nieuws\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Is er nieuws?"
+msgstr "Is er nieuws"
 
 #: Story/S3-ST1P.c:27
 msgid "So what do you got here?"
 msgstr "En wat heeft u hier zoal?"
 
 #: Story/S3-ST1P.c:29
-#, fuzzy
 msgid "We carry books, what did you think?"
 msgstr "We verkopen boeken, wat dacht u dan?"
 
 #: Story/S3-ST1P.c:31
 msgid "Mmmmm"
-msgstr ""
+msgstr "Mmmmm"
 
 #: Story/S3-ST1P.c:36
 msgid "Do you have anything in here on magic?"
@@ -7336,7 +6838,7 @@ msgstr "ik hoorde alleen je naam èèn of twee keer vallen."
 
 #: Story/S3-ST1P.c:90
 msgid "Man!!"
-msgstr ""
+msgstr "Man!!"
 
 #: Story/S3-ST1P.c:92
 msgid "Damn I'm cool!"
@@ -7356,16 +6858,11 @@ msgstr "Doe me alsjeblieft geen pijn, jongen..."
 
 #: Story/S3-ST2.c:4
 msgid "The best in bows"
-msgstr ""
+msgstr "De beste in bogen!"
 
 #: Story/S3-ST2P.c:7 Story/S4-ST2P.c:4
-#, fuzzy
 msgid "Good day sir."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Goeiedag.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Goedendag meneer."
+msgstr "Goeiedag."
 
 #: Story/S3-ST2P.c:21
 msgid "See, now that pierced my lung! Ouch!"
@@ -7457,7 +6954,6 @@ msgid "Yes well, I was wondering how much you sold your bows for?"
 msgstr "Ik vroeg me af hoeveel uw bogen moeten kosten?"
 
 #: Story/S3-ST2P.c:113
-#, fuzzy
 msgid "My current price for a bow and arrows is 1000 gold."
 msgstr "Op dit moment is de prijs voor een boog en pijlen 1000 euro."
 
@@ -7478,7 +6974,6 @@ msgid "Dink, Dink, over here."
 msgstr "Dink, Dink, hierheen."
 
 #: Story/S3-TC.c:256
-#, fuzzy
 msgid "Isn't it just beautiful?"
 msgstr "Is het niet prachtig."
 
@@ -7555,7 +7050,6 @@ msgid "Yes, of course."
 msgstr "Ja, natuurlijk."
 
 #: Story/S4-DG.c:42
-#, fuzzy
 msgid "So how does one get in to see the altar?"
 msgstr "Hoe kom je hierin om het altaar van dichtbij te zien."
 
@@ -7592,7 +7086,6 @@ msgid "WHAT THE!?!?!"
 msgstr "WAT NOU!?!?!"
 
 #: Story/S4-END.c:48
-#, fuzzy
 msgid "Uh oh."
 msgstr "Uh, nee."
 
@@ -7677,17 +7170,16 @@ msgid "Dink is a hero!  WE MUST GO TELL THE OTHERS!"
 msgstr "Dink is een held!  WE MOETEN HET AAN DE ANDEREN VERTELLEN!"
 
 #: Story/S4-END.c:115
-#, fuzzy
 msgid "Bye, Dink."
 msgstr "Tot ziens, dink."
 
 #: Story/S4-H1P.c:17
 msgid "AHHHHH!!!!!!"
-msgstr ""
+msgstr "AHHHHH!!!!!!"
 
 #: Story/S4-H1P.c:26
 msgid "AHHHHH!!!!!"
-msgstr ""
+msgstr "AHHHHH!!!!!"
 
 #: Story/S4-H1P.c:37
 msgid "What the hell?!?"
@@ -7706,13 +7198,8 @@ msgid "Thank you so much for saving our town."
 msgstr "Hartstikke bedankt voor het redden van onze stad."
 
 #: Story/S4-H1P.c:54 Story/S8-DUCK4.c:11
-#, fuzzy
 msgid "Hey, no problem."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, het was niets.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Graag gedaan."
+msgstr "He, het was niets."
 
 #: Story/S4-H1P.c:63
 msgid "I'm done talking to you, I have more important things to worry about."
@@ -7720,9 +7207,8 @@ msgstr ""
 "Ik heb geen tijd, ik heb belangrijke dingen om me zorgen over te maken."
 
 #: Story/S4-H1P.c:65
-#, fuzzy
 msgid "Hmmm."
-msgstr "Ok nog brutaal huh?."
+msgstr "Hmmm."
 
 #: Story/S4-H1P.c:72
 msgid "Ask what's up"
@@ -7870,16 +7356,10 @@ msgid "Thank you, small one."
 msgstr "Bedankt, small one."
 
 #: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58 Story/START-3.c:99
-#, fuzzy
 msgid "Yes."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja dat zeg ik.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Ja."
+msgstr "Ja."
 
 #: Story/S4-H2P2.c:24
-#, fuzzy
 msgid "I'm too hungry to talk."
 msgstr "Ik ben te hongerig om te praten."
 
@@ -7941,13 +7421,8 @@ msgid "No mister!"
 msgstr "Nee meneer!"
 
 #: Story/S4-HEALP.c:99 Story/S4-HEALP.c:125
-#, fuzzy
 msgid "Buy a bottle of elixer for $100"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Koop een fles gezondheidsdrank voor100 euro\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Terug"
+msgstr "Koop een fles gezondheidsdrank voor 100 euro"
 
 #: Story/S4-MD2.c:11
 msgid "Ahh Dink, thank you, thank you!"
@@ -7978,7 +7453,6 @@ msgid "I need food!"
 msgstr "Ik wil wat eten!"
 
 #: Story/S4-MD2.c:28
-#, fuzzy
 msgid "Sorry ..."
 msgstr "Ik vergeet ..."
 
@@ -8071,7 +7545,6 @@ msgid "Super-Fry Chicken opening soon."
 msgstr "Super-Braad kuikens opent binnenkort."
 
 #: Story/S4-SIGN3.c:14
-#, fuzzy
 msgid "Hear ye, hear ye ..."
 msgstr "Hoor hier Hoor hier ..."
 
@@ -8202,12 +7675,10 @@ msgid "See what's up"
 msgstr "Kijk wat er gaande is"
 
 #: Story/S4-ST2P.c:19
-#, fuzzy
 msgid "How's the fur trading industry going?"
 msgstr "Hoe gaat het met de handel in bont?"
 
 #: Story/S4-ST2P.c:21
-#, fuzzy
 msgid "Well, but not too many here buy the furs."
 msgstr "Redelijk, maar niet veel mensen kopen bont."
 
@@ -8325,9 +7796,8 @@ msgid "You don't have enough gold to buy this sword, landlubber!"
 msgstr "Je hebt niet genoeg geld om dit zwaard te kopen, landrot!"
 
 #: Story/S4-ST3P.c:62
-#, fuzzy
 msgid "\"Arrr, feast your eyes on these fine tools...\""
-msgstr "Arrr, laat uw ogen eens gaan over deze mooie dingen..."
+msgstr "\"Arrr, laat uw ogen eens gaan over deze mooie dingen...\""
 
 #: Story/S4-ST3P.c:66
 msgid "Clawsword - $2000"
@@ -8471,7 +7941,6 @@ msgid "I saved all of you, actually."
 msgstr "Ik heb jullie allemaal gered hoor, niet alleen jou."
 
 #: Story/S5-END.c:20
-#, fuzzy
 msgid "In any case, we are very grateful."
 msgstr "In elk geval, we zijn je erg dankbaar."
 
@@ -8615,9 +8084,8 @@ msgid "You don't have enough gold to buy this."
 msgstr "Je hebt niet genoeg geld om dit te kopen."
 
 #: Story/S5-ST1P.c:70
-#, fuzzy
 msgid "\"What will it be, hero?\""
-msgstr "Wat zal het zijn, held?"
+msgstr "\"Wat zal het zijn, held?\""
 
 #: Story/S5-ST1P.c:72
 msgid "Throwing Axe - $3000"
@@ -8684,7 +8152,6 @@ msgid "You are a very brave man Sir Smallwood."
 msgstr "Je bent een hele goede man, meneer Smallwood."
 
 #: Story/S6-G2.c:21
-#, fuzzy
 msgid "Is that you up there Dink?"
 msgstr "Ben jij dat boven, Dink?"
 
@@ -8701,7 +8168,6 @@ msgid "To Edge Of The World Village"
 msgstr "Naar het dorp - De Rand Van De Wereld"
 
 #: Story/S6-SIGN5.c:3
-#, fuzzy
 msgid "'Please be careful when using this machine.' - the ancient ones."
 msgstr "'Wees voorzichtig als je deze machine gebruikt.' - de ouderen."
 
@@ -8796,12 +8262,9 @@ msgid "It is an abomination of nature.  I will not speak of it."
 msgstr "Het is verfoeilijk iets van de natuur. Ik wil er niet over praten."
 
 #: Story/S6-ST1P.c:154
-#, fuzzy
 msgid ""
 "\"I only have a few things... power weapons I found near the 'machine'...\""
-msgstr ""
-"Ik heb maar een paar dingen... krachtige wapens die ik naast de "
-"'machine'vond..."
+msgstr "\"Ik heb maar een paar dingen... krachtige wapens die ik naast de 'machine'vond...\""
 
 #: Story/S6-ST1P.c:156
 msgid "Light Sword - $4000"
@@ -8812,9 +8275,8 @@ msgid "Massive Bow - $5000"
 msgstr "Stevige, massieve boog - 5000 euro"
 
 #: Story/S6-ST1P.c:188
-#, fuzzy
 msgid "Hahaha!!"
-msgstr "Ha, ha! Die zit!!"
+msgstr "Hahaha!!"
 
 #: Story/S6-VEND.c:20
 msgid "I suppose I'll be dead soon.  I'm not particularly worried."
@@ -8869,9 +8331,8 @@ msgid "I'll just be leaving now."
 msgstr "Ik ga er maar eens vandoor."
 
 #: Story/S6-VEND.c:73
-#, fuzzy
 msgid "\"Hello, friend.  I will teach Hellfire magic for $1500 gold.\""
-msgstr "Hallo, vriend.  Ik leer je hellevuur magie voor 1500 euro."
+msgstr "\"Hallo, vriend.  Ik leer je hellevuur magie voor 1500 euro.\""
 
 #: Story/S6-VEND.c:75
 msgid "Learn Hellfire"
@@ -8898,13 +8359,8 @@ msgid "That... sort of looks like me."
 msgstr "Dat... lijkt wel...dat ben ik!!!!"
 
 #: Story/S7-DRAG.c:77 Story/s7-boss.c:84
-#, fuzzy
 msgid "<Casts greater harm>"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"<Veroorzaakt groot letsel>\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"<Brengt groot letsel toe>"
+msgstr "<Veroorzaakt groot letsel>"
 
 #: Story/S7-GIRL.c:25
 msgid "I'm hungry mommy."
@@ -8944,7 +8400,7 @@ msgstr "Milder, wakker worden!  Help me tegen deze kerel te vechten!"
 
 #: Story/S7-MIL.c:36
 msgid "Milder!  Milder!"
-msgstr ""
+msgstr "Milder!  Milder!"
 
 #: Story/S7-MIL.c:39
 msgid "<groan>"
@@ -9003,12 +8459,10 @@ msgid "..but why?  i was so mean to you as a kid..."
 msgstr "..maar waarom?..ik was zo gemeen tegen jou toen we kinderen waren..."
 
 #: Story/S7-MIL.c:71
-#, fuzzy
 msgid "It is the honorable thing to do."
 msgstr "Het is gewoon het meest eerbare dat ik kan doen."
 
 #: Story/S7-MIL.c:73
-#, fuzzy
 msgid "..you are more of a knight than I ever was, dink..."
 msgstr "..jij bent meer... ridder dan ik ooit.. geweest ben, dink..."
 
@@ -9076,7 +8530,7 @@ msgstr "<veroorzaakt een explosie>"
 
 #: Story/S7-MIL.c:129
 msgid "aaargh.."
-msgstr ""
+msgstr "aaargh.."
 
 #: Story/S7-MIL.c:133
 msgid "<grins evilly at you>"
@@ -9143,18 +8597,11 @@ msgstr "Zet 200 euro"
 
 #: Story/S8-DA.c:40
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: Story/S8-DA.c:46 Story/S8-DA.c:61 Story/S8-DA.c:77
-#, fuzzy
 msgid "Hey, you don't have enough to play!"
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, je hebt niet genoeg geld om mee te spelen!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hey, je hebt niet genoeg om mee te doen!\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hey, je hebt niet genoeg geld om mee te doen!"
+msgstr "Hey, je hebt niet genoeg geld om mee te doen!"
 
 #: Story/S8-DA.c:48
 msgid "Come back later."
@@ -9193,27 +8640,16 @@ msgid "Congradulations!"
 msgstr "Gefeliciteerd!"
 
 #: Story/S8-DA.c:181
-#, fuzzy
 msgid "To bad, better luck next time."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Geen geluk, volgende keer beter.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Helaas, volgende keer beter."
+msgstr "Helaas, volgende keer beter."
 
 #: Story/S8-DA.c:189
-#, fuzzy
 msgid "Congratulations!"
 msgstr "Gefeliciteerd!"
 
 #: Story/S8-DA.c:193
-#, fuzzy
 msgid "Too bad, better luck next time."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Geen geluk, volgende keer beter.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Helaas, volgende keer beter."
+msgstr "Helaas, volgende keer beter."
 
 #: Story/S8-DA.c:220
 msgid "You win this time."
@@ -9244,13 +8680,8 @@ msgid "Quack.  No!!"
 msgstr "Kwaak. Nee!!"
 
 #: Story/S8-DUCK2.c:15 Story/S8-DUCK2.c:35
-#, fuzzy
 msgid "Hi giant duck."
-msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hallo reuzen eend.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Hoi reuzen eend."
+msgstr "Hoi reuzen eend."
 
 #: Story/S8-DUCK2.c:17 Story/S8-DUCK2.c:37
 msgid "Hi there."
@@ -9345,9 +8776,8 @@ msgid "I'm not finished yet.  Come back later."
 msgstr "Ik heb hem nog niet klaar. Kom later maar terug."
 
 #: Story/S8-GUY.c:40
-#, fuzzy
 msgid "\"My masterpiece is finished!\""
-msgstr "Mijn meesterwerk is klaar!"
+msgstr "\"Mijn meesterwerk is klaar!\""
 
 #: Story/S8-GUY.c:42
 msgid "Buy the FlameBow for $25,000"
@@ -9467,9 +8897,8 @@ msgid "Dink Smallwood sir."
 msgstr "Dink Smallwood meneer."
 
 #: Story/SC-WIZ.c:66
-#, fuzzy
 msgid "SMALLWOOD ?!?"
-msgstr "SMALLWOOD IS TERUG GEKOMEN!"
+msgstr "SMALLWOOD ?!?"
 
 #: Story/SC-WIZ.c:68
 msgid "I thought you were exiled."
@@ -9527,7 +8956,7 @@ msgstr ""
 
 #: Story/SC-WIZ.c:92
 msgid "making it all seem to be someone else."
-msgstr ""
+msgstr "die net doet of iemand anders dit bekokstoofd."
 
 #: Story/SC-WIZ.c:94
 msgid "I must go, beware Dink, and good luck."
@@ -9550,9 +8979,8 @@ msgid "Hello there guy, what's your name?"
 msgstr "Hallo beste kerel, hoe heet je?"
 
 #: Story/SPICE.c:14
-#, fuzzy
 msgid "Uhh ..."
-msgstr "Uhh ... misschien."
+msgstr "Uhh ..."
 
 #: Story/SPICE.c:16
 msgid "Let's not discuss that now Sporty.  Let's talk about you .."
@@ -9576,9 +9004,8 @@ msgid "The price"
 msgstr ""
 
 #: Story/START-3.c:36
-#, fuzzy
 msgid "How to order"
-msgstr "Geen nieuws op dit moment."
+msgstr ""
 
 #: Story/START-3.c:42
 msgid "Call toll free 1-888-218-3881 to order."
@@ -9597,9 +9024,8 @@ msgid "(preorder price valid until 10-31-97)"
 msgstr ""
 
 #: Story/START-3.c:62
-#, fuzzy
 msgid "Wait a minute!"
-msgstr "Tja dat is dan jammer hè."
+msgstr ""
 
 #: Story/START-3.c:69
 msgid "Hi."
@@ -9610,18 +9036,12 @@ msgid "This game is only $15?"
 msgstr ""
 
 #: Story/START-3.c:100
-#, fuzzy
 msgid "Is this some kind of joke?  This ain't funny."
-msgstr "Is dit een soort geloof?"
+msgstr ""
 
 #: Story/START-3.c:102
-#, fuzzy
 msgid "Nope, no joke."
 msgstr ""
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"He, het was niets.\n"
-"#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-"Graag gedaan."
 
 #: Story/START-3.c:111
 msgid "Incredible!!!  Thank you magic voice."
@@ -9719,82 +9139,3 @@ msgstr "Mijn lichaam suist ervan!!"
 msgid "I must now get back to Goodheart Castle and inform the King."
 msgstr ""
 "Ik moet nu terug naar kasteel Goodheart om de koning op de hoogte te brengen."
-
-#~ msgid "wait(300);"
-#~ msgstr "Toetsen"
-
-#~ msgid "unfreeze(1);"
-#~ msgstr "wait(300);"
-
-#, fuzzy
-#~ msgid "}"
-#~ msgstr ""
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "Vraag hoe je de varkens moet voeren\n"
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "Stem enhousiast toe\n"
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "Vraag naar zijn reizen\n"
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "Vraag wat over de geschiedenis van het kasteel\n"
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "U bent gewond! Ik kan u genezen voor een kleine prijs.\n"
-#~ "#-#-#-#-#  t.po (dmod 1.0)  #-#-#-#-#\n"
-#~ "U bent gewond! Het kost &amount euro om u te genezen."
-
-#~ msgid "wait(250);"
-#~ msgstr "Zeg lieve dingen over haar familie"
-
-#~ msgid "Try to comfort her about her family"
-#~ msgstr "Verontschuldig je voor je gedrag"
-
-#~ msgid "Apologize for being an ass"
-#~ msgstr "Schep op over hoe je hun boerderij hebt gered van de pillbugs"
-
-#~ msgid "I gotta do something about them soon ..."
-#~ msgstr "Ik moet er binnenkort echt wat aan doen ..."
-
-#~ msgid "wait(200);"
-#~ msgstr "Flirt met haar"
-
-#~ msgid "wait(2000);"
-#~ msgstr "wait(200);"
-
-#~ msgid "wait(1000);"
-#~ msgstr "wait(200);"
-
-#~ msgid "Hello Dink, I'm Christina."
-#~ msgstr "Hallo Dink, ik ben Christina."
-
-#~ msgid "When two become one."
-#~ msgstr "Wanneer twee samen een worden."
-
-#~ msgid "I need some love like I never needed love before"
-#~ msgstr "Had ik liefde nodig als nooit tevoren"
-
-#~ msgid "wanna make love to you baby"
-#~ msgstr "ik wil met je vrijen liefste"
-
-#~ msgid "I had a little love now I'm back for more"
-#~ msgstr "ik had een beetje liefde en nu ben ik terug voor meer"
-
-#~ msgid "wanna make love to ya baby"
-#~ msgstr "ik wil met je vrijen liefste"
-
-#~ msgid "(solo)"
-#~ msgstr "(alleen)"
-
-#~ msgid "be a little bit wiser baby"
-#~ msgstr "wees een beetje wijzer liefje"
-
-#~ msgid "put it on, put it on"
-#~ msgstr "voel het dan, voel het dan"
-
-#~ msgid "cause tonight, is the night where two become one"
-#~ msgstr "want vannacht, is de nacht waarin er twee èèn worden"
-
-#~ msgid "Set your spirit free, it's the only way to be"
-#~ msgstr "Laat je geest vrij, datt is het enige dat telt"
-
-#~ msgid "it's the only way to be"
-#~ msgstr "dat is het enige dat telt"

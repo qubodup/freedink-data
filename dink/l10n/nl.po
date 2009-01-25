@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: freedink-data 1.08.20081130\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-01-25 11:00+0100\n"
+"PO-Revision-Date: 2009-01-25 11:12+0100\n"
 "Last-Translator: Nanette <clubs_shetlandpony@hotmail.com>\n"
 "Language-Team: XX <xx@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -5096,7 +5096,7 @@ msgstr "Bom - 20 euro"
 
 #: Story/S2-OUT.c:256
 msgid "\"What can I do for you today, sir?\""
-msgstr "Waar kan ik u mee helpen, meneer?"
+msgstr "\"Waar kan ik u mee helpen, meneer?\""
 
 #: Story/S2-OUT.c:258
 msgid "Buy"
@@ -7103,7 +7103,7 @@ msgstr "BEWAKER!!!!!!!"
 
 #: Story/S4-END.c:65
 msgid "HELP!"
-msgstr ""
+msgstr "HELP!"
 
 #: Story/S4-END.c:67
 msgid "THIS GUY KILLED THE BLESSED FOWL!"
@@ -7355,7 +7355,7 @@ msgstr "Alsjeblieft, sla geen hongerige vrouw!"
 msgid "Thank you, small one."
 msgstr "Bedankt, small one."
 
-#: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58 Story/START-3.c:99
+#: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58
 msgid "Yes."
 msgstr "Ja."
 
@@ -8998,58 +8998,6 @@ msgstr "Het spel beginnen..."
 #: Story/START-2.c:98
 msgid "Try loading a saved game that exists, friend."
 msgstr "Probeer een opgeslagen spel te laden dat bestaat, vriend."
-
-#: Story/START-3.c:35
-msgid "The price"
-msgstr ""
-
-#: Story/START-3.c:36
-msgid "How to order"
-msgstr ""
-
-#: Story/START-3.c:42
-msgid "Call toll free 1-888-218-3881 to order."
-msgstr ""
-
-#: Story/START-3.c:44
-msgid "Or, order ONLINE (securely) at www.rtsoft.com/dink/"
-msgstr ""
-
-#: Story/START-3.c:51
-msgid "Preorder now for only $15 + 4.95 shipping! (within US)"
-msgstr ""
-
-#: Story/START-3.c:53
-msgid "(preorder price valid until 10-31-97)"
-msgstr ""
-
-#: Story/START-3.c:62
-msgid "Wait a minute!"
-msgstr ""
-
-#: Story/START-3.c:69
-msgid "Hi."
-msgstr ""
-
-#: Story/START-3.c:96
-msgid "This game is only $15?"
-msgstr ""
-
-#: Story/START-3.c:100
-msgid "Is this some kind of joke?  This ain't funny."
-msgstr ""
-
-#: Story/START-3.c:102
-msgid "Nope, no joke."
-msgstr ""
-
-#: Story/START-3.c:111
-msgid "Incredible!!!  Thank you magic voice."
-msgstr ""
-
-#: Story/START-3.c:115
-msgid "Anytime."
-msgstr ""
 
 #: Story/START.c:79
 msgid "Error - Scripts require version V1.03+ of dink.exe.  Upgrade!"

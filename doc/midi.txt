@@ -1,0 +1,24 @@
+To compose or edit MIDIs:
+
+- Rosegarden: to edit music scores
+
+- Fluidsynth: to generate sounds from the scores; we could use TiMidity++ too:
+  http://www.rosegardenmusic.com/wiki/Frequently_Asked_Questions#how_do_i_use_an_alsa_soft_synth_such_as_fluidsynth_or_timidity
+
+- Jack: sound daemon requested by Rosegarden
+
+- fluid-soundfont-gs fluid-soundfont-gm: sound fonts, used by
+  Fluidsynth to reproduce different instruments (150MB)
+
+
+# To install under Debian GNU/Linux:
+
+aptitude install rosegarden jackd fluidsynth \
+  fluid-soundfont-gs fluid-soundfont-gm
+
+
+# To run:
+
+jackd -d alsa &  # optional? Rosegarden complains but still plays
+fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2 &
+rosegarden myscore.rg

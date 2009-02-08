@@ -28,7 +28,7 @@ install:
 
 # Release:
 # (Do this from a fresh Git checkout to avoid packaging temporary files)
-dist:
+dist: update-gmo
 ##	Source release
 	git2cl > ChangeLog
 	mkdir $(releasedir)
@@ -54,7 +54,16 @@ dist:
 	cd $(releasedir) && \
 	make install DESTDIR=`pwd`/t && \
 	cd t/usr/local/share/ && \
-	tar czf ../../../../../freedink-data-inst-$(version).tar.gz dink
+	tar czf ../../../../../freedink-data-$(version)-nosrc.tar.gz dink
 	rm -rf $(releasedir)/t
 
 	rm -rf $(releasedir)
+
+# Compile translation strings catalogs
+update-gmo:
+	cd dink/l10n; \
+	for i in fr nl mk; do \
+		mkdir -p $$i/LC_MESSAGES; \
+		echo -n "$$i: "; \
+		msgfmt --statistics $$i.po -o $$i/LC_MESSAGES/dink.mo; \
+	done

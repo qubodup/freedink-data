@@ -4,6 +4,7 @@ void main(void)
 void talk( void )
 {
 freeze(1);
+
 say_stop("That... sort of looks like me.", 1);
 wait(500);
 sp_brain_parm(&current_sprite, 10);
@@ -16,5 +17,6 @@ sp_brain(&current_sprite, 12);
 
 unfreeze(1);
 
-
+//fix, must make it so that talk() can't be run again
+kill_this_task();
 }

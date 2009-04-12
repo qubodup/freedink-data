@@ -1,3 +1,10 @@
+freedink-data (1.08.20080932-1) UNRELEASED; urgency=low
+
+  * New upstream release
+    Closes: #523457
+
+ -- Sylvain Beucler <beuc@beuc.net>  Sun, 12 Apr 2009 15:52:19 +0200
+
 freedink-data (1.08.20080920-1) unstable; urgency=low
 
   * Initial release (Closes: #492760)

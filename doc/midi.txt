@@ -16,9 +16,26 @@ To compose or edit MIDIs:
 aptitude install rosegarden jackd fluidsynth \
   fluid-soundfont-gs fluid-soundfont-gm
 
+# You can also use graphical interfaces to start Fluidsynth and Jackd:
+
+aptitude install qsynth qjackctl
+
 
 # To run:
 
 jackd -d alsa &  # optional? Rosegarden complains but still plays
-fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2 &
+fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2
 rosegarden myscore.rg
+
+
+# To save the data as a .wav, run fluidsynth differently:
+
+fluidsynth -m alsa_seq /usr/share/sounds/sf2/FluidR3_GM.sf2 \
+  -a file -o audio.file.name=myfile.raw
+
+# Then you can import the .raw file in Audacity through:
+# "File > Import > Raw Data"
+# and using settings:
+# "Signed 16 bit PCM / Little-endian / Stereo / 44100Hz"
+# You may need to strip the silences, using:
+# "Effects > Truncate Silence..."

@@ -5771,7 +5771,7 @@ msgid "Ahh, yes.. I've ... heard of that parade."
 msgstr "Ahh, oui.. J'ai ... entendu parler de cette parade."
 
 #: Story/S3-CHICK.c:57
-msgctxt "s3-chick"
+msgctxt "s3-chick:57"
 msgid "So what do you do?"
 msgstr "Que fais-tu dans la vie ?"
 

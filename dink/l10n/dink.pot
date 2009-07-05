@@ -5737,6 +5737,11 @@ msgstr ""
 msgid "Ahh, yes.. I've ... heard of that parade."
 msgstr ""
 
+#: Story/S3-CHICK.c:57
+msgctxt "s3-chick:57"
+msgid "So what do you do?"
+msgstr ""
+
 #: Story/S3-CHICK.c:59
 msgid "Oh, I'm a painter."
 msgstr ""

@@ -1,4 +1,25 @@
-* v1.08.20081130                                         -*- outline -*-
+* v1.08.2009XXXX                                         -*- outline -*-
+
+** New sounds
+
+  bird1.wav and high2.wav
+
+** Translations
+
+  Complete French and Dutch translations. Partial Macedonian
+  translation.
+
+** Fix game freeze
+
+  When you talk to 'darkland dink' twice too fast, the game
+  froze. This is fixed.
+
+** More documentation
+
+  How to generate MIDIs, packaging guidelines, dir.ff
+  overview... cf. doc/
+
+* v1.08.20081130
 
 ** Fix installation
 

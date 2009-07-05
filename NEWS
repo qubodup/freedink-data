@@ -1,4 +1,11 @@
-* v1.08.2009XXXX                                         -*- outline -*-
+* v1.08.20090706                                         -*- outline -*-
+
+** Remove SAVE10.DAT
+
+  Normally savegames are removed but this one was in uppercase.  I
+  also fixed the build system so that it doesn't happen again.
+
+* v1.08.20090705
 
 ** New sounds
 

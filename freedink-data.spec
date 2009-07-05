@@ -1,5 +1,5 @@
 Name:		freedink-data
-Version:	1.08.20080920
+Version:	1.08.20090705
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
@@ -47,6 +47,13 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Jul 05 2009 Sylvain Beucler <beuc@beuc.net> - 1.08.20090705-1
+- New upstream release
+- Removed patch to preserve timestamps (applied upstream)
+
+* Tue Feb 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20080920-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
 * Wed Sep 24 2008 Sylvain Beucler <beuc@beuc.net> - 1.08.20080920-3
 - Actually apply patch0 (preserve timestamps)
 

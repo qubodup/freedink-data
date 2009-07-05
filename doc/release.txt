@@ -1,35 +1,98 @@
 #!/bin/bash
 # Prepare an official release
-# * not tested yet *
 
-version=1.08.`date +%Y%m%d`
+VERSION=1.08.`date +%Y%m%d`
+
+# Edit NEWS (content + _version number_)
+# Sync debian/
+# Sync freedink-data.spec
+# Edit freedink-data.spec (Version/Release + %changelog)
 
 # Create freedink-data-$version.tar.gz and
 # freedink-data-inst-$version.tar.gz. This also updates the ChangeLog.
 make dist
 
 # Commit the current state
-git commit -am "Release $version"
+git commit -am "Release $VERSION"
 
 # Tag it
-git tag v$version
+git tag v$VERSION
 
 # Make a pristine-tar copy of the release. Beware, this requires 500MB
 # of free space! (but only a few kBs in the .git repository)
-pristine-tar commit freedink-data-$version.tar.gz v$version
+pristine-tar commit freedink-data-$VERSION.tar.gz v$VERSION
+git push origin pristine-tar
+
+git push origin master
+git push --tags
 
 # Upload it at ftp.gnu.org
 # http://www.gnu.org/prep/maintain/html_node/Automated-FTP-Uploads.html
-gpg --sign -b freedink-data-$version.tar.gz
-cat <<EOF > freedink-data-$version.tar.gz.directive
+gpg --sign -b freedink-data-$VERSION.tar.gz
+cat <<EOF | gpg --clearsign -a > freedink-data-$VERSION.tar.gz.directive
 version: 1.1
 directory: freedink
-filename: freedink-data-$version.tar.gz
+filename: freedink-data-$VERSION.tar.gz
 EOF
-gpg --clearsign freedink-data-$version.tar.gz.directive
-rm -f freedink-data-$version.tar.gz.directive
 
 # Send all 3 files to ftp://anonymous@ftp-upload.gnu.org/incoming/ftp/
-# freedink-data-$version.tar.gz
-# freedink-data-$version.tar.gz.sig
-# freedink-data-$version.tar.gz.directive.asc
+# freedink-data-$VERSION.tar.gz
+# freedink-data-$VERSION.tar.gz.sig
+# freedink-data-$VERSION.tar.gz.directive.asc
+lftp -e "mput freedink-data-$VERSION.tar.gz*; exit" -u anonymous, ftp-upload.gnu.org/incoming/ftp/
+
+
+Submit the release to:
+----------------------
+- GNU
+  info-gnu@gnu.org
+- Savannah / GNU Planet
+  http://savannah.gnu.org/p/freedink
+- freshmeat
+  http://freshmeat.net/projects/freedink/
+- Translation Project
+  http://translationproject.org/html/maintainers.html
+- Dink Network
+  http://www.dinknetwork.com/contribute/version/new/gnu_freedink/
+- Debian GNU/Linux
+  http://wiki.debian.org/Games/Sponsors/Queue
+- Fedora GNU/Linux
+  http://fedoraproject.org/wiki/PackageMaintainers/UpdatingPackageHowTo
+- OpenSUSE GNU/Linux
+  tell Stefan about the latest official srpm
+- ArchLinux GNU/Linux
+  contact Petteri
+- FreeBSD
+  contact Stephen
+- Ubuntu GNU/Linux (Debian merge request)
+  contact shirish
+- Press...
+
+
+Debian notes:
+-------------
+
+# http://wiki.debian.org/Games/VCS
+# set DEBEMAIL
+git checkout master
+git-import-orig --pristine-tar ../freedink-data_$VERSION.orig.tar.gz
+# - Import debian/ from "upstream"
+# - Fix stuff...
+git commit -am "New upstream release - ..."
+git-buildpackage --git-tag --git-pristine-tar
+git push origin master pristine-tar upstream
+git push --tags
+# http://mentors.debian.net/cgi-bin/maintainer-intro
+dput mentors ../freedink_$VERSION-1_i386.changes
+
+
+Fedora notes:
+-------------
+
+Check
+http://fedoraproject.org/wiki/PackageMaintainers/UpdatingPackageHowTo#Example
+which is detailing this step.
+
+See also:
+https://admin.fedoraproject.org/pkgdb/packages/name/freedink-dfarc
+http://cvs.fedoraproject.org/viewvc/rpms/freedink-dfarc/

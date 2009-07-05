@@ -40,7 +40,7 @@ dist: update-gmo
 #	backup files
 	find $(releasedir) -name "*~" -print0 | xargs -0r rm
 #	savegames
-	find $(releasedir) -name "save*.dat" -print0 | xargs -0r rm
+	find $(releasedir) -iname "save*.dat" -print0 | xargs -0r rm
 #	cheat^wDebugging tool
 	rm -f $(releasedir)/dink/Story/key-67.c
 #	debug mode output

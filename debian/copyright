@@ -130,8 +130,9 @@ Sound effects
     Copyright (C) 1999-2007  The Berklee College of Music Sampling Archive
     Copyright (C) 2008  Sylvain Beucler
     License: CC-BY 3.0
-- gold.wav/gold.ogg
-(/usr/share/games/wesnoth/data/core/sounds/gold.ogg from the Wesnoth project)
+- gold.wav/gold.ogg (orig: gold.ogg)
+  bird1.wav (orig: bird2.ogg)
+(/usr/share/games/wesnoth/data/core/sounds/ from the Wesnoth project)
     Copyright (C) 2003 - 2007 by David White <dave@whitevine.net>
     Copyright (C) 2004 - 2007 by Guillaume Melquiond <guillaume.melquiond@gmail.com>
     Copyright (C) 2004 - 2007 by Philippe Plantier <ayin@anathas.org>
@@ -156,13 +157,16 @@ Sound effects
   gold.wav/gold.ogg
 Based on gold.wav above, plus:
     Copyright (C) 2008  Sylvain Beucler
+- high2.wav
+    Copyright (C) 2009  Sylvain Beucler
+    License: GPLv3+ | Art Libre | CC-BY-SA
 
 
 Packaging
 =========
 
-The Debian packaging is (C) 2008, Sylvain Beucler <beuc@beuc.net> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+The Debian packaging is Copyright (C) 2008, 2009, Sylvain Beucler <beuc@beuc.net>
+and is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
 
 
 Licenses

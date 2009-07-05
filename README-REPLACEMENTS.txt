@@ -178,6 +178,18 @@ Sound effects
   source form and I trashed the temporary .aup project.
   Copyright (C) 2008  Sylvain Beucler
 
+- high2.wav
+
+  Choir noise when you pickup a strength potion; sound when you're
+  given control when starting the game
+
+  Recreated with ZynAddSubFX, with instrument "Choir and Voice > Choir
+  Pad1", notes are g+2+7 on ZynAddSubFX, i.e FA# (bass) + DO# (bass) +
+  SIb (high), or F#+C#+Cb (US).
+
+  Copyright (C) 2009  Sylvain Beucler
+  License: GPLv3+ | Art Libre | CC-BY-SA
+
 
 Files from Wesnoth
 ------------------
@@ -205,4 +217,12 @@ Battle of Wesnoth
   I truncated the sound and applied a fade_out to diminish the
   truncation effect.
   Copyright (C) 2008  Sylvain Beucler
+  License: GPLv2+
+
+- bird1.wav
+
+  Bird tweeting
+
+  Origin: wesnoth/data/core/sounds/ambient/birds2.ogg
+  Author: ?
   License: GPLv2+

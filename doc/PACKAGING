@@ -4,33 +4,14 @@ Packaging
 Distros
 -------
 
-The autotools-based build system should install the files in the
-right location.
+The Makefile should install the files in the right location.  It
+supports DESTDIR.
 
 
 dir.ff
 ------
 
-It would be tempting to extract all the data and convert it to, say,
-PNG.  However, there are some arguments against it:
+Those are 'fast-files', a very basic non-compressed archive with an
+offsets index and then the files contents.
 
-- I did it, and the zip-compressed size for dir.ff is the same than
-  for .png (!).  So it doesn't save download time.  This is probably
-  because the pictures are 3D renders, and like photos, difficult to
-  compress with a lossless format.  On disk, graphics/ passes from 36M
-  to 18M, at the expense of 10-15x more files.
-
-- When files are in a dir.ff, there is a special raw loading process
-  that you would need to redo to maintain compatibility (in
-  particular, to keep the same colors).  Introducing this process to
-  non-dir.ff files implies modifying the dink.ini format, which is
-  already difficult to parse while maintaining compatibility.  
-
-- JPGs?  There will be a loss of quality, and they don't support 8bit
-  mode, which will involve a number of tricks to redo
-  dir.ff-compatible colors subsitutions and to avoid increased memory
-  usage.
-
-Conclusion: not worth the trouble.
-
-However .d files were extracted for simplicity.
+Do not attempt to extract the data - cf. dirff.txt for explanations.

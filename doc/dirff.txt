@@ -1,0 +1,952 @@
+dir.ff overview
+===============
+
+dir.ff files are 'fast-files', a very basic non-compressed archive
+with an offsets index and then the files contents.
+
+
+Don't extract
+=============
+
+It would be tempting to extract all the data.  However, there are some
+arguments against it:
+
+- When files are in a dir.ff, there is an historical, special raw
+  loading process in the game engine that you would need to redo to
+  maintain compatibility (in particular, to keep the same colors).
+  Introducing this process to non-dir.ff files implies modifying the
+  dink.ini format, which is already difficult to parse while
+  maintaining compatibility.
+
+- It creates lots (3500+) of files and increases the disk usage and
+  access time (10-15x more files).
+
+- They embed BMP files, and converting them may sound interesting.
+  Actually it isn't, see below.
+
+
+Extraction tools
+================
+
+If you ever need to unpack or repack the graphics, check
+contrib/ffrpack.cpp and contrib/ffrextract.c in the latest GNU
+FreeDink source release.
+
+But I generally recommend against using this format, it's parsing is
+too weird (including arbitrary color substitutions), you don't want to
+use it.
+
+
+Performances
+============
+
+Let's try to convert the embedded BMPs to something else.
+
+Format comparison
+-----------------
+
+Sizes (du --apparent-size / du):
+Method: extraction (ffrextract), conversion of individual files, remove *.bmp
+- Current: 35M / 36M
+- BMP->PNG with 'convert' (ImageMagick): 11M / 18M (-quality 100)
+- BMP->PNG with netpbm: 8.5M / 18M (-compress 9)
+- BMP->PNG with netpbm: 19M / 26M (-compress 9 -force)
+- BMP->PNG with netpbm: 11M / 18M (-compress 9 + enforce Dink palette)
+- BMP->JPG with netpbm: 18M / 25M (-quality=95)
+- BMP->JPG with netpbm: 11M / 18M (-quality=75)
+
+PNGs is the winner here, even before JPG :)
+
+
+JPEG format
+-----------
+
+There will be a loss of quality, and the format doesn't support 8bit
+mode, which will involve a number of tricks to redo dir.ff-compatible
+colors subsitutions and to avoid increased memory usage.
+
+Since it isn't smaller either, we can forsake it.
+
+PNG format
+----------
+
+I tried converting them to PNGs in order improve the PSP port: this is
+because the transfert from the memory card is pretty slow, and game
+loading is faster if the files are smaller (and reduce the card
+wear-out).
+
+Speed tests for 'load_batch()':
+graphics-bmp + orig code
+12879ms
+graphics-png + order png/dirff/bmp
+18809ms
+graphics-png + order dirff/png/bmp
+18902ms
+graphics-png + Dink palette + order png/dirff/bmp
+15984ms
+graphics-png + Dink palette + order dirff/png
+12540ms
+graphics-png + Dink palette + order dirff-bmp/dir-ff-png/png/bmp
+13560ms
+graphics-png + Dink palette + order dirff-png/dir-ff-bmp/png/bmp
+13520ms
+
+Not promising. Let's do a single test on splash.bmp:
+splash.bmp: 302K
+splash.png: 137K
+fread(splash.bmp): 428ms
+fread(splash.png): 189ms
+IMG_Load(splash.bmp): 269ms
+IMG_Load(splash.png): 327ms (!)
+
+So it's doesn't help with startup speed, at least not on PSP.  And on
+PC, there's not real need to improve the startup speed nowadays.
+
+What about download size?
+
+-rw-r--r--  1 me me 7,0M jui  5 11:54 graphics-orig.zip
+-rw-r--r--  1 me me 7,0M jui  5 11:59 graphics-png.zip
+
+No improvement either - in this particular case a BMP+zip is as
+efficient as PNG.  This is probably because the pictures are 3D
+renders, and like photos, difficult to compress with a lossless format
+(though JPEG wasn't really efficient either), plus they are very small
+files.
+
+So the only gain would be to reduce the disk installation space
+(36M->12M on ext3), but that is not a good enough incentive to mess
+with this buggy format.
+
+PNG conversion details
+----------------------
+
+This wasn't easy, to even if it wasn't useful eventually, I'll keep a
+trace of what I did.
+
+First, to keep the same palette in converted PNGs (and avoid an extra
+palette conversion on startup), I needed to modify the netpbm source
+code, by forcing the Dink palette in
+netpbm-free-10.0/pnm/pnmtopng.c:compute_nonalpha_palette(...)  instead
+of having it compute a minimal palette (cf. below).
+
+Then the process was essentially:
+
+  cd dink/graphics
+  ~/freedink/contrib/ffrextract
+  find -iname "dir.ff" | xargs rm
+  find -iname "*.bmp" | while read file; do bmptopnm $file | pnmtopng -compress 9 > $(echo $file | sed -e 's/.bmp$/.png/i'); done
+  find -iname "*.bmp" | xargs rm
+  ~/freedink/contrib/ffrpack
+  find -iname "*.png" | xargs rm
+
+Some dirs only use BMPs instead of dir.ff, and this affects their
+transparency parsing, let's reproduce this:
+
+  (cd ../graphics.orig && find -name "*.bmp" | xargs -n1 dirname | sort | uniq) |
+  while read dir; do
+        pushd $dir
+        ~/freedink/contrib/ffrextract dir.ff
+        rm -f dir.ff
+        popd
+  done
+
+Changes to netpbm
+-----------------
+
+For the record, here's the new 'compute_nonalpha_palette' function
+that enforces using the Dink palette.
+
+static void
+compute_nonalpha_palette(colorhist_vector const chv,
+                         int              const colors,
+                         pixval           const maxval,
+                         pixel                  palette_pnm[],
+                         unsigned int *   const paletteSizeP,
+                         gray                   trans_pnm[],
+                         unsigned int *   const transSizeP) {
+/*----------------------------------------------------------------------------
+   Compute the palette corresponding to the color set 'chv'
+   (consisting of 'colors' distinct colors) assuming a pure-color (no
+   transparency) palette.
+-----------------------------------------------------------------------------*/
+    unsigned int colorIndex;
+
+    palette_pnm[0].r = 255;
+    palette_pnm[0].g = 255;
+    palette_pnm[0].b = 255;
+    palette_pnm[1].r = 255;
+    palette_pnm[1].g = 255;
+    palette_pnm[1].b = 202;
+    palette_pnm[2].r = 255;
+    palette_pnm[2].g = 255;
+    palette_pnm[2].b = 2;
+    palette_pnm[3].r = 255;
+    palette_pnm[3].g = 247;
+    palette_pnm[3].b = 148;
+    palette_pnm[4].r = 255;
+    palette_pnm[4].g = 231;
+    palette_pnm[4].b = 165;
+    palette_pnm[5].r = 255;
+    palette_pnm[5].g = 231;
+    palette_pnm[5].b = 115;
+    palette_pnm[6].r = 255;
+    palette_pnm[6].g = 222;
+    palette_pnm[6].b = 148;
+    palette_pnm[7].r = 255;
+    palette_pnm[7].g = 206;
+    palette_pnm[7].b = 107;
+    palette_pnm[8].r = 255;
+    palette_pnm[8].g = 198;
+    palette_pnm[8].b = 255;
+    palette_pnm[9].r = 255;
+    palette_pnm[9].g = 189;
+    palette_pnm[9].b = 82;
+    palette_pnm[10].r = 255;
+    palette_pnm[10].g = 181;
+    palette_pnm[10].b = 49;
+    palette_pnm[11].r = 255;
+    palette_pnm[11].g = 179;
+    palette_pnm[11].b = 179;
+    palette_pnm[12].r = 255;
+    palette_pnm[12].g = 156;
+    palette_pnm[12].b = 74;
+    palette_pnm[13].r = 255;
+    palette_pnm[13].g = 140;
+    palette_pnm[13].b = 57;
+    palette_pnm[14].r = 255;
+    palette_pnm[14].g = 140;
+    palette_pnm[14].b = 24;
+    palette_pnm[15].r = 255;
+    palette_pnm[15].g = 132;
+    palette_pnm[15].b = 132;
+    palette_pnm[16].r = 255;
+    palette_pnm[16].g = 125;
+    palette_pnm[16].b = 0;
+    palette_pnm[17].r = 255;
+    palette_pnm[17].g = 107;
+    palette_pnm[17].b = 45;
+    palette_pnm[18].r = 255;
+    palette_pnm[18].g = 64;
+    palette_pnm[18].b = 64;
+    palette_pnm[19].r = 255;
+    palette_pnm[19].g = 0;
+    palette_pnm[19].b = 0;
+    palette_pnm[20].r = 251;
+    palette_pnm[20].g = 69;
+    palette_pnm[20].b = 0;
+    palette_pnm[21].r = 247;
+    palette_pnm[21].g = 255;
+    palette_pnm[21].b = 148;
+    palette_pnm[22].r = 247;
+    palette_pnm[22].g = 214;
+    palette_pnm[22].b = 107;
+    palette_pnm[23].r = 247;
+    palette_pnm[23].g = 206;
+    palette_pnm[23].b = 173;
+    palette_pnm[24].r = 247;
+    palette_pnm[24].g = 189;
+    palette_pnm[24].b = 107;
+    palette_pnm[25].r = 247;
+    palette_pnm[25].g = 173;
+    palette_pnm[25].b = 115;
+    palette_pnm[26].r = 239;
+    palette_pnm[26].g = 222;
+    palette_pnm[26].b = 123;
+    palette_pnm[27].r = 231;
+    palette_pnm[27].g = 206;
+    palette_pnm[27].b = 90;
+    palette_pnm[28].r = 231;
+    palette_pnm[28].g = 189;
+    palette_pnm[28].b = 156;
+    palette_pnm[29].r = 231;
+    palette_pnm[29].g = 49;
+    palette_pnm[29].b = 4;
+    palette_pnm[30].r = 222;
+    palette_pnm[30].g = 222;
+    palette_pnm[30].b = 222;
+    palette_pnm[31].r = 222;
+    palette_pnm[31].g = 198;
+    palette_pnm[31].b = 99;
+    palette_pnm[32].r = 222;
+    palette_pnm[32].g = 189;
+    palette_pnm[32].b = 165;
+    palette_pnm[33].r = 222;
+    palette_pnm[33].g = 173;
+    palette_pnm[33].b = 255;
+    palette_pnm[34].r = 222;
+    palette_pnm[34].g = 173;
+    palette_pnm[34].b = 90;
+    palette_pnm[35].r = 215;
+    palette_pnm[35].g = 200;
+    palette_pnm[35].b = 200;
+    palette_pnm[36].r = 214;
+    palette_pnm[36].g = 239;
+    palette_pnm[36].b = 115;
+    palette_pnm[37].r = 214;
+    palette_pnm[37].g = 231;
+    palette_pnm[37].b = 181;
+    palette_pnm[38].r = 214;
+    palette_pnm[38].g = 206;
+    palette_pnm[38].b = 115;
+    palette_pnm[39].r = 214;
+    palette_pnm[39].g = 165;
+    palette_pnm[39].b = 132;
+    palette_pnm[40].r = 214;
+    palette_pnm[40].g = 148;
+    palette_pnm[40].b = 66;
+    palette_pnm[41].r = 206;
+    palette_pnm[41].g = 184;
+    palette_pnm[41].b = 132;
+    palette_pnm[42].r = 206;
+    palette_pnm[42].g = 181;
+    palette_pnm[42].b = 181;
+    palette_pnm[43].r = 206;
+    palette_pnm[43].g = 181;
+    palette_pnm[43].b = 95;
+    palette_pnm[44].r = 206;
+    palette_pnm[44].g = 115;
+    palette_pnm[44].b = 49;
+    palette_pnm[45].r = 206;
+    palette_pnm[45].g = 107;
+    palette_pnm[45].b = 231;
+    palette_pnm[46].r = 198;
+    palette_pnm[46].g = 222;
+    palette_pnm[46].b = 107;
+    palette_pnm[47].r = 198;
+    palette_pnm[47].g = 165;
+    palette_pnm[47].b = 140;
+    palette_pnm[48].r = 198;
+    palette_pnm[48].g = 165;
+    palette_pnm[48].b = 82;
+    palette_pnm[49].r = 198;
+    palette_pnm[49].g = 148;
+    palette_pnm[49].b = 255;
+    palette_pnm[50].r = 198;
+    palette_pnm[50].g = 140;
+    palette_pnm[50].b = 82;
+    palette_pnm[51].r = 198;
+    palette_pnm[51].g = 49;
+    palette_pnm[51].b = 8;
+    palette_pnm[52].r = 198;
+    palette_pnm[52].g = 33;
+    palette_pnm[52].b = 0;
+    palette_pnm[53].r = 189;
+    palette_pnm[53].g = 206;
+    palette_pnm[53].b = 165;
+    palette_pnm[54].r = 189;
+    palette_pnm[54].g = 181;
+    palette_pnm[54].b = 165;
+    palette_pnm[55].r = 189;
+    palette_pnm[55].g = 173;
+    palette_pnm[55].b = 99;
+    palette_pnm[56].r = 189;
+    palette_pnm[56].g = 173;
+    palette_pnm[56].b = 74;
+    palette_pnm[57].r = 189;
+    palette_pnm[57].g = 123;
+    palette_pnm[57].b = 82;
+    palette_pnm[58].r = 187;
+    palette_pnm[58].g = 208;
+    palette_pnm[58].b = 82;
+    palette_pnm[59].r = 181;
+    palette_pnm[59].g = 231;
+    palette_pnm[59].b = 255;
+    palette_pnm[60].r = 181;
+    palette_pnm[60].g = 189;
+    palette_pnm[60].b = 206;
+    palette_pnm[61].r = 181;
+    palette_pnm[61].g = 156;
+    palette_pnm[61].b = 148;
+    palette_pnm[62].r = 181;
+    palette_pnm[62].g = 156;
+    palette_pnm[62].b = 74;
+    palette_pnm[63].r = 181;
+    palette_pnm[63].g = 148;
+    palette_pnm[63].b = 115;
+    palette_pnm[64].r = 181;
+    palette_pnm[64].g = 132;
+    palette_pnm[64].b = 255;
+    palette_pnm[65].r = 181;
+    palette_pnm[65].g = 119;
+    palette_pnm[65].b = 62;
+    palette_pnm[66].r = 179;
+    palette_pnm[66].g = 0;
+    palette_pnm[66].b = 0;
+    palette_pnm[67].r = 177;
+    palette_pnm[67].g = 103;
+    palette_pnm[67].b = 37;
+    palette_pnm[68].r = 173;
+    palette_pnm[68].g = 189;
+    palette_pnm[68].b = 140;
+    palette_pnm[69].r = 173;
+    palette_pnm[69].g = 181;
+    palette_pnm[69].b = 189;
+    palette_pnm[70].r = 173;
+    palette_pnm[70].g = 173;
+    palette_pnm[70].b = 148;
+    palette_pnm[71].r = 173;
+    palette_pnm[71].g = 165;
+    palette_pnm[71].b = 123;
+    palette_pnm[72].r = 173;
+    palette_pnm[72].g = 107;
+    palette_pnm[72].b = 57;
+    palette_pnm[73].r = 169;
+    palette_pnm[73].g = 218;
+    palette_pnm[73].b = 231;
+    palette_pnm[74].r = 169;
+    palette_pnm[74].g = 140;
+    palette_pnm[74].b = 29;
+    palette_pnm[75].r = 167;
+    palette_pnm[75].g = 167;
+    palette_pnm[75].b = 167;
+    palette_pnm[76].r = 165;
+    palette_pnm[76].g = 189;
+    palette_pnm[76].b = 198;
+    palette_pnm[77].r = 165;
+    palette_pnm[77].g = 173;
+    palette_pnm[77].b = 74;
+    palette_pnm[78].r = 165;
+    palette_pnm[78].g = 156;
+    palette_pnm[78].b = 90;
+    palette_pnm[79].r = 165;
+    palette_pnm[79].g = 156;
+    palette_pnm[79].b = 74;
+    palette_pnm[80].r = 165;
+    palette_pnm[80].g = 148;
+    palette_pnm[80].b = 66;
+    palette_pnm[81].r = 165;
+    palette_pnm[81].g = 140;
+    palette_pnm[81].b = 62;
+    palette_pnm[82].r = 165;
+    palette_pnm[82].g = 115;
+    palette_pnm[82].b = 247;
+    palette_pnm[83].r = 165;
+    palette_pnm[83].g = 115;
+    palette_pnm[83].b = 82;
+    palette_pnm[84].r = 165;
+    palette_pnm[84].g = 82;
+    palette_pnm[84].b = 24;
+    palette_pnm[85].r = 165;
+    palette_pnm[85].g = 49;
+    palette_pnm[85].b = 16;
+    palette_pnm[86].r = 165;
+    palette_pnm[86].g = 8;
+    palette_pnm[86].b = 8;
+    palette_pnm[87].r = 156;
+    palette_pnm[87].g = 206;
+    palette_pnm[87].b = 255;
+    palette_pnm[88].r = 156;
+    palette_pnm[88].g = 173;
+    palette_pnm[88].b = 115;
+    palette_pnm[89].r = 156;
+    palette_pnm[89].g = 148;
+    palette_pnm[89].b = 123;
+    palette_pnm[90].r = 156;
+    palette_pnm[90].g = 148;
+    palette_pnm[90].b = 107;
+    palette_pnm[91].r = 156;
+    palette_pnm[91].g = 140;
+    palette_pnm[91].b = 99;
+    palette_pnm[92].r = 156;
+    palette_pnm[92].g = 90;
+    palette_pnm[92].b = 41;
+    palette_pnm[93].r = 153;
+    palette_pnm[93].g = 213;
+    palette_pnm[93].b = 227;
+    palette_pnm[94].r = 148;
+    palette_pnm[94].g = 198;
+    palette_pnm[94].b = 255;
+    palette_pnm[95].r = 148;
+    palette_pnm[95].g = 181;
+    palette_pnm[95].b = 189;
+    palette_pnm[96].r = 148;
+    palette_pnm[96].g = 173;
+    palette_pnm[96].b = 49;
+    palette_pnm[97].r = 148;
+    palette_pnm[97].g = 132;
+    palette_pnm[97].b = 115;
+    palette_pnm[98].r = 140;
+    palette_pnm[98].g = 189;
+    palette_pnm[98].b = 255;
+    palette_pnm[99].r = 140;
+    palette_pnm[99].g = 173;
+    palette_pnm[99].b = 231;
+    palette_pnm[100].r = 140;
+    palette_pnm[100].g = 165;
+    palette_pnm[100].b = 123;
+    palette_pnm[101].r = 140;
+    palette_pnm[101].g = 156;
+    palette_pnm[101].b = 107;
+    palette_pnm[102].r = 140;
+    palette_pnm[102].g = 132;
+    palette_pnm[102].b = 140;
+    palette_pnm[103].r = 140;
+    palette_pnm[103].g = 132;
+    palette_pnm[103].b = 99;
+    palette_pnm[104].r = 140;
+    palette_pnm[104].g = 123;
+    palette_pnm[104].b = 57;
+    palette_pnm[105].r = 140;
+    palette_pnm[105].g = 115;
+    palette_pnm[105].b = 82;
+    palette_pnm[106].r = 140;
+    palette_pnm[106].g = 115;
+    palette_pnm[106].b = 66;
+    palette_pnm[107].r = 140;
+    palette_pnm[107].g = 90;
+    palette_pnm[107].b = 57;
+    palette_pnm[108].r = 140;
+    palette_pnm[108].g = 82;
+    palette_pnm[108].b = 33;
+    palette_pnm[109].r = 140;
+    palette_pnm[109].g = 49;
+    palette_pnm[109].b = 165;
+    palette_pnm[110].r = 132;
+    palette_pnm[110].g = 181;
+    palette_pnm[110].b = 74;
+    palette_pnm[111].r = 132;
+    palette_pnm[111].g = 156;
+    palette_pnm[111].b = 132;
+    palette_pnm[112].r = 132;
+    palette_pnm[112].g = 152;
+    palette_pnm[112].b = 169;
+    palette_pnm[113].r = 132;
+    palette_pnm[113].g = 115;
+    palette_pnm[113].b = 16;
+    palette_pnm[114].r = 132;
+    palette_pnm[114].g = 90;
+    palette_pnm[114].b = 206;
+    palette_pnm[115].r = 132;
+    palette_pnm[115].g = 82;
+    palette_pnm[115].b = 222;
+    palette_pnm[116].r = 132;
+    palette_pnm[116].g = 0;
+    palette_pnm[116].b = 0;
+    palette_pnm[117].r = 129;
+    palette_pnm[117].g = 66;
+    palette_pnm[117].b = 20;
+    palette_pnm[118].r = 125;
+    palette_pnm[118].g = 0;
+    palette_pnm[118].b = 255;
+    palette_pnm[119].r = 123;
+    palette_pnm[119].g = 140;
+    palette_pnm[119].b = 49;
+    palette_pnm[120].r = 123;
+    palette_pnm[120].g = 132;
+    palette_pnm[120].b = 99;
+    palette_pnm[121].r = 123;
+    palette_pnm[121].g = 123;
+    palette_pnm[121].b = 107;
+    palette_pnm[122].r = 123;
+    palette_pnm[122].g = 115;
+    palette_pnm[122].b = 49;
+    palette_pnm[123].r = 123;
+    palette_pnm[123].g = 107;
+    palette_pnm[123].b = 41;
+    palette_pnm[124].r = 123;
+    palette_pnm[124].g = 82;
+    palette_pnm[124].b = 189;
+    palette_pnm[125].r = 123;
+    palette_pnm[125].g = 82;
+    palette_pnm[125].b = 41;
+    palette_pnm[126].r = 123;
+    palette_pnm[126].g = 74;
+    palette_pnm[126].b = 198;
+    palette_pnm[127].r = 123;
+    palette_pnm[127].g = 24;
+    palette_pnm[127].b = 148;
+    palette_pnm[128].r = 115;
+    palette_pnm[128].g = 173;
+    palette_pnm[128].b = 255;
+    palette_pnm[129].r = 115;
+    palette_pnm[129].g = 165;
+    palette_pnm[129].b = 173;
+    palette_pnm[130].r = 115;
+    palette_pnm[130].g = 148;
+    palette_pnm[130].b = 148;
+    palette_pnm[131].r = 115;
+    palette_pnm[131].g = 148;
+    palette_pnm[131].b = 90;
+    palette_pnm[132].r = 115;
+    palette_pnm[132].g = 132;
+    palette_pnm[132].b = 16;
+    palette_pnm[133].r = 115;
+    palette_pnm[133].g = 115;
+    palette_pnm[133].b = 90;
+    palette_pnm[134].r = 115;
+    palette_pnm[134].g = 107;
+    palette_pnm[134].b = 115;
+    palette_pnm[135].r = 115;
+    palette_pnm[135].g = 99;
+    palette_pnm[135].b = 148;
+    palette_pnm[136].r = 115;
+    palette_pnm[136].g = 99;
+    palette_pnm[136].b = 66;
+    palette_pnm[137].r = 115;
+    palette_pnm[137].g = 90;
+    palette_pnm[137].b = 74;
+    palette_pnm[138].r = 115;
+    palette_pnm[138].g = 82;
+    palette_pnm[138].b = 57;
+    palette_pnm[139].r = 115;
+    palette_pnm[139].g = 74;
+    palette_pnm[139].b = 189;
+    palette_pnm[140].r = 115;
+    palette_pnm[140].g = 66;
+    palette_pnm[140].b = 33;
+    palette_pnm[141].r = 115;
+    palette_pnm[141].g = 41;
+    palette_pnm[141].b = 41;
+    palette_pnm[142].r = 115;
+    palette_pnm[142].g = 16;
+    palette_pnm[142].b = 16;
+    palette_pnm[143].r = 111;
+    palette_pnm[143].g = 152;
+    palette_pnm[143].b = 169;
+    palette_pnm[144].r = 111;
+    palette_pnm[144].g = 111;
+    palette_pnm[144].b = 111;
+    palette_pnm[145].r = 107;
+    palette_pnm[145].g = 148;
+    palette_pnm[145].b = 74;
+    palette_pnm[146].r = 107;
+    palette_pnm[146].g = 123;
+    palette_pnm[146].b = 132;
+    palette_pnm[147].r = 107;
+    palette_pnm[147].g = 107;
+    palette_pnm[147].b = 99;
+    palette_pnm[148].r = 107;
+    palette_pnm[148].g = 107;
+    palette_pnm[148].b = 74;
+    palette_pnm[149].r = 107;
+    palette_pnm[149].g = 107;
+    palette_pnm[149].b = 66;
+    palette_pnm[150].r = 107;
+    palette_pnm[150].g = 49;
+    palette_pnm[150].b = 49;
+    palette_pnm[151].r = 103;
+    palette_pnm[151].g = 136;
+    palette_pnm[151].b = 136;
+    palette_pnm[152].r = 99;
+    palette_pnm[152].g = 222;
+    palette_pnm[152].b = 247;
+    palette_pnm[153].r = 99;
+    palette_pnm[153].g = 156;
+    palette_pnm[153].b = 231;
+    palette_pnm[154].r = 99;
+    palette_pnm[154].g = 148;
+    palette_pnm[154].b = 49;
+    palette_pnm[155].r = 99;
+    palette_pnm[155].g = 132;
+    palette_pnm[155].b = 140;
+    palette_pnm[156].r = 99;
+    palette_pnm[156].g = 132;
+    palette_pnm[156].b = 74;
+    palette_pnm[157].r = 99;
+    palette_pnm[157].g = 123;
+    palette_pnm[157].b = 82;
+    palette_pnm[158].r = 99;
+    palette_pnm[158].g = 107;
+    palette_pnm[158].b = 41;
+    palette_pnm[159].r = 99;
+    palette_pnm[159].g = 90;
+    palette_pnm[159].b = 82;
+    palette_pnm[160].r = 99;
+    palette_pnm[160].g = 66;
+    palette_pnm[160].b = 41;
+    palette_pnm[161].r = 99;
+    palette_pnm[161].g = 57;
+    palette_pnm[161].b = 165;
+    palette_pnm[162].r = 99;
+    palette_pnm[162].g = 8;
+    palette_pnm[162].b = 123;
+    palette_pnm[163].r = 90;
+    palette_pnm[163].g = 123;
+    palette_pnm[163].b = 49;
+    palette_pnm[164].r = 90;
+    palette_pnm[164].g = 107;
+    palette_pnm[164].b = 115;
+    palette_pnm[165].r = 90;
+    palette_pnm[165].g = 107;
+    palette_pnm[165].b = 8;
+    palette_pnm[166].r = 90;
+    palette_pnm[166].g = 99;
+    palette_pnm[166].b = 123;
+    palette_pnm[167].r = 90;
+    palette_pnm[167].g = 99;
+    palette_pnm[167].b = 49;
+    palette_pnm[168].r = 90;
+    palette_pnm[168].g = 90;
+    palette_pnm[168].b = 198;
+    palette_pnm[169].r = 90;
+    palette_pnm[169].g = 90;
+    palette_pnm[169].b = 66;
+    palette_pnm[170].r = 90;
+    palette_pnm[170].g = 82;
+    palette_pnm[170].b = 66;
+    palette_pnm[171].r = 90;
+    palette_pnm[171].g = 82;
+    palette_pnm[171].b = 33;
+    palette_pnm[172].r = 90;
+    palette_pnm[172].g = 74;
+    palette_pnm[172].b = 57;
+    palette_pnm[173].r = 90;
+    palette_pnm[173].g = 49;
+    palette_pnm[173].b = 8;
+    palette_pnm[174].r = 90;
+    palette_pnm[174].g = 8;
+    palette_pnm[174].b = 8;
+    palette_pnm[175].r = 90;
+    palette_pnm[175].g = 0;
+    palette_pnm[175].b = 0;
+    palette_pnm[176].r = 82;
+    palette_pnm[176].g = 140;
+    palette_pnm[176].b = 222;
+    palette_pnm[177].r = 82;
+    palette_pnm[177].g = 123;
+    palette_pnm[177].b = 181;
+    palette_pnm[178].r = 82;
+    palette_pnm[178].g = 115;
+    palette_pnm[178].b = 156;
+    palette_pnm[179].r = 82;
+    palette_pnm[179].g = 115;
+    palette_pnm[179].b = 123;
+    palette_pnm[180].r = 82;
+    palette_pnm[180].g = 115;
+    palette_pnm[180].b = 66;
+    palette_pnm[181].r = 82;
+    palette_pnm[181].g = 107;
+    palette_pnm[181].b = 115;
+    palette_pnm[182].r = 82;
+    palette_pnm[182].g = 90;
+    palette_pnm[182].b = 0;
+    palette_pnm[183].r = 82;
+    palette_pnm[183].g = 74;
+    palette_pnm[183].b = 132;
+    palette_pnm[184].r = 82;
+    palette_pnm[184].g = 45;
+    palette_pnm[184].b = 29;
+    palette_pnm[185].r = 82;
+    palette_pnm[185].g = 33;
+    palette_pnm[185].b = 0;
+    palette_pnm[186].r = 78;
+    palette_pnm[186].g = 103;
+    palette_pnm[186].b = 49;
+    palette_pnm[187].r = 74;
+    palette_pnm[187].g = 115;
+    palette_pnm[187].b = 189;
+    palette_pnm[188].r = 74;
+    palette_pnm[188].g = 99;
+    palette_pnm[188].b = 57;
+    palette_pnm[189].r = 74;
+    palette_pnm[189].g = 90;
+    palette_pnm[189].b = 123;
+    palette_pnm[190].r = 74;
+    palette_pnm[190].g = 90;
+    palette_pnm[190].b = 49;
+    palette_pnm[191].r = 74;
+    palette_pnm[191].g = 82;
+    palette_pnm[191].b = 57;
+    palette_pnm[192].r = 74;
+    palette_pnm[192].g = 74;
+    palette_pnm[192].b = 33;
+    palette_pnm[193].r = 74;
+    palette_pnm[193].g = 66;
+    palette_pnm[193].b = 41;
+    palette_pnm[194].r = 74;
+    palette_pnm[194].g = 49;
+    palette_pnm[194].b = 123;
+    palette_pnm[195].r = 74;
+    palette_pnm[195].g = 41;
+    palette_pnm[195].b = 90;
+    palette_pnm[196].r = 74;
+    palette_pnm[196].g = 0;
+    palette_pnm[196].b = 99;
+    palette_pnm[197].r = 73;
+    palette_pnm[197].g = 89;
+    palette_pnm[197].b = 106;
+    palette_pnm[198].r = 71;
+    palette_pnm[198].g = 100;
+    palette_pnm[198].b = 106;
+    palette_pnm[199].r = 70;
+    palette_pnm[199].g = 95;
+    palette_pnm[199].b = 103;
+    palette_pnm[200].r = 70;
+    palette_pnm[200].g = 86;
+    palette_pnm[200].b = 37;
+    palette_pnm[201].r = 66;
+    palette_pnm[201].g = 107;
+    palette_pnm[201].b = 165;
+    palette_pnm[202].r = 66;
+    palette_pnm[202].g = 107;
+    palette_pnm[202].b = 156;
+    palette_pnm[203].r = 66;
+    palette_pnm[203].g = 103;
+    palette_pnm[203].b = 140;
+    palette_pnm[204].r = 66;
+    palette_pnm[204].g = 8;
+    palette_pnm[204].b = 8;
+    palette_pnm[205].r = 62;
+    palette_pnm[205].g = 70;
+    palette_pnm[205].b = 37;
+    palette_pnm[206].r = 57;
+    palette_pnm[206].g = 99;
+    palette_pnm[206].b = 24;
+    palette_pnm[207].r = 57;
+    palette_pnm[207].g = 82;
+    palette_pnm[207].b = 82;
+    palette_pnm[208].r = 57;
+    palette_pnm[208].g = 66;
+    palette_pnm[208].b = 0;
+    palette_pnm[209].r = 57;
+    palette_pnm[209].g = 57;
+    palette_pnm[209].b = 37;
+    palette_pnm[210].r = 57;
+    palette_pnm[210].g = 49;
+    palette_pnm[210].b = 24;
+    palette_pnm[211].r = 57;
+    palette_pnm[211].g = 41;
+    palette_pnm[211].b = 107;
+    palette_pnm[212].r = 57;
+    palette_pnm[212].g = 33;
+    palette_pnm[212].b = 16;
+    palette_pnm[213].r = 57;
+    palette_pnm[213].g = 24;
+    palette_pnm[213].b = 82;
+    palette_pnm[214].r = 57;
+    palette_pnm[214].g = 24;
+    palette_pnm[214].b = 0;
+    palette_pnm[215].r = 55;
+    palette_pnm[215].g = 55;
+    palette_pnm[215].b = 55;
+    palette_pnm[216].r = 49;
+    palette_pnm[216].g = 90;
+    palette_pnm[216].b = 140;
+    palette_pnm[217].r = 49;
+    palette_pnm[217].g = 74;
+    palette_pnm[217].b = 74;
+    palette_pnm[218].r = 49;
+    palette_pnm[218].g = 74;
+    palette_pnm[218].b = 41;
+    palette_pnm[219].r = 49;
+    palette_pnm[219].g = 74;
+    palette_pnm[219].b = 24;
+    palette_pnm[220].r = 49;
+    palette_pnm[220].g = 66;
+    palette_pnm[220].b = 24;
+    palette_pnm[221].r = 49;
+    palette_pnm[221].g = 57;
+    palette_pnm[221].b = 66;
+    palette_pnm[222].r = 49;
+    palette_pnm[222].g = 41;
+    palette_pnm[222].b = 24;
+    palette_pnm[223].r = 49;
+    palette_pnm[223].g = 0;
+    palette_pnm[223].b = 0;
+    palette_pnm[224].r = 45;
+    palette_pnm[224].g = 90;
+    palette_pnm[224].b = 132;
+    palette_pnm[225].r = 41;
+    palette_pnm[225].g = 90;
+    palette_pnm[225].b = 132;
+    palette_pnm[226].r = 41;
+    palette_pnm[226].g = 74;
+    palette_pnm[226].b = 115;
+    palette_pnm[227].r = 41;
+    palette_pnm[227].g = 57;
+    palette_pnm[227].b = 90;
+    palette_pnm[228].r = 41;
+    palette_pnm[228].g = 57;
+    palette_pnm[228].b = 66;
+    palette_pnm[229].r = 41;
+    palette_pnm[229].g = 49;
+    palette_pnm[229].b = 57;
+    palette_pnm[230].r = 41;
+    palette_pnm[230].g = 0;
+    palette_pnm[230].b = 49;
+    palette_pnm[231].r = 37;
+    palette_pnm[231].g = 70;
+    palette_pnm[231].b = 115;
+    palette_pnm[232].r = 37;
+    palette_pnm[232].g = 53;
+    palette_pnm[232].b = 20;
+    palette_pnm[233].r = 33;
+    palette_pnm[233].g = 156;
+    palette_pnm[233].b = 181;
+    palette_pnm[234].r = 33;
+    palette_pnm[234].g = 57;
+    palette_pnm[234].b = 82;
+    palette_pnm[235].r = 33;
+    palette_pnm[235].g = 41;
+    palette_pnm[235].b = 16;
+    palette_pnm[236].r = 33;
+    palette_pnm[236].g = 33;
+    palette_pnm[236].b = 99;
+    palette_pnm[237].r = 33;
+    palette_pnm[237].g = 33;
+    palette_pnm[237].b = 24;
+    palette_pnm[238].r = 33;
+    palette_pnm[238].g = 24;
+    palette_pnm[238].b = 57;
+    palette_pnm[239].r = 33;
+    palette_pnm[239].g = 24;
+    palette_pnm[239].b = 16;
+    palette_pnm[240].r = 26;
+    palette_pnm[240].g = 1;
+    palette_pnm[240].b = 33;
+    palette_pnm[241].r = 24;
+    palette_pnm[241].g = 132;
+    palette_pnm[241].b = 156;
+    palette_pnm[242].r = 24;
+    palette_pnm[242].g = 74;
+    palette_pnm[242].b = 132;
+    palette_pnm[243].r = 24;
+    palette_pnm[243].g = 41;
+    palette_pnm[243].b = 49;
+    palette_pnm[244].r = 24;
+    palette_pnm[244].g = 16;
+    palette_pnm[244].b = 8;
+    palette_pnm[245].r = 20;
+    palette_pnm[245].g = 28;
+    palette_pnm[245].b = 4;
+    palette_pnm[246].r = 16;
+    palette_pnm[246].g = 90;
+    palette_pnm[246].b = 115;
+    palette_pnm[247].r = 16;
+    palette_pnm[247].g = 57;
+    palette_pnm[247].b = 99;
+    palette_pnm[248].r = 16;
+    palette_pnm[248].g = 49;
+    palette_pnm[248].b = 90;
+    palette_pnm[249].r = 16;
+    palette_pnm[249].g = 0;
+    palette_pnm[249].b = 0;
+    palette_pnm[250].r = 8;
+    palette_pnm[250].g = 16;
+    palette_pnm[250].b = 0;
+    palette_pnm[251].r = 8;
+    palette_pnm[251].g = 8;
+    palette_pnm[251].b = 66;
+    palette_pnm[252].r = 0;
+    palette_pnm[252].g = 255;
+    palette_pnm[252].b = 0;
+    palette_pnm[253].r = 0;
+    palette_pnm[253].g = 44;
+    palette_pnm[253].b = 77;
+    palette_pnm[254].r = 0;
+    palette_pnm[254].g = 0;
+    palette_pnm[254].b = 255;
+    palette_pnm[255].r = 0;
+    palette_pnm[255].g = 0;
+    palette_pnm[255].b = 0;
+
+/*     for (colorIndex = 0; colorIndex < colors ; ++colorIndex) { */
+/*         palette_pnm[colorIndex] = chv[colorIndex].color; */
+/*     } */
+
+    *paletteSizeP = 256;
+
+/*     *paletteSizeP = colors; */
+
+    *transSizeP = 0;
+}

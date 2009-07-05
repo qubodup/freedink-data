@@ -1905,6 +1905,10 @@ msgstr "Die beginnen me de keel uit te hangen zo langzamerhand."
 msgid "They come in from the forest and tear up the fields!"
 msgstr "Ze komen uit het bos en terroriseren mijn velden!"
 
+#: Story/S1-H3-OF.c:64
+msgid "I gotta do something about them soon ..."
+msgstr "Ik moet er binnenkort echt wat aan doen ..."
+
 #: Story/S1-H3-OF.c:66
 msgid "Offer to take care of the problem"
 msgstr "Bied aan om dat voor hem te doen"

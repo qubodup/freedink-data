@@ -1925,6 +1925,10 @@ msgstr "ils commencent vraiment à m'ennuyer."
 msgid "They come in from the forest and tear up the fields!"
 msgstr "Ils arrivent de la forêt et dévastent les cultures !"
 
+#: Story/S1-H3-OF.c:64
+msgid "I gotta do something about them soon ..."
+msgstr "Je dois y remédier et vite ..."
+
 #: Story/S1-H3-OF.c:66
 msgid "Offer to take care of the problem"
 msgstr "Propose de t'occuper du problème"

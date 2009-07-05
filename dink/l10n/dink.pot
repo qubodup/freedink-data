@@ -1903,6 +1903,10 @@ msgstr ""
 msgid "They come in from the forest and tear up the fields!"
 msgstr ""
 
+#: Story/S1-H3-OF.c:64
+msgid "I gotta do something about them soon ..."
+msgstr ""
+
 #: Story/S1-H3-OF.c:66
 msgid "Offer to take care of the problem"
 msgstr ""

@@ -30,7 +30,6 @@ install:
 # (Do this from a fresh Git checkout to avoid packaging temporary files)
 dist: update-gmo
 ##	Source release
-	git2cl > ChangeLog
 	mkdir $(releasedir)
 	cp -a *.txt *.spec Makefile dink/ doc/ licenses/ src/ $(releasedir)
 

@@ -1,15 +1,17 @@
-#!/bin/bash
-# Prepare an official release
+How to make a release     -*- shell-script -*-
+
+On the developer computer:
+--------------------------
 
 VERSION=1.08.`date +%Y%m%d`
-
+git2cl > ChangeLog
 # Edit NEWS (content + _version number_)
 # Sync debian/
 # Sync freedink-data.spec
 # Edit freedink-data.spec (Version/Release + %changelog)
 
-# Create freedink-data-$version.tar.gz and
-# freedink-data-inst-$version.tar.gz. This also updates the ChangeLog.
+# Test freedink-data-$version.tar.gz and
+# freedink-data-inst-$version.tar.gz.
 make dist
 
 # Commit the current state
@@ -17,14 +19,23 @@ git commit -am "Release $VERSION"
 
 # Tag it
 git tag v$VERSION
-
-# Make a pristine-tar copy of the release. Beware, this requires 500MB
-# of free space! (but only a few kBs in the .git repository)
-pristine-tar commit freedink-data-$VERSION.tar.gz v$VERSION
-git push origin pristine-tar
+# Here you can test the release in the autobuilder
 
 git push origin master
 git push --tags
+
+
+On the autobuilder:
+-------------------
+
+./freedink-data-snapshot.sh release
+#./freedink-data-exe.sh
+./freedink-data-debs.sh # as root
+./freedink-data-rpms.sh # in a Fedora vserver
+
+
+On the maintainer computer:
+---------------------------
 
 # Upload it at ftp.gnu.org
 # http://www.gnu.org/prep/maintain/html_node/Automated-FTP-Uploads.html
@@ -41,9 +52,41 @@ EOF
 # freedink-data-$VERSION.tar.gz.directive.asc
 lftp -e "mput freedink-data-$VERSION.tar.gz*; exit" -u anonymous, ftp-upload.gnu.org/incoming/ftp/
 
+# Make a pristine-tar copy of the release. Beware, this requires 500MB
+# of free space! (but only a few kBs in the .git repository)
+pristine-tar commit freedink-data-$VERSION.tar.gz v$VERSION
+git push origin pristine-tar
+
+
+On the website:
+---------------
+
+cd www/releases/
+    for f in ../snapshots/freedink-data-$VERSION.*; do
+        ln -nfs $f
+    done
+
+pushd debian
+    for f in ../../snapshots/debian/freedink-data_$VERSION*; do
+        ln -nfs $f
+    done
+    make
+popd
+
+pushd fedora
+    for f in ../../snapshots/fedora/freedink-data-$VERSION-*; do
+        ln -nfs $f
+    done
+    make
+    cp -a ../../snapshots/fedora/freedink-data.spec .
+popd
+
+# TODO: update woe installer
+
 
 Submit the release to:
 ----------------------
+
 - GNU
   info-gnu@gnu.org
 - Savannah / GNU Planet

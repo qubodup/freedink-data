@@ -1,5 +1,5 @@
 Name:		freedink-data
-Version:	1.08.20090705
+Version:	1.08.20090706
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jul 06 2009 Sylvain Beucler <beuc@beuc.net> - 1.08.20090706-1
+- New upstream release (remove savegame)
+
 * Sun Jul 05 2009 Sylvain Beucler <beuc@beuc.net> - 1.08.20090705-1
 - New upstream release
 - Removed patch to preserve timestamps (applied upstream)

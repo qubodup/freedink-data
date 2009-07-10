@@ -134,7 +134,7 @@ git checkout -b upstream origin/upstream
 # set DEBEMAIL
 
 git checkout master
-git-import-orig --pristine-tar ../freedink-data_$VERSION.orig.tar.gz
+git-import-orig --pristine-tar .../freedink-data-$VERSION.tar.gz
 # - Import debian/ from "upstream"
 # - Fix stuff...
 git commit -am "New upstream release - v$VERSION"
@@ -148,7 +148,9 @@ dput mentors ../freedink-data_$VERSION-1_i386.changes
 Fedora notes:
 -------------
 
-Check
+Do:
+cvs update
+then check:
 http://fedoraproject.org/wiki/PackageMaintainers/UpdatingPackageHowTo#Example
 which is detailing this step.
 

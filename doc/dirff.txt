@@ -94,13 +94,15 @@ graphics-png + Dink palette + order dirff-png/dir-ff-bmp/png/bmp
 Not promising. Let's do a single test on splash.bmp:
 splash.bmp: 302K
 splash.png: 137K
-fread(splash.bmp): 428ms
-fread(splash.png): 189ms
 IMG_Load(splash.bmp): 269ms
-IMG_Load(splash.png): 327ms (!)
+IMG_Load(splash.png): 327ms
 
 So it's doesn't help with startup speed, at least not on PSP.  And on
-PC, there's not real need to improve the startup speed nowadays.
+PC, there's no real need to improve the startup speed nowadays.
+
+There's also other issues related to the fread(3) buffer size,
+cf. http://forums.ps2dev.org/viewtopic.php?p=82902#82902 but that's a
+real mess.
 
 What about download size?
 

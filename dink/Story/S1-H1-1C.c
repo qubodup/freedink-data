@@ -10,7 +10,7 @@ void talk(void)
  say("My bed is going to burn up!", 1);
  return;
  }
- say("This my bed.  So clean and neat!  Mom must have made it.", 1);
+ say("This is my bed.  So clean and neat!  Mom must have made it.", 1);
 }
 
 void hit(void)

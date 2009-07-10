@@ -131,7 +131,7 @@ if (&story == 15)
   wait(300);
   say_stop("`%Smallwood has returned from the Darklands!", &current_sprite);
   wait(300);
-  say_stop("`%'I can't wait until get gets to the castle!' - King Daniel", &current_sprite);
+  say_stop("`%'I can't wait until he gets to the castle!' - King Daniel", &current_sprite);
    unfreeze(1);
    return;
    }

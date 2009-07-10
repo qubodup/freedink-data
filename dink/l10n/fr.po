@@ -708,7 +708,7 @@ msgid "Smallwood has returned from the Darklands!"
 msgstr "Smallwood est revenu des Terres Obscures !"
 
 #: Story/POSTER.c:134
-msgid "'I can't wait until get gets to the castle!' - King Daniel"
+msgid "'I can't wait until he gets to the castle!' - King Daniel"
 msgstr "'J'ai hâte qu'il se présente au château !' - le Roi Daniel"
 
 #: Story/POSTER.c:141
@@ -1105,7 +1105,7 @@ msgid "Die, stupid bed!"
 msgstr "Meurs, stupide lit !"
 
 #: Story/S1-H1-1C.c:13
-msgid "This my bed.  So clean and neat!  Mom must have made it."
+msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr "C'est mon lit.  Si propre et net !  Maman a dû le faire."
 
 #: Story/S1-H1-2.c:11

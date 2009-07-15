@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20090706\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-07-06 18:54+0200\n"
+"PO-Revision-Date: 2009-07-15 19:51+0200\n"
 "Last-Translator: Sylvain Beucler <beuc@beuc.net>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -4211,7 +4211,7 @@ msgstr "Vous n'avez pas assez d'or pour acheter un élixir."
 
 #: Story/S2-HEALP.c:79 Story/S2-OUT.c:55 Story/S4-HEALP.c:80
 msgid "Please don't wreck the place, thanks."
-msgstr "N'abîmer rien, merci."
+msgstr "N'abîmez rien, merci."
 
 #: Story/S2-HEALP.c:96 Story/S4-HEALP.c:97
 msgid "\"You are the perfect picture of health, sir.\""
@@ -4989,7 +4989,7 @@ msgstr "\"Nos articles sont les meilleurs des environs.  Nous cassons tous les p
 
 #: Story/S2-OUT.c:218 Story/S4-ST3P.c:64
 msgid "Longsword - $400"
-msgstr "Épée Longue - 300$"
+msgstr "Épée Longue - 400$"
 
 #: Story/S2-OUT.c:219 Story/S4-ST3P.c:65
 msgid "Bomb - $20"

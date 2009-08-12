@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20090706\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-07-06 11:01+0200\n"
+"PO-Revision-Date: 2009-08-12 08:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1111,7 +1111,7 @@ msgstr ""
 msgid "My bed is going to burn up!"
 msgstr ""
 
-#: Story/S1-H1-1.c:13
+#: Story/S1-H1-1.c:13 Story/S1-H1-1C.c:13
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr ""
 
@@ -1121,10 +1121,6 @@ msgstr ""
 
 #: Story/S1-H1-1.c:23 Story/S1-H1-1C.c:23
 msgid "Die, stupid bed!"
-msgstr ""
-
-#: Story/S1-H1-1C.c:13
-msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr ""
 
 #: Story/S1-H1-2.c:11
@@ -5301,7 +5297,7 @@ msgstr ""
 msgid "Ask about his tales"
 msgstr ""
 
-#: Story/S2-WAND.c:24 Story/S3-CHICK.c:57
+#: Story/S2-WAND.c:24
 msgid "So what do you do?"
 msgstr ""
 

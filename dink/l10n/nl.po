@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dink 1.08.20090706\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-07-06 18:54+0200\n"
+"PO-Revision-Date: 2009-08-12 08:36+0200\n"
 "Last-Translator: Nanette <clubs_shetlandpony@hotmail.com>\n"
 "Language-Team: XX <xx@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1104,7 +1104,7 @@ msgstr "Echt niet... ga je varkens hoeden joh. <lacht>"
 msgid "My bed is going to burn up!"
 msgstr "Mijn bed is aan het verbranden!"
 
-#: Story/S1-H1-1.c:13
+#: Story/S1-H1-1.c:13 Story/S1-H1-1C.c:13
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr "Dit is mijn bed! Zo netjes en schoon. Daar zorgt mijn moeder voor."
 
@@ -1115,10 +1115,6 @@ msgstr "Het is heet!"
 #: Story/S1-H1-1.c:23 Story/S1-H1-1C.c:23
 msgid "Die, stupid bed!"
 msgstr "Ga dood, stom bed!"
-
-#: Story/S1-H1-1C.c:13
-msgid "This is my bed.  So clean and neat!  Mom must have made it."
-msgstr "Dit is mijn bed! Zo netjes en schoon. Daar zorgt mijn moeder voor."
 
 #: Story/S1-H1-2.c:11
 msgid "This may have been what started that accident."
@@ -5377,7 +5373,7 @@ msgstr "Zeg hallo"
 msgid "Ask about his tales"
 msgstr "Heeft ie nog leuke verhalen te vertellen?"
 
-#: Story/S2-WAND.c:24 Story/S3-CHICK.c:57
+#: Story/S2-WAND.c:24
 msgid "So what do you do?"
 msgstr "Hallo, wat doet u hier? "
 

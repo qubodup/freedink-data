@@ -59,7 +59,7 @@ msgstr "Een eerder opgeslagen spel starten"
 msgid "Restart game"
 msgstr "Spel opnieuw starten"
 
-#: Story/DINFO.c:19
+#: Story/DINFO.c:19 Story/ESCAPE.c:13
 msgid "Quit to Windows"
 msgstr "Terug naar Windows"
 

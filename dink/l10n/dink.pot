@@ -111,7 +111,7 @@ msgstr ""
 msgid "Restart"
 msgstr ""
 
-#: Story/ESCAPE.c:13
+#: Story/DINFO.c:19 Story/ESCAPE.c:13
 msgid "Quit to system"
 msgstr ""
 

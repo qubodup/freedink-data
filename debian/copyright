@@ -160,6 +160,9 @@ Based on gold.wav above, plus:
 - high2.wav
     Copyright (C) 2009  Sylvain Beucler
     License: GPLv3+ | Art Libre | CC-BY-SA
+- wscream.wav
+    Copyright (C) 2009  Jerônimo Medina Madruga
+    License: WTFPL
 
 
 Packaging
@@ -1244,3 +1247,23 @@ do not depend solely on a payment of fee-per-copy. Changing times
 require artists be creative in devising new business models for assuring
 payment and adequate compensation for their important contributions to
 society.
+
+
+WTFPL
+http://sam.zoy.org/wtfpl/
+-------------------------
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar
+  14 rue de Plaisance, 75014 Paris, France
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+

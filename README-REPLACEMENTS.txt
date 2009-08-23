@@ -190,6 +190,19 @@ Sound effects
   Copyright (C) 2009  Sylvain Beucler
   License: GPLv3+ | Art Libre | CC-BY-SA
 
+- wscream.wav
+
+  Girl scream (e.g. when you hit Chealse, the girl near the well in
+  the first village).  Also played at very low rate in Lyna's Story
+  for the Dead Dragon Carcass scene.
+
+  Performed by Maria Carmona Varo, recorded by Jerônimo Medina
+  Madruga.  The .wav version is edited to make it a bit less loud, and
+  with efforts to reduce the "wind" of the micro.
+
+  Copyright (C) 2009  Jerônimo Medina Madruga
+  License: WTFPL
+
 
 Files from Wesnoth
 ------------------

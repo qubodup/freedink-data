@@ -200,7 +200,7 @@ Sound effects
   Madruga.  The .wav version is edited to make it a bit less loud, and
   with efforts to reduce the "wind" of the micro.
 
-  Copyright (C) 2009  Jerônimo Medina Madruga
+  Copyright (C) 2009  Fernando Carmona Varo
   License: WTFPL
 
 

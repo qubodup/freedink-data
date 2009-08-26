@@ -196,9 +196,9 @@ Sound effects
   the first village).  Also played at very low rate in Lyna's Story
   for the Dead Dragon Carcass scene.
 
-  Performed by Maria Carmona Varo, recorded by Jerônimo Medina
-  Madruga.  The .wav version is edited to make it a bit less loud, and
-  with efforts to reduce the "wind" of the micro.
+  Performed by Maria Carmona Varo, recorded by Fernando Carmona Varo.
+  The .wav version is edited to make it a bit less loud, and with
+  efforts to reduce the "wind" of the micro.
 
   Copyright (C) 2009  Fernando Carmona Varo
   License: WTFPL

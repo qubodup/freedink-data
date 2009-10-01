@@ -32,7 +32,7 @@ If you ever need to unpack or repack the graphics, check
 contrib/ffrpack.cpp and contrib/ffrextract.c in the latest GNU
 FreeDink source release.
 
-But I generally recommend against using this format, it's parsing is
+But I generally recommend against using this format, its parsing is
 too weird (including arbitrary color substitutions), you don't want to
 use it.
 

@@ -1,4 +1,9 @@
-.PHONY: clean dist
+.PHONY: all clean dist
+
+all:
+	@echo "Usage:"
+	@echo "  make clean"
+	@echo "  make dist"
 
 clean:
 	find -name "*~" -print0 | xargs -r0 rm

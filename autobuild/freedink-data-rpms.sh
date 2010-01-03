@@ -27,6 +27,6 @@ cp -a /mnt/snapshots/$TARBALL rpmbuild/SOURCES/
 cp ~/$PACKAGE/$PACKAGE.spec rpmbuild/SPECS/
 sed -i -e "s/^Version:.*/Version:	$VERSION/"  rpmbuild/SPECS/$PACKAGE.spec
 rpmbuild -bs --nodeps rpmbuild/SPECS/$PACKAGE.spec
-mock -r fedora-8-i386 --resultdir /mnt/snapshots/fedora --rebuild rpmbuild/SRPMS/$PACKAGE-$VERSION-1*.src.rpm
+mock -r fedora-10-i386 --resultdir /mnt/snapshots/fedora --rebuild rpmbuild/SRPMS/$PACKAGE-$VERSION-1*.src.rpm
 cp rpmbuild/SPECS/$PACKAGE.spec /mnt/snapshots/fedora
 make -C /mnt/snapshots/fedora/

@@ -1,6 +1,5 @@
 #!/bin/bash
 # Source release
-
 # Copyright (C) 2008  Sylvain Beucler
 
 # This file is part of GNU FreeDink
@@ -21,13 +20,32 @@
 
 set -ex
 
+if [ -n "$1" -a "$1" != "release" ]; then
+    echo "Usage: $0 [release x.y.z]"
+    exit 1
+fi
+
+if [ "$1" == "release" ]; then
+    VERSION=$2
+    if [ -z "$VERSION" ]; then
+	echo "Invalid version."
+	exit 1
+    fi
+fi
+
 cd /usr/src/
 if [ ! -e freedink-data ]; then
   git clone -n git://git.savannah.gnu.org/freedink/freedink-data
 fi
-(cd freedink-data && git pull)
-
 pushd freedink-data/
+git checkout .
+git checkout master
+git pull
+if [ "$1" == "release" ];
+then
+    git checkout v$VERSION
+fi
+
 make dist
 mv *.tar.gz /mnt/snapshots/
 cp -r gentoo /mnt/snapshots/

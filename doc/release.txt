@@ -11,6 +11,7 @@ git2cl > ChangeLog
 # Sync freedink-data.spec
 # Edit freedink-data.spec (Version/Release + %changelog w/ C-c C-e)
 # Edit dink/l10n/dink.pot (Project-Id-Version and PO-Revision-Date)
+# Sync autobuild/
 
 # Test freedink-data-$version.tar.gz and
 # freedink-data-inst-$version.tar.gz.
@@ -22,6 +23,7 @@ git commit -am "Release $VERSION"
 # Tag it
 git tag v$VERSION
 # Here you can test the release in the autobuilder
+# (preferably by rsync'ing the repository)
 
 git push origin master
 git push --tags
@@ -30,7 +32,8 @@ git push --tags
 On the autobuilder:
 -------------------
 
-./freedink-data-snapshot.sh release
+VERSION=1.08.`date +%Y%m%d`
+./freedink-data-snapshot.sh release $VERSION
 #./freedink-data-exe.sh
 ./freedink-data-debs.sh # as root
 ./freedink-data-rpms.sh # in a Fedora vserver
@@ -120,12 +123,12 @@ Submit the release to:
 Debian notes:
 -------------
 
-# http://wiki.debian.org/Games/VCS
-
 Check this for updates:
 - /usr/share/doc/debian-policy/upgrading-checklist.txt.gz
 - http://lintian.debian.org/full/pkg-games-devel@lists.alioth.debian.org.html#freedink-data
 
+# http://wiki.debian.org/Games/VCS
+# http://wiki.debian.org/Games/VCS/git
 git clone YOU@git.debian.org:/git/pkg-games/freedink-data
 cd freedink-data
 git checkout -b pristine-tar origin/pristine-tar

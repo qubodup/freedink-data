@@ -165,6 +165,17 @@ Based on gold.wav above, plus:
     License: WTFPL
 
 
+Translations
+============
+
+- dink/l10n/da.po: Copyright (C) 2009  Joe Hansen <joedalton2@yahoo.dk>
+- dink/l10n/de.po: Copyright (C) 2009  Michael Skiba <transl@michael-skiba.de>
+- dink/l10n/es.po: Copyright (C) 2009  Fernando Carmona Varo <ferkiwi@gmail.com>
+- dink/l10n/fr.po: Copyright (C) 2008, 2009  Free Software Foundation, Inc.
+- dink/l10n/mk.po: Copyright (C) 2008, 2009  Free Software Foundation, Inc.
+- dink/l10n/nl.po: Copyright (C) 2003  Nanette <clubs_shetlandpony@hotmail.com>
+
+
 Packaging
 =========
 

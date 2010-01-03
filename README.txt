@@ -1,4 +1,4 @@
-This the Dink Smallwood game data, with the following changes:
+This is the Dink Smallwood game data, with the following changes:
 
   - free replacements for sounds, cf. README-REPLACEMENTS.txt
 
@@ -7,7 +7,11 @@ This the Dink Smallwood game data, with the following changes:
   - reference 'system' instead of a widespread proprietary OS in
     ESCAPE.c
 
-  - explicitely mention that this is a modified version in dmod.diz
+  - explicitely mentions that this is a modified version in dmod.diz
+
+  - new translations
+
+  - a couple bugfixes (see NEWS)
 
 
 We need help adding free sounds replacements! Check:

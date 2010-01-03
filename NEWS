@@ -1,5 +1,13 @@
 * v1.08.20090706                                         -*- outline -*-
 
+** German translation (thanks Michael Skiba)
+
+** Danish translation (thanks Joe Hansen)
+
+** Partial Spanish translation (thanks Fernando Carmona Varo)
+
+* v1.08.20090706
+
 ** Remove SAVE10.DAT
 
   Normally savegames are removed but this one was in uppercase.  I

@@ -1,22 +1,24 @@
+# translation of dink-20080920.mk.po to Macedonian
+# Copyright (C) 2004, 2007, 2008, 2009 Free Software Foundation, Inc.
+# This file is put in the public domain.
+#
+# Damjan Dimitrioski <damjandimitrioski@gmail.com>, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: FreeDink\n"
+"Project-Id-Version: dink-1.08.20090125\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Дамјан Димитриоски <damjandimitrioski@gmail.com>\n"
+"PO-Revision-Date: 2009-01-25 11:32+0100\n"
+"Last-Translator: Damjan Dimitrioski <damjandimitrioski@gmail.com>\n"
 "Language-Team: Macedonian <ufo@linux.net.mk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Macedonian\n"
-"X-Poedit-Country: MACEDONIA\n"
+"X-Poedit-Country: MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: Story/1GOLD.c:16
-#: Story/LGOLD.c:28
-#: Story/MGOLD.c:29
-#: Story/SGOLD.c:16
+#: Story/1GOLD.c:16 Story/LGOLD.c:28 Story/MGOLD.c:29 Story/SGOLD.c:16
 #: Story/XLGOLD.c:29
 #, fuzzy
 msgid "I found &mcrap gold."
@@ -59,8 +61,7 @@ msgstr "Чекај... не разбирам!"
 msgid "It's best that way.  Now follow me, I'll get you out of here."
 msgstr "Најдобро е така. Сега иди по мене, ќе те изнесам од тука."
 
-#: Story/DINFO.c:17
-#: Story/ESCAPE.c:11
+#: Story/DINFO.c:17 Story/ESCAPE.c:11
 msgid "Load a previously saved game"
 msgstr "Приклучи снимена игра"
 
@@ -68,52 +69,33 @@ msgstr "Приклучи снимена игра"
 msgid "Restart game"
 msgstr "Пре-вклучи игра"
 
-#: Story/DINFO.c:19 Story/ESCAPE.c:13
-msgid "Quit to Windows"
-msgstr "Излез до Windows"
-
 #: Story/DUCK.c:10
 msgid "I'm a bottle, not a duck.  Even though I sound like one.  Funny, eh?"
 msgstr "Јас сум шише, не пајка. Иако звучам како пајка. Смешно, а?"
 
-#: Story/EN-DRAG.c:78
-#: Story/SC-DRAG.c:77
+#: Story/EN-DRAG.c:78 Story/SC-DRAG.c:77
 msgid "<Casts harm>"
 msgstr ""
 
-#: Story/EN-DRAG.c:96
-#: Story/S7-DRAG.c:95
-#: Story/SC-DRAG.c:95
+#: Story/EN-DRAG.c:96 Story/S7-DRAG.c:95 Story/SC-DRAG.c:95
 #: Story/s7-boss.c:102
 msgid "Magic resisted."
 msgstr "Магијата е одбиена."
 
-#: Story/EN-GH.c:47
-#: Story/EN-GS.c:46
-#: Story/S3-GH.c:47
-#: Story/S3-GS.c:46
+#: Story/EN-GH.c:47 Story/EN-GS.c:46 Story/S3-GH.c:47 Story/S3-GS.c:46
 #, fuzzy
 msgid "Gro'k ki owab dakis gedi!"
 msgstr "Гро'к ки олаб дакис геди!"
 
-#: Story/EN-GH.c:49
-#: Story/EN-GS.c:48
-#: Story/S3-GH.c:49
-#: Story/S3-GS.c:48
+#: Story/EN-GH.c:49 Story/EN-GS.c:48 Story/S3-GH.c:49 Story/S3-GS.c:48
 msgid "Tig glock sigre!"
 msgstr "Тиг глок сигре!"
 
-#: Story/EN-GH.c:51
-#: Story/EN-GS.c:50
-#: Story/S3-GH.c:51
-#: Story/S3-GS.c:50
+#: Story/EN-GH.c:51 Story/EN-GS.c:50 Story/S3-GH.c:51 Story/S3-GS.c:50
 msgid "Oston tewers inat'l meen o mistary!"
 msgstr ""
 
-#: Story/EN-GH.c:53
-#: Story/EN-GS.c:52
-#: Story/S3-GH.c:53
-#: Story/S3-GS.c:52
+#: Story/EN-GH.c:53 Story/EN-GS.c:52 Story/S3-GH.c:53 Story/S3-GS.c:52
 msgid "Hoglim dack byork!"
 msgstr ""
 
@@ -137,14 +119,8 @@ msgstr "Продолжи"
 msgid "View/change gamepad buttons"
 msgstr "Прикажи/смени копчиња"
 
-#: Story/ESCAPE.c:33
-#: Story/ESCAPE.c:192
-#: Story/ESCAPE.c:209
-#: Story/ESCAPE.c:234
-#: Story/S1-LG.c:32
-#: Story/S1-MH-M.c:64
-#: Story/SAVEBOT.c:41
-#: Story/START-2.c:42
+#: Story/ESCAPE.c:33 Story/ESCAPE.c:192 Story/ESCAPE.c:209 Story/ESCAPE.c:234
+#: Story/S1-LG.c:32 Story/S1-MH-M.c:64 Story/SAVEBOT.c:41 Story/START-2.c:42
 msgid "Nevermind"
 msgstr "Нема Врска"
 
@@ -202,37 +178,16 @@ msgstr "Enter = Предмет/магија екран со опрема"
 msgid "Use the arrow keys to move.  Joystick and control pad are also supported."
 msgstr "Користи ги стрелките за да мрдаш. Џојстик и контролна табла се исто така поддржани."
 
-#: Story/ESCAPE.c:128
-#: Story/ESCAPE.c:143
-#: Story/S1-BOOT.c:83
-#: Story/S2-HEALP.c:51
-#: Story/S2-HEALP.c:64
-#: Story/S2-HEALP.c:137
-#: Story/S2-OUT.c:73
-#: Story/S2-OUT.c:86
-#: Story/S2-OUT.c:108
-#: Story/S2-OUT.c:121
-#: Story/S2-OUT.c:143
-#: Story/S2-OUT.c:156
-#: Story/S3-ST2P.c:40
-#: Story/S4-HEALP.c:52
-#: Story/S4-HEALP.c:65
-#: Story/S4-HEALP.c:138
-#: Story/S4-ST3P.c:30
-#: Story/S4-ST3P.c:44
-#: Story/S4-ST3P.c:115
-#: Story/S4-ST3P.c:129
-#: Story/S4-ST3P.c:151
-#: Story/S4-ST3P.c:165
-#: Story/S5-ST1P.c:38
-#: Story/S5-ST1P.c:51
-#: Story/S6-ST1P.c:20
-#: Story/S6-ST1P.c:33
-#: Story/S6-ST1P.c:57
-#: Story/S6-ST1P.c:70
-#: Story/S6-VEND.c:98
-#: Story/S6-VEND.c:114
-#: Story/S8-GUY.c:65
+#: Story/ESCAPE.c:128 Story/ESCAPE.c:143 Story/S1-BOOT.c:83
+#: Story/S2-HEALP.c:51 Story/S2-HEALP.c:64 Story/S2-HEALP.c:137
+#: Story/S2-OUT.c:73 Story/S2-OUT.c:86 Story/S2-OUT.c:108 Story/S2-OUT.c:121
+#: Story/S2-OUT.c:143 Story/S2-OUT.c:156 Story/S3-ST2P.c:40
+#: Story/S4-HEALP.c:52 Story/S4-HEALP.c:65 Story/S4-HEALP.c:138
+#: Story/S4-ST3P.c:30 Story/S4-ST3P.c:44 Story/S4-ST3P.c:115
+#: Story/S4-ST3P.c:129 Story/S4-ST3P.c:151 Story/S4-ST3P.c:165
+#: Story/S5-ST1P.c:38 Story/S5-ST1P.c:51 Story/S6-ST1P.c:20 Story/S6-ST1P.c:33
+#: Story/S6-ST1P.c:57 Story/S6-ST1P.c:70 Story/S6-VEND.c:98
+#: Story/S6-VEND.c:114 Story/S8-GUY.c:65
 msgid "Ok"
 msgstr "Добро"
 
@@ -336,13 +291,11 @@ msgstr "Каде ли е пајката на Етел?"
 msgid "I hate you, scroll of fire!"
 msgstr "Те мразам, папирус за оган"
 
-#: Story/GET-FB.c:15
-#: Story/GET-SFB.c:10
+#: Story/GET-FB.c:15 Story/GET-SFB.c:10
 msgid "A lovely scroll."
 msgstr "Убав папирус"
 
-#: Story/GET-FB.c:28
-#: Story/GET-SFB.c:23
+#: Story/GET-FB.c:28 Story/GET-SFB.c:23
 msgid "I now have the hellfire magic!"
 msgstr "Сега ја имам пеколната магија!"
 
@@ -354,8 +307,7 @@ msgstr "Најдов &ncrap злато."
 msgid "I found 500 gold."
 msgstr "Најдов 500 златници."
 
-#: Story/ITEM-B1.c:92
-#: Story/ITEM-B2.c:92
+#: Story/ITEM-B1.c:92 Story/ITEM-B2.c:92
 msgid "* POWER SHOT *"
 msgstr "* МОЌЕН УДАР *"
 
@@ -489,54 +441,21 @@ msgstr "Жали се за данокот"
 msgid "Offer to help Milder"
 msgstr "Понуди му помош на Милдер"
 
-#: Story/KING.c:140
-#: Story/S1-BOOT.c:28
-#: Story/S1-BRG2.c:30
-#: Story/S1-H1-M.c:86
-#: Story/S1-H2-O.c:107
-#: Story/S1-H3-OF.c:39
-#: Story/S1-WAND.c:21
-#: Story/S1-WAND2.c:32
-#: Story/S2-AUNTP.c:212
-#: Story/S2-BAR.c:164
-#: Story/S2-CA-G.c:44
-#: Story/S2-HEALP.c:99
-#: Story/S2-HEALP.c:125
-#: Story/S2-JACK.c:32
-#: Story/S2-MAN2.c:124
-#: Story/S2-NADP.c:36
-#: Story/S2-OUT.c:220
-#: Story/S2-OUT.c:260
-#: Story/S2-RYANT.c:23
-#: Story/S2-WAND.c:20
-#: Story/S2-WENCH.c:95
-#: Story/S3-BOWL.c:33
-#: Story/S3-CHICK.c:31
-#: Story/S3-FREAK.c:95
-#: Story/S3-GOB.c:59
-#: Story/S3-GOBG.c:70
-#: Story/S3-LARRY.c:22
-#: Story/S3-MAYOR.c:19
-#: Story/S3-MAYOR.c:78
-#: Story/S3-MAYOR.c:109
-#: Story/S3-ST1P.c:23
-#: Story/S3-ST2P.c:77
-#: Story/S4-DG.c:19
-#: Story/S4-H1P.c:74
-#: Story/S4-HEALP.c:100
-#: Story/S4-HEALP.c:126
-#: Story/S4-ST1P.c:43
-#: Story/S4-ST2P.c:15
-#: Story/S4-ST3P.c:67
-#: Story/S4-ST3P.c:182
-#: Story/S5-ST1P.c:73
-#: Story/S6-FOUNT.c:12
-#: Story/S6-ST1P.c:88
-#: Story/S6-ST1P.c:158
-#: Story/S6-VEND.c:76
-#: Story/S6-WARP.c:7
-#: Story/S7-WARP.c:7
-#: Story/S8-GUY.c:43
+#: Story/KING.c:140 Story/S1-BOOT.c:28 Story/S1-BRG2.c:30 Story/S1-H1-M.c:86
+#: Story/S1-H2-O.c:107 Story/S1-H3-OF.c:39 Story/S1-WAND.c:21
+#: Story/S1-WAND2.c:32 Story/S2-AUNTP.c:212 Story/S2-BAR.c:164
+#: Story/S2-CA-G.c:44 Story/S2-HEALP.c:99 Story/S2-HEALP.c:125
+#: Story/S2-JACK.c:32 Story/S2-MAN2.c:124 Story/S2-NADP.c:36
+#: Story/S2-OUT.c:220 Story/S2-OUT.c:260 Story/S2-RYANT.c:23
+#: Story/S2-WAND.c:20 Story/S2-WENCH.c:95 Story/S3-BOWL.c:33
+#: Story/S3-CHICK.c:31 Story/S3-FREAK.c:95 Story/S3-GOB.c:59
+#: Story/S3-GOBG.c:70 Story/S3-LARRY.c:22 Story/S3-MAYOR.c:19
+#: Story/S3-MAYOR.c:78 Story/S3-MAYOR.c:109 Story/S3-ST1P.c:23
+#: Story/S3-ST2P.c:77 Story/S4-DG.c:19 Story/S4-H1P.c:74 Story/S4-HEALP.c:100
+#: Story/S4-HEALP.c:126 Story/S4-ST1P.c:43 Story/S4-ST2P.c:15
+#: Story/S4-ST3P.c:67 Story/S4-ST3P.c:182 Story/S5-ST1P.c:73
+#: Story/S6-FOUNT.c:12 Story/S6-ST1P.c:88 Story/S6-ST1P.c:158
+#: Story/S6-VEND.c:76 Story/S6-WARP.c:7 Story/S7-WARP.c:7 Story/S8-GUY.c:43
 msgid "Leave"
 msgstr "Оди си"
 
@@ -762,23 +681,19 @@ msgstr "ги подучи како да работат земјоделие, о�
 msgid "Arg! Oh well, close enough."
 msgstr "Уф! Ох, скоро блиску се."
 
-#: Story/POSTER.c:92
-#: Story/POSTER.c:105
+#: Story/POSTER.c:92 Story/POSTER.c:105
 msgid "The King's News, issue 48."
 msgstr "Кралевите Вести проблем 48."
 
-#: Story/POSTER.c:94
-#: Story/POSTER.c:107
+#: Story/POSTER.c:94 Story/POSTER.c:107
 msgid "Sir Flatstomp is declared missing in the Darklands!"
 msgstr "Сер Флетстомп се изгубил во Темните предели!"
 
-#: Story/POSTER.c:96
-#: Story/POSTER.c:109
+#: Story/POSTER.c:96 Story/POSTER.c:109
 msgid "'Tis a sad day for our country' - King Daniel"
 msgstr "„Ова е тажен ден за нашата земја“  - Кралот Даниел"
 
-#: Story/POSTER.c:98
-#: Story/POSTER.c:111
+#: Story/POSTER.c:98 Story/POSTER.c:111
 msgid "Wow.. Poor Milder...he really wasn't such a bad guy."
 msgstr "Ау.. Кутриот Милдер...не беше лош човек."
 
@@ -877,8 +792,7 @@ msgid "Buy his boots ($500)"
 msgstr "Купи ги неговите чизми ($500)"
 
 # I added: "argue about the price instead", is it ok ?
-#: Story/S1-BOOT.c:26
-#: Story/S1-BOOT.c:27
+#: Story/S1-BOOT.c:26 Story/S1-BOOT.c:27
 msgid "Complain about the price"
 msgstr "Скарај се заради високата цена"
 
@@ -930,29 +844,15 @@ msgstr "Би сакал да направам рекламација."
 msgid "And I would like to ask you to leave."
 msgstr "А јас сакам да те замолам да си заминеш."
 
-#: Story/S1-BOOT.c:68
-#: Story/S3-BOWL.c:40
-#: Story/S6-VEND.c:83
-#: Story/S8-GUY.c:49
+#: Story/S1-BOOT.c:68 Story/S3-BOWL.c:40 Story/S6-VEND.c:83 Story/S8-GUY.c:49
 msgid "I don't have enough money!"
 msgstr "Немам доволно пари!"
 
-#: Story/S1-BOOT.c:81
-#: Story/S2-HEALP.c:49
-#: Story/S2-OUT.c:71
-#: Story/S2-OUT.c:106
-#: Story/S2-OUT.c:141
-#: Story/S3-ST2P.c:38
-#: Story/S4-HEALP.c:50
-#: Story/S4-ST3P.c:28
-#: Story/S4-ST3P.c:113
-#: Story/S4-ST3P.c:149
-#: Story/S5-ST1P.c:36
-#: Story/S6-ST1P.c:18
-#: Story/S6-ST1P.c:55
-#: Story/S6-VEND.c:96
-#: Story/S6-VEND.c:112
-#: Story/S8-GUY.c:63
+#: Story/S1-BOOT.c:81 Story/S2-HEALP.c:49 Story/S2-OUT.c:71 Story/S2-OUT.c:106
+#: Story/S2-OUT.c:141 Story/S3-ST2P.c:38 Story/S4-HEALP.c:50
+#: Story/S4-ST3P.c:28 Story/S4-ST3P.c:113 Story/S4-ST3P.c:149
+#: Story/S5-ST1P.c:36 Story/S6-ST1P.c:18 Story/S6-ST1P.c:55 Story/S6-VEND.c:96
+#: Story/S6-VEND.c:112 Story/S8-GUY.c:63
 msgid "You are carrying too much."
 msgstr "Носиш премногу товар."
 
@@ -961,8 +861,7 @@ msgstr "Носиш премногу товар."
 msgid "* HYPER BOOTS BOUGHT *"
 msgstr "САМО ШТО КУПИВТЕ ХИПЕР ЧИЗМИ"
 
-#: Story/S1-BOOT.c:109
-#: Story/S8-GUY.c:89
+#: Story/S1-BOOT.c:109 Story/S8-GUY.c:89
 msgid "Help!!! Murderer!"
 msgstr "Помош!!! Убиец!"
 
@@ -1054,33 +953,27 @@ msgstr "Хах! Се гледаме, кепецу."
 msgid "I *HATE* that guy!"
 msgstr "Го *МРАЗАМ* него!"
 
-#: Story/S1-CAVE.c:8
-#: Story/S1-CAVES.c:9
+#: Story/S1-CAVE.c:8 Story/S1-CAVES.c:9
 msgid "Smells damp in here."
 msgstr "Овде лошо мириса."
 
-#: Story/S1-CAVE.c:13
-#: Story/S1-CAVES.c:14
+#: Story/S1-CAVE.c:13 Story/S1-CAVES.c:14
 msgid "I don't like this one bit..."
 msgstr "Ни најмалку не ми се допаѓа овде..."
 
-#: Story/S1-CAVE.c:34
-#: Story/S1-CAVES.c:35
+#: Story/S1-CAVE.c:34 Story/S1-CAVES.c:35
 msgid "Can we leave now? <shiver>"
 msgstr "Можи да си одиме оттука? <се треси>"
 
-#: Story/S1-CAVE.c:36
-#: Story/S1-CAVES.c:37
+#: Story/S1-CAVE.c:36 Story/S1-CAVES.c:37
 msgid "I'm scared."
 msgstr "Страв ми е."
 
-#: Story/S1-CAVE.c:38
-#: Story/S1-CAVES.c:39
+#: Story/S1-CAVE.c:38 Story/S1-CAVES.c:39
 msgid "Why, that's a funny noise."
 msgstr "Зошто, тоа беше смешна бучава."
 
-#: Story/S1-CAVE.c:41
-#: Story/S1-CAVES.c:42
+#: Story/S1-CAVE.c:41 Story/S1-CAVES.c:42
 msgid "This cave sucks, let's leave..."
 msgstr "Оваа пештера е за нигде, да си бегаме..."
 
@@ -1136,8 +1029,7 @@ msgstr "Обиди се но го ризикуваш животот..."
 msgid "RRrrr ar a rar a  arrgghhh."
 msgstr "Ррррр ар а рара аргг"
 
-#: Story/S1-FMONS.c:36
-#: Story/S1-FMONS.c:40
+#: Story/S1-FMONS.c:36 Story/S1-FMONS.c:40
 msgid "You cannot win, Smallwood."
 msgstr "Не можеш да победиш, Смолвуд."
 
@@ -1181,9 +1073,7 @@ msgstr "Патем, дојде писмо за тебе, вкуќа ти е."
 msgid "you should go take a look at it."
 msgstr "оди да го прочиташ."
 
-#: Story/S1-GG.c:36
-#: Story/S1-H3-OF.c:53
-#: Story/S8-DUCK2.c:21
+#: Story/S1-GG.c:36 Story/S1-H3-OF.c:53 Story/S8-DUCK2.c:21
 #: Story/S8-DUCK2.c:41
 msgid "Thanks."
 msgstr "Благодарам."
@@ -1212,8 +1102,7 @@ msgstr "Дете? Те молам од сега називај ме мене с�
 msgid "Hardly... go tend your livestock. <chuckle>"
 msgstr "Тешко... оди гледај ја стоката. <кикотење>"
 
-#: Story/S1-H1-1.c:10
-#: Story/S1-H1-1C.c:10
+#: Story/S1-H1-1.c:10 Story/S1-H1-1C.c:10
 msgid "My bed is going to burn up!"
 msgstr "Креветот ќе ми изгори!"
 
@@ -1221,13 +1110,11 @@ msgstr "Креветот ќе ми изгори!"
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr "Ова е мојот кревет. Толку чист и уреден! Мама изгледа го направила таков."
 
-#: Story/S1-H1-1.c:20
-#: Story/S1-H1-1C.c:20
+#: Story/S1-H1-1.c:20 Story/S1-H1-1C.c:20
 msgid "It's hot!"
 msgstr "Жешко е!"
 
-#: Story/S1-H1-1.c:23
-#: Story/S1-H1-1C.c:23
+#: Story/S1-H1-1.c:23 Story/S1-H1-1C.c:23
 msgid "Die, stupid bed!"
 msgstr "Умри, глуп кревет!"
 
@@ -1729,8 +1616,7 @@ msgstr "Г-дин СмајлШтејн-от кревет, се наежува о
 msgid "Ohh soft."
 msgstr "Ох меко."
 
-#: Story/S1-H3-4.c:8
-#: Story/S1-H3-7.c:8
+#: Story/S1-H3-4.c:8 Story/S1-H3-7.c:8
 msgid "A small table."
 msgstr "Масичка"
 
@@ -1790,9 +1676,7 @@ msgstr "Обиди се да ја утешиш"
 msgid "Brag about how you cleared their farm"
 msgstr "Карај се заради тоа како си ја исчистил нивната фарма"
 
-#: Story/S1-H3-L.c:21
-#: Story/S4-H2P1.c:23
-#: Story/S4-H2P3.c:23
+#: Story/S1-H3-L.c:21 Story/S4-H2P1.c:23 Story/S4-H2P3.c:23
 msgid "Never mind"
 msgstr "Нема врска"
 
@@ -1856,8 +1740,7 @@ msgstr "Заради тоа што помина година од смртта �
 msgid "Uhhh.  I ... uhm ..."
 msgstr "Уф. Јас ... м ..."
 
-#: Story/S1-H3-L.c:55
-#: Story/S1-H3-OF.c:100
+#: Story/S1-H3-L.c:55 Story/S1-H3-OF.c:100
 msgid "Oh"
 msgstr "Ох"
 
@@ -1989,9 +1872,7 @@ msgstr "Па како е семејството?"
 msgid "We're fine."
 msgstr "Добро сме."
 
-#: Story/S1-H3-OF.c:47
-#: Story/S2-CA-G.c:59
-#: Story/S2-WENCH.c:119
+#: Story/S1-H3-OF.c:47 Story/S2-CA-G.c:59 Story/S2-WENCH.c:119
 msgid "Ah."
 msgstr "Ах."
 
@@ -2018,6 +1899,10 @@ msgstr "ти почнуваат навистина да ми пречат."
 #: Story/S1-H3-OF.c:63
 msgid "They come in from the forest and tear up the fields!"
 msgstr "Тие идат од шума и ги откорнуваат полињата!"
+
+#: Story/S1-H3-OF.c:64
+msgid "I gotta do something about them soon ..."
+msgstr ""
 
 #: Story/S1-H3-OF.c:66
 msgid "Offer to take care of the problem"
@@ -2299,8 +2184,7 @@ msgstr ""
 msgid "She won't be bothering people any more."
 msgstr ""
 
-#: Story/S1-LTR.c:17
-#: Story/S1-MH-F.c:16
+#: Story/S1-LTR.c:17 Story/S1-MH-F.c:16
 msgid "Dear Dink,"
 msgstr ""
 
@@ -2472,8 +2356,7 @@ msgstr ""
 msgid "Tell him you're worthy"
 msgstr ""
 
-#: Story/S1-MH-M.c:63
-#: Story/S3-ST1P.c:20
+#: Story/S1-MH-M.c:63 Story/S3-ST1P.c:20
 msgid "Ask about Magic"
 msgstr ""
 
@@ -2625,8 +2508,7 @@ msgstr ""
 msgid "I don't remember ever being charged."
 msgstr ""
 
-#: Story/S1-ROB2.c:40
-#: Story/S1-ROB2.c:41
+#: Story/S1-ROB2.c:40 Story/S1-ROB2.c:41
 msgid "Ha ha ha ha"
 msgstr ""
 
@@ -2634,8 +2516,7 @@ msgstr ""
 msgid "Someone, help!"
 msgstr ""
 
-#: Story/S1-ROB2.c:58
-#: Story/S2-FIGHT.c:10
+#: Story/S1-ROB2.c:58 Story/S2-FIGHT.c:10
 msgid "Ahhhhhhh"
 msgstr ""
 
@@ -2675,14 +2556,8 @@ msgstr ""
 msgid "GoodHeart Castle"
 msgstr ""
 
-#: Story/S1-SS2.c:4
-#: Story/S1-SS2.c:6
-#: Story/S1-SS2.c:8
-#: Story/S1-SS2.c:10
-#: Story/S1-SS2.c:12
-#: Story/S1-SS2.c:14
-#: Story/S1-SS2.c:16
-#: Story/S1-SS2.c:18
+#: Story/S1-SS2.c:4 Story/S1-SS2.c:6 Story/S1-SS2.c:8 Story/S1-SS2.c:10
+#: Story/S1-SS2.c:12 Story/S1-SS2.c:14 Story/S1-SS2.c:16 Story/S1-SS2.c:18
 msgid "I've come to get my meat"
 msgstr ""
 
@@ -2862,23 +2737,19 @@ msgstr ""
 msgid "hope no one was hurt too bad."
 msgstr ""
 
-#: Story/S1-WAND.c:147
-#: Story/S1-WAND2.c:174
+#: Story/S1-WAND.c:147 Story/S1-WAND2.c:174
 msgid "Yes.. I'm sure no one was ... hurt ..."
 msgstr ""
 
-#: Story/S1-WAND.c:152
-#: Story/S1-WAND.c:161
+#: Story/S1-WAND.c:152 Story/S1-WAND.c:161
 msgid "In the small village nearby, I've heard there's"
 msgstr ""
 
-#: Story/S1-WAND.c:153
-#: Story/S1-WAND.c:162
+#: Story/S1-WAND.c:153 Story/S1-WAND.c:162
 msgid "a madman.  A murderer who stalks and kills the pets of the people!"
 msgstr ""
 
-#: Story/S1-WAND.c:155
-#: Story/S1-WAND.c:164
+#: Story/S1-WAND.c:155 Story/S1-WAND.c:164
 msgid "Horrible isn't it?"
 msgstr ""
 
@@ -3090,8 +2961,7 @@ msgstr ""
 msgid "Smallwood,"
 msgstr ""
 
-#: Story/S1-WAND2.c:185
-#: Story/S2-CA-G.c:88
+#: Story/S1-WAND2.c:185 Story/S2-CA-G.c:88
 msgid "Dink Smallwood."
 msgstr ""
 
@@ -3103,8 +2973,7 @@ msgstr ""
 msgid "You have an interesting name there."
 msgstr ""
 
-#: Story/S1-WAND2.c:191
-#: Story/S4-ST1P.c:91
+#: Story/S1-WAND2.c:191 Story/S4-ST1P.c:91
 msgid "Thank you."
 msgstr ""
 
@@ -3112,8 +2981,7 @@ msgstr ""
 msgid "What the..."
 msgstr ""
 
-#: Story/S1-WIZ.c:21
-#: Story/S8-DUCK.c:17
+#: Story/S1-WIZ.c:21 Story/S8-DUCK.c:17
 msgid "Who are you?"
 msgstr ""
 
@@ -3357,13 +3225,11 @@ msgstr ""
 msgid "Well.. things have been rough lately, that's all."
 msgstr ""
 
-#: Story/S2-AUNTP.c:264
-#: Story/S2-AUNTP.c:282
+#: Story/S2-AUNTP.c:264 Story/S2-AUNTP.c:282
 msgid "I saw Jack hit you."
 msgstr ""
 
-#: Story/S2-AUNTP.c:266
-#: Story/S2-AUNTP.c:284
+#: Story/S2-AUNTP.c:266 Story/S2-AUNTP.c:284
 msgid "You.. you did?"
 msgstr ""
 
@@ -3435,8 +3301,7 @@ msgstr ""
 msgid "I'm your aunt, Dink!"
 msgstr ""
 
-#: Story/S2-AUNTP.c:317
-#: Story/S2-BAR.c:173
+#: Story/S2-AUNTP.c:317 Story/S2-BAR.c:173
 msgid "And?"
 msgstr ""
 
@@ -3484,8 +3349,7 @@ msgstr ""
 msgid "You stupid whore."
 msgstr ""
 
-#: Story/S2-AUNTP.c:351
-#: Story/S2-CULT.c:147
+#: Story/S2-AUNTP.c:351 Story/S2-CULT.c:147
 msgid "Excuse me?"
 msgstr ""
 
@@ -3701,8 +3565,7 @@ msgstr ""
 msgid "I've never heard of you.  Please, go back to your village and play hero there."
 msgstr ""
 
-#: Story/S2-CA-G.c:99
-#: Story/S2-CA-G.c:108
+#: Story/S2-CA-G.c:99 Story/S2-CA-G.c:108
 msgid "Ah, the one that saved that little girl.  Nice work."
 msgstr ""
 
@@ -3710,8 +3573,7 @@ msgstr ""
 msgid "So you will grant me access?"
 msgstr ""
 
-#: Story/S2-CA-G.c:103
-#: Story/S2-CA-G.c:112
+#: Story/S2-CA-G.c:103 Story/S2-CA-G.c:112
 msgid "I'm sorry, the King is otherwise engaged today."
 msgstr ""
 
@@ -3747,8 +3609,7 @@ msgstr ""
 msgid "No - He's seeing Milder off before his journey to the Darklands."
 msgstr ""
 
-#: Story/S2-CA-G.c:135
-#: Story/S7-MIL.c:131
+#: Story/S2-CA-G.c:135 Story/S7-MIL.c:131
 msgid "Milder?"
 msgstr ""
 
@@ -3776,8 +3637,7 @@ msgstr ""
 msgid "Hey, that's GoodHeart castle."
 msgstr ""
 
-#: Story/S2-CAVE.c:21
-#: Story/S2-CULG.c:94
+#: Story/S2-CAVE.c:21 Story/S2-CULG.c:94
 msgid "Help me!"
 msgstr ""
 
@@ -3817,9 +3677,7 @@ msgstr ""
 msgid "No, actually I didn't."
 msgstr ""
 
-#: Story/S2-CAVE.c:46
-#: Story/S2-MDOOR.c:74
-#: Story/S3-ST1P.c:101
+#: Story/S2-CAVE.c:46 Story/S2-MDOOR.c:74 Story/S3-ST1P.c:101
 msgid "Oh."
 msgstr ""
 
@@ -3875,8 +3733,7 @@ msgstr ""
 msgid "Hurry!!"
 msgstr ""
 
-#: Story/S2-CAVE.c:95
-#: Story/S3-ST1P.c:32
+#: Story/S2-CAVE.c:95 Story/S3-ST1P.c:32
 msgid "Noted."
 msgstr ""
 
@@ -3944,8 +3801,7 @@ msgstr ""
 msgid "Hurry though, I could've sworn I heard something just before you came."
 msgstr ""
 
-#: Story/S2-CAVE.c:190
-#: Story/S2-JACK.c:89
+#: Story/S2-CAVE.c:190 Story/S2-JACK.c:89
 msgid "Ok."
 msgstr ""
 
@@ -3969,15 +3825,11 @@ msgstr ""
 msgid "Hahahaaahaha"
 msgstr ""
 
-#: Story/S2-CAVE2.c:65
-#: Story/S2-CAVE2.c:76
-#: Story/S2-CAVE2.c:105
+#: Story/S2-CAVE2.c:65 Story/S2-CAVE2.c:76 Story/S2-CAVE2.c:105
 msgid "Haha ha ha"
 msgstr ""
 
-#: Story/S2-CAVE2.c:66
-#: Story/S2-CAVE2.c:78
-#: Story/S2-CAVE2.c:106
+#: Story/S2-CAVE2.c:66 Story/S2-CAVE2.c:78 Story/S2-CAVE2.c:106
 msgid "Ha ha haaa"
 msgstr ""
 
@@ -4293,8 +4145,7 @@ msgstr ""
 msgid "Nah, I think I'd rather shout something."
 msgstr ""
 
-#: Story/S2-CULT.c:149
-#: Story/S2-CULT.c:166
+#: Story/S2-CULT.c:149 Story/S2-CULT.c:166
 msgid "There is a man hiding in the bushes!"
 msgstr ""
 
@@ -4350,8 +4201,7 @@ msgstr ""
 msgid "Condemned Mine - Do Not Enter!"
 msgstr ""
 
-#: Story/S2-FGATE.c:40
-#: Story/S2-MAN1.c:24
+#: Story/S2-FGATE.c:40 Story/S2-MAN1.c:24
 msgid "Ouch!"
 msgstr ""
 
@@ -4371,44 +4221,35 @@ msgstr ""
 msgid "Except for that guy Jack..."
 msgstr ""
 
-#: Story/S2-HEALP.c:62
-#: Story/S4-HEALP.c:63
+#: Story/S2-HEALP.c:62 Story/S4-HEALP.c:63
 msgid "You don't have enough gold to buy elixer."
 msgstr ""
 
-#: Story/S2-HEALP.c:79
-#: Story/S2-OUT.c:55
-#: Story/S4-HEALP.c:80
+#: Story/S2-HEALP.c:79 Story/S2-OUT.c:55 Story/S4-HEALP.c:80
 msgid "Please don't wreck the place, thanks."
 msgstr ""
 
-#: Story/S2-HEALP.c:96
-#: Story/S4-HEALP.c:97
+#: Story/S2-HEALP.c:96 Story/S4-HEALP.c:97
 msgid "\"You are the perfect picture of health, sir.\""
 msgstr ""
 
-#: Story/S2-HEALP.c:98
-#: Story/S2-HEALP.c:124
+#: Story/S2-HEALP.c:98 Story/S2-HEALP.c:124
 msgid "Buy a bottle of elixer for $25"
 msgstr ""
 
-#: Story/S2-HEALP.c:121
-#: Story/S4-HEALP.c:122
+#: Story/S2-HEALP.c:121 Story/S4-HEALP.c:122
 msgid "\"You are injured!  It will cost $&amount gold to heal you.\""
 msgstr ""
 
-#: Story/S2-HEALP.c:123
-#: Story/S4-HEALP.c:124
+#: Story/S2-HEALP.c:123 Story/S4-HEALP.c:124
 msgid "Get healed"
 msgstr ""
 
-#: Story/S2-HEALP.c:135
-#: Story/S4-HEALP.c:136
+#: Story/S2-HEALP.c:135 Story/S4-HEALP.c:136
 msgid "You don't have enough gold."
 msgstr ""
 
-#: Story/S2-HEALP.c:144
-#: Story/S4-HEALP.c:145
+#: Story/S2-HEALP.c:144 Story/S4-HEALP.c:145
 msgid "I am healed."
 msgstr ""
 
@@ -4456,9 +4297,7 @@ msgstr ""
 msgid "Hey Jack!"
 msgstr ""
 
-#: Story/S2-JACK.c:55
-#: Story/S2-JACK.c:71
-#: Story/S3-FREAK.c:133
+#: Story/S2-JACK.c:55 Story/S2-JACK.c:71 Story/S3-FREAK.c:133
 msgid "Yeah?"
 msgstr ""
 
@@ -4574,8 +4413,7 @@ msgstr ""
 msgid "He begged me for his life.  Have you ever seen a dragon cry?"
 msgstr ""
 
-#: Story/S2-MAN2.c:51
-#: Story/S6-VEND.c:40
+#: Story/S2-MAN2.c:51 Story/S6-VEND.c:40
 msgid "Nope."
 msgstr ""
 
@@ -4747,11 +4585,8 @@ msgstr ""
 msgid "Oh hogwash!"
 msgstr ""
 
-#: Story/S2-MAN2.c:174
-#: Story/S2-MAN2.c:185
-#: Story/S2-MAN2.c:197
-#: Story/S2-MAN2.c:214
-#: Story/S2-MAN2.c:215
+#: Story/S2-MAN2.c:174 Story/S2-MAN2.c:185 Story/S2-MAN2.c:197
+#: Story/S2-MAN2.c:214 Story/S2-MAN2.c:215
 msgid "Hahahah!"
 msgstr ""
 
@@ -4775,8 +4610,7 @@ msgstr ""
 msgid "Is a bottle of SWINE ok? Bawahahah!"
 msgstr ""
 
-#: Story/S2-MAN2.c:186
-#: Story/S2-MAN2.c:198
+#: Story/S2-MAN2.c:186 Story/S2-MAN2.c:198
 msgid "Hahaha!"
 msgstr ""
 
@@ -4848,9 +4682,7 @@ msgstr ""
 msgid "I hope that damn old man gives me that spell."
 msgstr ""
 
-#: Story/S2-MDOOR.c:27
-#: Story/S2-TDOOR.c:12
-#: Story/S3-MDOOR.c:10
+#: Story/S2-MDOOR.c:27 Story/S2-TDOOR.c:12 Story/S3-MDOOR.c:10
 #: Story/S4-MDOOR.c:22
 msgid "It's locked."
 msgstr ""
@@ -4895,8 +4727,7 @@ msgstr ""
 msgid "Are you high?"
 msgstr ""
 
-#: Story/S2-MDOOR.c:73
-#: Story/S6-VEND.c:48
+#: Story/S2-MDOOR.c:73 Story/S6-VEND.c:48
 msgid "No."
 msgstr ""
 
@@ -4940,28 +4771,23 @@ msgstr ""
 msgid "Er, to help the man trapped in the dungeon I mean."
 msgstr ""
 
-#: Story/S2-MH-M.c:26
-#: Story/S2-MH-M.c:63
+#: Story/S2-MH-M.c:26 Story/S2-MH-M.c:63
 msgid "I sense you are powerful enough now Tallwood."
 msgstr ""
 
-#: Story/S2-MH-M.c:28
-#: Story/S2-MH-M.c:65
+#: Story/S2-MH-M.c:28 Story/S2-MH-M.c:65
 msgid "You will now understand the Acid Rain magic."
 msgstr ""
 
-#: Story/S2-MH-M.c:30
-#: Story/S2-MH-M.c:67
+#: Story/S2-MH-M.c:30 Story/S2-MH-M.c:67
 msgid "Rain?  Rain is the big magic you will teach?"
 msgstr ""
 
-#: Story/S2-MH-M.c:32
-#: Story/S2-MH-M.c:69
+#: Story/S2-MH-M.c:32 Story/S2-MH-M.c:69
 msgid "Scoff not child or you shall burn and kill yourself with it!"
 msgstr ""
 
-#: Story/S2-MH-M.c:43
-#: Story/S2-MH-M.c:74
+#: Story/S2-MH-M.c:43 Story/S2-MH-M.c:74
 msgid "I now have Rain Magic.  Yay."
 msgstr ""
 
@@ -4977,8 +4803,7 @@ msgstr ""
 msgid "You are still not powerful enough Brickwood."
 msgstr ""
 
-#: Story/S2-MH-M.c:83
-#: Story/S4-H2P2.c:14
+#: Story/S2-MH-M.c:83 Story/S4-H2P2.c:14
 msgid "Smallwood sir."
 msgstr ""
 
@@ -5158,23 +4983,19 @@ msgstr ""
 msgid "You don't have enough gold to buy this bomb.  Awk!"
 msgstr ""
 
-#: Story/S2-OUT.c:181
-#: Story/S4-ST1P.c:129
+#: Story/S2-OUT.c:181 Story/S4-ST1P.c:129
 msgid "\"We'll buy a few things.  What have you got?\""
 msgstr ""
 
-#: Story/S2-OUT.c:183
-#: Story/S4-ST1P.c:131
+#: Story/S2-OUT.c:183 Story/S4-ST1P.c:131
 msgid "Sell a Longsword - $200"
 msgstr ""
 
-#: Story/S2-OUT.c:184
-#: Story/S4-ST1P.c:132
+#: Story/S2-OUT.c:184 Story/S4-ST1P.c:132
 msgid "Sell a nut - $2"
 msgstr ""
 
-#: Story/S2-OUT.c:185
-#: Story/S4-ST1P.c:135
+#: Story/S2-OUT.c:185 Story/S4-ST1P.c:135
 msgid "Sell nothing"
 msgstr ""
 
@@ -5182,13 +5003,11 @@ msgstr ""
 msgid "\"Our wares are the finest quality around.  We'll beat any price!\""
 msgstr ""
 
-#: Story/S2-OUT.c:218
-#: Story/S4-ST3P.c:64
+#: Story/S2-OUT.c:218 Story/S4-ST3P.c:64
 msgid "Longsword - $400"
 msgstr ""
 
-#: Story/S2-OUT.c:219
-#: Story/S4-ST3P.c:65
+#: Story/S2-OUT.c:219 Story/S4-ST3P.c:65
 msgid "Bomb - $20"
 msgstr ""
 
@@ -5256,12 +5075,8 @@ msgstr ""
 msgid "This ain't good."
 msgstr ""
 
-#: Story/S2-RYANT.c:20
-#: Story/S3-CHICK.c:26
-#: Story/S3-MAYOR.c:17
-#: Story/S3-MAYOR.c:76
-#: Story/S4-H2P3.c:21
-#: Story/S4-ST1P.c:41
+#: Story/S2-RYANT.c:20 Story/S3-CHICK.c:26 Story/S3-MAYOR.c:17
+#: Story/S3-MAYOR.c:76 Story/S4-H2P3.c:21 Story/S4-ST1P.c:41
 #: Story/S6-ST1P.c:86
 msgid "Say hi"
 msgstr ""
@@ -5274,8 +5089,7 @@ msgstr ""
 msgid "Offer to help him out"
 msgstr ""
 
-#: Story/S2-RYANT.c:29
-#: Story/S3-CHICK.c:36
+#: Story/S2-RYANT.c:29 Story/S3-CHICK.c:36
 msgid "Hey, how's it going?"
 msgstr ""
 
@@ -5471,8 +5285,7 @@ msgstr ""
 msgid "Ask about his tales"
 msgstr ""
 
-#: Story/S2-WAND.c:24
-#: Story/S3-CHICK.c:57
+#: Story/S2-WAND.c:24 Story/S3-CHICK.c:57
 msgid "So what do you do?"
 msgstr ""
 
@@ -5628,8 +5441,7 @@ msgstr ""
 msgid "Belittle her in front of the others to appear macho"
 msgstr ""
 
-#: Story/S2-WENCH.c:104
-#: Story/S2-WENCH.c:115
+#: Story/S2-WENCH.c:104 Story/S2-WENCH.c:115
 msgid "Wanna go get some food later?"
 msgstr ""
 
@@ -5717,8 +5529,7 @@ msgstr ""
 msgid "... wonder if it's around here."
 msgstr ""
 
-#: Story/S3-BH.c:23
-#: Story/S3-BH.c:44
+#: Story/S3-BH.c:23 Story/S3-BH.c:44
 msgid "Can I HELP you?"
 msgstr ""
 
@@ -5778,8 +5589,7 @@ msgstr ""
 msgid "WHAT, now get OUT!!"
 msgstr ""
 
-#: Story/S3-BH.c:61
-#: Story/S4-MD3.c:25
+#: Story/S3-BH.c:61 Story/S4-MD3.c:25
 msgid "What do you want?"
 msgstr ""
 
@@ -5910,6 +5720,12 @@ msgstr ""
 #: Story/S3-CHICK.c:52
 msgid "Ahh, yes.. I've ... heard of that parade."
 msgstr ""
+
+#: Story/S3-CHICK.c:57
+#, fuzzy
+msgctxt "s3-chick:57"
+msgid "So what do you do?"
+msgstr "Што сакаш Милдер?"
 
 #: Story/S3-CHICK.c:59
 msgid "Oh, I'm a painter."
@@ -6143,8 +5959,7 @@ msgstr ""
 msgid "It's gonna rock!!!!!!"
 msgstr ""
 
-#: Story/S3-FREAK.c:112
-#: Story/S4-ST1P.c:51
+#: Story/S3-FREAK.c:112 Story/S4-ST1P.c:51
 msgid "What's with all the ducks?"
 msgstr ""
 
@@ -6152,8 +5967,7 @@ msgstr ""
 msgid "Oh, they're my pets.  We're gonna be in the parade together."
 msgstr ""
 
-#: Story/S3-FREAK.c:116
-#: Story/S3-LOSER.c:36
+#: Story/S3-FREAK.c:116 Story/S3-LOSER.c:36
 msgid "I see ..."
 msgstr ""
 
@@ -6377,15 +6191,11 @@ msgstr ""
 msgid "Hello sir."
 msgstr ""
 
-#: Story/S3-LARRY.c:20
-#: Story/S4-ST2P.c:12
-#: Story/S4-ST3P.c:179
+#: Story/S3-LARRY.c:20 Story/S4-ST2P.c:12 Story/S4-ST3P.c:179
 msgid "Ask about the store"
 msgstr ""
 
-#: Story/S3-LARRY.c:21
-#: Story/S4-ST1P.c:40
-#: Story/S4-ST2P.c:14
+#: Story/S3-LARRY.c:21 Story/S4-ST1P.c:40 Story/S4-ST2P.c:14
 #: Story/S4-ST3P.c:181
 msgid "See what's for sale"
 msgstr ""
@@ -6422,9 +6232,7 @@ msgstr ""
 msgid "Please sir, no more, I need to tend to my daughter."
 msgstr ""
 
-#: Story/S3-LARRY.c:46
-#: Story/S3-LARRY.c:73
-#: Story/S3-LARRY.c:75
+#: Story/S3-LARRY.c:46 Story/S3-LARRY.c:73 Story/S3-LARRY.c:75
 msgid "DADDY!!!!!!!!!"
 msgstr ""
 
@@ -6492,8 +6300,7 @@ msgstr ""
 msgid "Hey, stop that, you'll hurt the wood."
 msgstr ""
 
-#: Story/S3-LOSER.c:13
-#: Story/S3-LOSER.c:30
+#: Story/S3-LOSER.c:13 Story/S3-LOSER.c:30
 msgid "Hey, uhh ... where did everyone go?"
 msgstr ""
 
@@ -6533,18 +6340,15 @@ msgstr ""
 msgid "Tell him about the planned assault"
 msgstr ""
 
-#: Story/S3-MAYOR.c:24
-#: Story/S3-MAYOR.c:83
+#: Story/S3-MAYOR.c:24 Story/S3-MAYOR.c:83
 msgid "Hello Mayor, nice town you have here."
 msgstr ""
 
-#: Story/S3-MAYOR.c:26
-#: Story/S3-MAYOR.c:85
+#: Story/S3-MAYOR.c:26 Story/S3-MAYOR.c:85
 msgid "Thank you fair citizen."
 msgstr ""
 
-#: Story/S3-MAYOR.c:28
-#: Story/S3-MAYOR.c:87
+#: Story/S3-MAYOR.c:28 Story/S3-MAYOR.c:87
 msgid "Yeah, noted."
 msgstr ""
 
@@ -6824,8 +6628,7 @@ msgstr ""
 msgid "Find out about the next town"
 msgstr ""
 
-#: Story/S3-ST1P.c:22
-#: Story/S4-ST1P.c:39
+#: Story/S3-ST1P.c:22 Story/S4-ST1P.c:39
 msgid "See what's news"
 msgstr ""
 
@@ -6953,8 +6756,7 @@ msgstr ""
 msgid "The best in bows"
 msgstr ""
 
-#: Story/S3-ST2P.c:7
-#: Story/S4-ST2P.c:4
+#: Story/S3-ST2P.c:7 Story/S4-ST2P.c:4
 msgid "Good day sir."
 msgstr ""
 
@@ -7286,8 +7088,7 @@ msgstr ""
 msgid "Thank you so much for saving our town."
 msgstr ""
 
-#: Story/S4-H1P.c:54
-#: Story/S8-DUCK4.c:11
+#: Story/S4-H1P.c:54 Story/S8-DUCK4.c:11
 msgid "Hey, no problem."
 msgstr ""
 
@@ -7443,9 +7244,7 @@ msgstr ""
 msgid "Thank you, small one."
 msgstr ""
 
-#: Story/S4-H2P2.c:16
-#: Story/SC-WIZ.c:58
-#: Story/START-3.c:99
+#: Story/S4-H2P2.c:16 Story/SC-WIZ.c:58
 msgid "Yes."
 msgstr ""
 
@@ -7453,8 +7252,7 @@ msgstr ""
 msgid "I'm too hungry to talk."
 msgstr ""
 
-#: Story/S4-H2P2.c:28
-#: Story/S8-DUCK3.c:9
+#: Story/S4-H2P2.c:28 Story/S8-DUCK3.c:9
 msgid "Hello there."
 msgstr ""
 
@@ -7470,8 +7268,7 @@ msgstr ""
 msgid "Strange customs you have."
 msgstr ""
 
-#: Story/S4-H2P3.c:11
-#: Story/S4-H2P3.c:27
+#: Story/S4-H2P3.c:11 Story/S4-H2P3.c:27
 msgid "Hi little girl .."
 msgstr ""
 
@@ -7511,8 +7308,7 @@ msgstr ""
 msgid "No mister!"
 msgstr ""
 
-#: Story/S4-HEALP.c:99
-#: Story/S4-HEALP.c:125
+#: Story/S4-HEALP.c:99 Story/S4-HEALP.c:125
 msgid "Buy a bottle of elixer for $100"
 msgstr ""
 
@@ -7628,8 +7424,7 @@ msgstr ""
 msgid "To Windemere Village      Note:  Bridge Out"
 msgstr ""
 
-#: Story/S4-SIGN1.c:12
-#: Story/S4-SIGN2.c:7
+#: Story/S4-SIGN1.c:12 Story/S4-SIGN2.c:7
 msgid "To Windemere Village"
 msgstr ""
 
@@ -8257,8 +8052,7 @@ msgstr ""
 msgid "'Please be careful when using this machine.' - the ancient ones."
 msgstr ""
 
-#: Story/S6-ST1P.c:31
-#: Story/S6-ST1P.c:68
+#: Story/S6-ST1P.c:31 Story/S6-ST1P.c:68
 msgid "You are a little short of cash right now."
 msgstr ""
 
@@ -8426,8 +8220,7 @@ msgstr ""
 msgid "* YOU LEARN HELLFIRE *"
 msgstr ""
 
-#: Story/S6-WARP.c:6
-#: Story/S7-WARP.c:6
+#: Story/S6-WARP.c:6 Story/S7-WARP.c:6
 msgid "Press the red button"
 msgstr ""
 
@@ -8443,8 +8236,7 @@ msgstr ""
 msgid "That... sort of looks like me."
 msgstr ""
 
-#: Story/S7-DRAG.c:77
-#: Story/s7-boss.c:84
+#: Story/S7-DRAG.c:77 Story/s7-boss.c:84
 msgid "<Casts greater harm>"
 msgstr ""
 
@@ -8680,9 +8472,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: Story/S8-DA.c:46
-#: Story/S8-DA.c:61
-#: Story/S8-DA.c:77
+#: Story/S8-DA.c:46 Story/S8-DA.c:61 Story/S8-DA.c:77
 msgid "Hey, you don't have enough to play!"
 msgstr ""
 
@@ -8690,8 +8480,7 @@ msgstr ""
 msgid "Come back later."
 msgstr ""
 
-#: Story/S8-DA.c:66
-#: Story/S8-DA.c:82
+#: Story/S8-DA.c:66 Story/S8-DA.c:82
 msgid "You can't bet that much."
 msgstr ""
 
@@ -8763,23 +8552,19 @@ msgstr ""
 msgid "Quack.  No!!"
 msgstr ""
 
-#: Story/S8-DUCK2.c:15
-#: Story/S8-DUCK2.c:35
+#: Story/S8-DUCK2.c:15 Story/S8-DUCK2.c:35
 msgid "Hi giant duck."
 msgstr ""
 
-#: Story/S8-DUCK2.c:17
-#: Story/S8-DUCK2.c:37
+#: Story/S8-DUCK2.c:17 Story/S8-DUCK2.c:37
 msgid "Hi there."
 msgstr ""
 
-#: Story/S8-DUCK2.c:19
-#: Story/S8-DUCK2.c:39
+#: Story/S8-DUCK2.c:19 Story/S8-DUCK2.c:39
 msgid "Welcome to our island."
 msgstr ""
 
-#: Story/S8-DUCK2.c:23
-#: Story/S8-DUCK2.c:43
+#: Story/S8-DUCK2.c:23 Story/S8-DUCK2.c:43
 msgid "Would you like to play with me?"
 msgstr ""
 
@@ -9079,58 +8864,6 @@ msgstr ""
 msgid "Try loading a saved game that exists, friend."
 msgstr ""
 
-#: Story/START-3.c:35
-msgid "The price"
-msgstr ""
-
-#: Story/START-3.c:36
-msgid "How to order"
-msgstr ""
-
-#: Story/START-3.c:42
-msgid "Call toll free 1-888-218-3881 to order."
-msgstr ""
-
-#: Story/START-3.c:44
-msgid "Or, order ONLINE (securely) at www.rtsoft.com/dink/"
-msgstr ""
-
-#: Story/START-3.c:51
-msgid "Preorder now for only $15 + 4.95 shipping! (within US)"
-msgstr ""
-
-#: Story/START-3.c:53
-msgid "(preorder price valid until 10-31-97)"
-msgstr ""
-
-#: Story/START-3.c:62
-msgid "Wait a minute!"
-msgstr ""
-
-#: Story/START-3.c:69
-msgid "Hi."
-msgstr ""
-
-#: Story/START-3.c:96
-msgid "This game is only $15?"
-msgstr ""
-
-#: Story/START-3.c:100
-msgid "Is this some kind of joke?  This ain't funny."
-msgstr ""
-
-#: Story/START-3.c:102
-msgid "Nope, no joke."
-msgstr ""
-
-#: Story/START-3.c:111
-msgid "Incredible!!!  Thank you magic voice."
-msgstr ""
-
-#: Story/START-3.c:115
-msgid "Anytime."
-msgstr ""
-
 #: Story/START.c:79
 msgid "Error - Scripts require version V1.03+ of dink.exe.  Upgrade!"
 msgstr ""
@@ -9219,3 +8952,5 @@ msgstr ""
 msgid "I must now get back to Goodheart Castle and inform the King."
 msgstr ""
 
+#~ msgid "Quit to Windows"
+#~ msgstr "Излез до Windows"

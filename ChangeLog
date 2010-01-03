@@ -1,3 +1,90 @@
+2010-01-03  Sylvain Beucler <beuc@beuc.net>
+
+	* COPYING, NEWS, README.txt, debian/copyright, dink/l10n/de.po,
+	dink/l10n/es.po, dink/l10n/mk.po: New translations
+
+2009-11-12  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, dink/l10n/da.po, dink/l10n/de.po, dink/l10n/es.po: New
+	translations: da, de (would like a second reading), spanish
+
+2009-10-01  Sylvain Beucler <beuc@beuc.net>
+
+	* soundtest/Makefile: soundtest's default Makefile rule is now an
+	help text instead of 'clean'
+
+2009-10-01  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/dirff.txt: Typo
+
+2009-10-01  Sylvain Beucler <beuc@beuc.net>
+
+	* Makefile, soundtest/Dink.ini, soundtest/Makefile,
+	soundtest/README, soundtest/story/barrel.c,
+	soundtest/story/fountain.c, soundtest/story/girl.c,
+	soundtest/story/lock.c, soundtest/story/main.c,
+	soundtest/story/start.c: Add a D-Mod for testing sound replacements
+
+2009-08-26  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt: Fix recording attribution due to
+	quiproquo on the mailing-list
+
+2009-08-23  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt, debian/copyright: Fix copyright notice
+	due to quiproquo on the mailing-list
+
+2009-08-23  Sylvain Beucler <beuc@beuc.net>
+
+	* README-REPLACEMENTS.txt, debian/copyright, licenses/URLS,
+	licenses/wtfpl.txt, src/wscream.wav/wscream.wav: New sound
+	replacement: wscream.wav
+
+2009-08-23  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/dink.pot, dink/l10n/mk.po, dink/l10n/nl.po: Fix 'Quit to
+	system' context which was inconsistent since I modified that string
+
+2009-08-12  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/dink.pot, dink/l10n/fr.po, dink/l10n/nl.po: Remove a
+	duplicate string and clean-up a source context
+
+2009-07-15  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/fr.po: Fix 2 typos in the French translation
+
+2009-07-10  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/release.txt: More release instructions precisions
+
+2009-07-10  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/Story/POSTER.c, dink/Story/S1-H1-1C.c, dink/l10n/dink.pot,
+	dink/l10n/fr.po, dink/l10n/nl.po: Fix 2 typos (reported by Michael
+	Skiba)
+
+2009-07-10  Sylvain Beucler <beuc@beuc.net>
+
+	* doc/dirff.txt: The splash loading stats are a bit weird, link to
+	ps2dev thread instead
+
+2009-07-06  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/fr.po, dink/l10n/nl.po: Import fr.po from the
+	translation project (tidy'd by the robot)
+
+2009-07-06  Sylvain Beucler <beuc@beuc.net>
+
+	* dink/l10n/dink.pot, doc/release.txt: Update dink.pot version;
+	improve release instructions
+
+2009-07-06  Sylvain Beucler <beuc@beuc.net>
+
+	* ChangeLog, Makefile, debian/changelog, doc/release.txt,
+	freedink-data.spec: Release 1.08.20090706
+
 2009-07-05  Sylvain Beucler <beuc@beuc.net>
 
 	* NEWS, debian/changelog, doc/release.txt, freedink-data.spec: 

@@ -9,8 +9,8 @@ git2cl > ChangeLog
 # Edit NEWS (content + _version number_)
 # Sync debian/
 # Sync freedink-data.spec
-# Edit freedink-data.spec (Version/Release + %changelog)
-# Edit dink/l10n/dink.pot
+# Edit freedink-data.spec (Version/Release + %changelog w/ C-c C-e)
+# Edit dink/l10n/dink.pot (Project-Id-Version and PO-Revision-Date)
 
 # Test freedink-data-$version.tar.gz and
 # freedink-data-inst-$version.tar.gz.

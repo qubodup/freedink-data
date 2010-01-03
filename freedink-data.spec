@@ -1,5 +1,5 @@
 Name:		freedink-data
-Version:	1.08.20090706
+Version:	1.08.20100103
 Release:	1%{?dist}
 Summary:	Adventure and role-playing game (game data)
 
@@ -47,6 +47,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Jan  3 2010 Sylvain Beucler <beuc@beuc.net> - 1.08.20100103-1
+- New upstream release
+
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08.20090706-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
 * Mon Jul 06 2009 Sylvain Beucler <beuc@beuc.net> - 1.08.20090706-1
 - New upstream release (remove savegame)
 

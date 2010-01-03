@@ -31,7 +31,7 @@ install:
 dist: update-gmo
 ##	Source release
 	mkdir $(releasedir)
-	cp -a *.txt *.spec Makefile dink/ doc/ licenses/ sountest/ src/ $(releasedir)
+	cp -a *.txt *.spec Makefile dink/ doc/ licenses/ soundtest/ src/ $(releasedir)
 
 #	Clean-up:
 #	git files

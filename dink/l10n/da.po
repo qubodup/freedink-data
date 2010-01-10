@@ -1,5 +1,5 @@
 # Danish translations for dink package.
-# Copyright (C) 2009 Dink & Joe Hansen.
+# Copyright (C) 2010 Dink & Joe Hansen.
 # This file is distributed under the same license as the dink package.
 # Joe Hansen <joedalton2@yahoo.dk>, 2009.
 #
@@ -44,10 +44,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dink 1.08.20090706\n"
+"Project-Id-Version: dink 1.08.20100103\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-12-16 21:52+0100\n"
-"PO-Revision-Date: 2009-10-17 17:30+01:00\n"
+"PO-Revision-Date: 2010-01-08 17:30+01:00\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -149,7 +149,7 @@ msgstr "Hoglim dack byork!"
 msgid "Restart"
 msgstr "Genstart"
 
-#: Story/ESCAPE.c:13
+#: Story/DINFO.c:19 Story/ESCAPE.c:13
 msgid "Quit to system"
 msgstr "Afslut til system"
 
@@ -761,9 +761,8 @@ msgstr "Kongens nyheder, udgave 50."
 msgid "Smallwood has returned from the Darklands!"
 msgstr "Skovhøj er returneret fra Mørkelandene!"
 
-# engelsk fejl get gets ?
 #: Story/POSTER.c:134
-msgid "'I can't wait until get gets to the castle!' - King Daniel"
+msgid "'I can't wait until he gets to the castle!' - King Daniel"
 msgstr "'Jeg kan ikke vente, til han returnerer til slottet!' - kong Daniel"
 
 #: Story/POSTER.c:141
@@ -1147,7 +1146,7 @@ msgstr "Næppe... gå hen og pas dine dyr. <griner>"
 msgid "My bed is going to burn up!"
 msgstr "Min seng brænder op!"
 
-#: Story/S1-H1-1.c:13
+#: Story/S1-H1-1.c:13 Story/S1-H1-1C.c:13
 msgid "This is my bed.  So clean and neat!  Mom must have made it."
 msgstr "Dette er min seng.  Så ren og blød!  Mor må have redt den."
 
@@ -1158,10 +1157,6 @@ msgstr "Den er varm!"
 #: Story/S1-H1-1.c:23 Story/S1-H1-1C.c:23
 msgid "Die, stupid bed!"
 msgstr "Dø, åndssvage seng!"
-
-#: Story/S1-H1-1C.c:13
-msgid "This my bed.  So clean and neat!  Mom must have made it."
-msgstr "Dette er min seng.  Så ren og blød!  Mor må have redt den."
 
 #: Story/S1-H1-2.c:11
 msgid "This may have been what started that accident."
@@ -5325,7 +5320,7 @@ msgstr "Sig hej"
 msgid "Ask about his tales"
 msgstr "Spørg om hans sagnhistorier"
 
-#: Story/S2-WAND.c:24 Story/S3-CHICK.c:57
+#: Story/S2-WAND.c:24
 msgid "So what do you do?"
 msgstr "Så hvad gør du?"
 
@@ -8994,3 +8989,6 @@ msgstr "Min krop dirrer!"
 #: Story/s7-boss.c:302
 msgid "I must now get back to Goodheart Castle and inform the King."
 msgstr "Jeg må nu tilbage til De Gode HjerterS Borg og informere kongen."
+
+#~ msgid "This my bed.  So clean and neat!  Mom must have made it."
+#~ msgstr "Dette er min seng.  Så ren og blød!  Mor må have redt den."

@@ -1,0 +1,1 @@
+sox door-03.flac -r 8000 -c 1 -b 16 open.wav

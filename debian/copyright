@@ -160,6 +160,13 @@ Based on gold.wav above, plus:
 - high2.wav
     Copyright (C) 2009  Sylvain Beucler
     License: GPLv3+ | Art Libre | CC-BY-SA
+- open.wav/convert
+<not copyrightable (a simple bash command)>
+- open.wav/door-03.flac
+  open.wav/open.wav
+    Copyright (C) 2010  Iwan Gabovitch <qubodup@gmail.com>
+    License: GPLv2+ | CC-BY-SA 3+
+
 - wscream.wav
     Copyright (C) 2009  Fernando Carmona Varo
     License: WTFPL

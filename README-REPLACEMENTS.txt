@@ -178,6 +178,20 @@ Sound effects
   source form and I trashed the temporary .aup project.
   Copyright (C) 2008  Sylvain Beucler
 
+- open.wav
+
+  Door opening (unfortunately without a nice squeaking).
+
+  Source taken from:
+  http://opengameart.org/content/door-open-door-close
+
+  Recorded with a Zoom H2 portable recorder, cleaned up (fade in/out)
+  in Audacity. Sox was used to convert the sound to match the format
+  of the original sound.
+
+  Copyright (C) 2010 Iwan Gabovitch <qubodup@gmail.com>
+  License: GPLv2+ | CC-BY-SA 3+
+
 - high2.wav
 
   Choir noise when you pickup a strength potion; sound when you're
